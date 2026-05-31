@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.31)  31 MAY 2026 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.31)  31 MAY 2026 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,22 +584,6 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 8.
-
-
-LaTeX Warning: Label `fig:Exemple d'activitÃ© Ã  rÃ©server' multiply defined.
-
-
-LaTeX Warning: Label `fig:Exemple d'activitÃ© Ã  rÃ©server' multiply defined.
-
-
-LaTeX Warning: Label `fig:Exemple d'activitÃ© Ã  rÃ©server' multiply defined.
-
-
-LaTeX Warning: Label `fig:Exemple d'activitÃ© Ã  rÃ©server' multiply defined.
-
-
-LaTeX Warning: Label `fig:Exemple d'activitÃ© Ã  rÃ©server' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -771,15 +755,24 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 201.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [6] (./main.lof)
+ [6]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 201.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 201.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [7] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [7] (./main.lot)
+ [8] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [8]
+ [9]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 270.
@@ -788,7 +781,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 270.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [9]
+ [10]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 291.
@@ -797,7 +790,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 291.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [10]
+ [11]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 293.
@@ -806,14 +799,14 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 293.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [11]
+ [12]
 Chapitre 1.
 
 Overfull \hbox (11.41272pt too wide) in paragraph at lines 304--304
 []\T1/lmr/bx/n/17.28 Présentation de la Fa-culté des Sciences Ben M'Sick 
  []
 
-<images/img fac.png, id=50, 627.34375pt x 429.605pt>
+<images/img fac.png, id=54, 627.34375pt x 429.605pt>
 File: images/img fac.png Graphic file (type png)
 <use images/img fac.png>
 Package pdftex.def Info: images/img fac.png  used on input line 312.
@@ -822,7 +815,7 @@ Package pdftex.def Info: images/img fac.png  used on input line 312.
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 313.
 
-[12
+[13
 
 ]
 File: images/logo fsbm.png Graphic file (type png)
@@ -833,7 +826,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 330.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [13 <./images/img fac.png>]
+ [14 <./images/img fac.png>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 343.
@@ -842,9 +835,9 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 343.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [14]
+ [15]
 Chapitre 2.
-[15
+[16
 
 ]
 File: images/logo fsbm.png Graphic file (type png)
@@ -855,7 +848,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 375.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [16]
+ [17]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 406.
@@ -864,7 +857,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 406.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [17]
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 429--429
 []|\T1/lmr/m/n/12 Transport
  []
@@ -935,7 +928,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 465.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[18]
+[19]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 481.
@@ -944,7 +937,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 481.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [19]
+ [20]
 Underfull \hbox (badness 10000) in paragraph at lines 497--497
 []|\T1/lmr/bx/sc/12 Principales in-ter-ac-tions
  []
@@ -972,7 +965,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 498.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[20]
+[21]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 524.
@@ -981,7 +974,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 524.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [21]
+ [22]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 564.
@@ -990,7 +983,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 564.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [22]
+ [23]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 593.
@@ -999,8 +992,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 593.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [23]
-<Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg, id=89, 432.11438pt x 386.19281pt>
+ [24]
+<Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg, id=93, 432.11438pt x 386.19281pt>
 File: Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg Graphic file (type jpg)
 <use Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg>
 Package pdftex.def Info: Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg  used on input line 621.
@@ -1013,8 +1006,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 625.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [24]
-<images/ChatGPT Image 30 mai 2026, 11_32_33.png, id=94, 1117.17375pt x 667.74469pt>
+ [25]
+<images/ChatGPT Image 30 mai 2026, 11_32_33.png, id=97, 1117.17375pt x 667.74469pt>
 File: images/ChatGPT Image 30 mai 2026, 11_32_33.png Graphic file (type png)
 <use images/ChatGPT Image 30 mai 2026, 11_32_33.png>
 Package pdftex.def Info: images/ChatGPT Image 30 mai 2026, 11_32_33.png  used on input line 650.
@@ -1027,7 +1020,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 654.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [25 <./Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg>]
+ [26 <./Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 679.
@@ -1036,7 +1029,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 679.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [26 <./images/ChatGPT Image 30 mai 2026, 11_32_33.png>]
+ [27 <./images/ChatGPT Image 30 mai 2026, 11_32_33.png>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 706.
@@ -1045,9 +1038,9 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 706.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [27]
+ [28]
 Chapitre 3.
-[28
+[29
 
 ]
 File: images/logo fsbm.png Graphic file (type png)
@@ -1058,8 +1051,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 740.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [29]
-<rapp fig/ARCHI.drawio.png, id=112, 251.94125pt x 472.76625pt>
+ [30]
+<rapp fig/ARCHI.drawio.png, id=116, 251.94125pt x 472.76625pt>
 File: rapp fig/ARCHI.drawio.png Graphic file (type png)
 <use rapp fig/ARCHI.drawio.png>
 Package pdftex.def Info: rapp fig/ARCHI.drawio.png  used on input line 751.
@@ -1072,23 +1065,23 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 768.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [30 <./rapp fig/ARCHI.drawio.png>]
-<images/classe22.png, id=118, 973.6375pt x 712.6625pt>
+ [31 <./rapp fig/ARCHI.drawio.png>]
+<images/classe22.png, id=121, 973.6375pt x 712.6625pt>
 File: images/classe22.png Graphic file (type png)
 <use images/classe22.png>
 Package pdftex.def Info: images/classe22.png  used on input line 778.
 (pdftex.def)             Requested size: 318.66948pt x 233.2546pt.
-<images/usecase111.png, id=119, 855.195pt x 1282.7925pt>
+<images/usecase111.png, id=122, 855.195pt x 1282.7925pt>
 File: images/usecase111.png Graphic file (type png)
 <use images/usecase111.png>
 Package pdftex.def Info: images/usecase111.png  used on input line 811.
 (pdftex.def)             Requested size: 145.68144pt x 218.52203pt.
-<images/usecase2.png, id=120, 481.8pt x 862.22125pt>
+<images/usecase2.png, id=123, 481.8pt x 862.22125pt>
 File: images/usecase2.png Graphic file (type png)
 <use images/usecase2.png>
 Package pdftex.def Info: images/usecase2.png  used on input line 817.
 (pdftex.def)             Requested size: 145.68144pt x 260.70761pt.
-<images/usecase3.png, id=121, 414.54875pt x 713.66624pt>
+<images/usecase3.png, id=124, 414.54875pt x 713.66624pt>
 File: images/usecase3.png Graphic file (type png)
 <use images/usecase3.png>
 Package pdftex.def Info: images/usecase3.png  used on input line 823.
@@ -1101,8 +1094,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 829.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [31 <./images/classe22.png>]
-<rapp fig/voyageur usecase.png, id=125, 724.7075pt x 283.0575pt>
+ [32 <./images/classe22.png>]
+<rapp fig/voyageur usecase.png, id=128, 724.7075pt x 283.0575pt>
 File: rapp fig/voyageur usecase.png Graphic file (type png)
 <use rapp fig/voyageur usecase.png>
 Package pdftex.def Info: rapp fig/voyageur usecase.png  used on input line 844.
@@ -1115,8 +1108,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 849.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [32 <./images/usecase111.png> <./images/usecase2.png> <./images/usecase3.png> <./rapp fig/voyageur usecase.png>]
-<rapp fig/activite authentification.png, id=132, 1251.67625pt x 714.67pt>
+ [33 <./images/usecase111.png> <./images/usecase2.png> <./images/usecase3.png> <./rapp fig/voyageur usecase.png>]
+<rapp fig/activite authentification.png, id=135, 1251.67625pt x 714.67pt>
 File: rapp fig/activite authentification.png Graphic file (type png)
 <use rapp fig/activite authentification.png>
 Package pdftex.def Info: rapp fig/activite authentification.png  used on input line 861.
@@ -1129,13 +1122,13 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 883.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [33 <./rapp fig/activite authentification.png>]
-<rapp fig/sequence gestion de reser.png, id=137, 676.5275pt x 878.28125pt>
+ [34 <./rapp fig/activite authentification.png>]
+<rapp fig/sequence gestion de reser.png, id=140, 676.5275pt x 878.28125pt>
 File: rapp fig/sequence gestion de reser.png Graphic file (type png)
 <use rapp fig/sequence gestion de reser.png>
 Package pdftex.def Info: rapp fig/sequence gestion de reser.png  used on input line 887.
 (pdftex.def)             Requested size: 227.62206pt x 295.50253pt.
-<rapp fig/sequence reservation.png, id=138, 941.5175pt x 813.0375pt>
+<rapp fig/sequence reservation.png, id=141, 941.5175pt x 813.0375pt>
 File: rapp fig/sequence reservation.png Graphic file (type png)
 <use rapp fig/sequence reservation.png>
 Package pdftex.def Info: rapp fig/sequence reservation.png  used on input line 900.
@@ -1148,8 +1141,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 904.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [34 <./rapp fig/sequence gestion de reser.png>]
-<rapp fig/sequence lieux touri.png, id=143, 536.0025pt x 1085.05376pt>
+ [35 <./rapp fig/sequence gestion de reser.png>]
+<rapp fig/sequence lieux touri.png, id=146, 536.0025pt x 1085.05376pt>
 File: rapp fig/sequence lieux touri.png Graphic file (type png)
 <use rapp fig/sequence lieux touri.png>
 Package pdftex.def Info: rapp fig/sequence lieux touri.png  used on input line 911.
@@ -1162,7 +1155,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 915.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [35 <./rapp fig/sequence reservation.png>]
+ [36 <./rapp fig/sequence reservation.png>]
 File: rapp fig/sequence reservation.png Graphic file (type png)
 <use rapp fig/sequence reservation.png>
 Package pdftex.def Info: rapp fig/sequence reservation.png  used on input line 924.
@@ -1175,7 +1168,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 928.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [36 <./rapp fig/sequence lieux touri.png>]
+ [37 <./rapp fig/sequence lieux touri.png>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 949.
@@ -1184,9 +1177,9 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 949.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [37]
+ [38]
 Chapitre 4.
-[38
+[39
 
 ]
 File: images/logo fsbm.png Graphic file (type png)
@@ -1197,7 +1190,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 992.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [39]
+ [40]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1021.
@@ -1206,7 +1199,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1021.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [40]
+ [41]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1035.
@@ -1215,7 +1208,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1035.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [41]
+ [42]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1061.
@@ -1224,7 +1217,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1061.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [42]
+ [43]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1100.
@@ -1233,7 +1226,7 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1100.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [43]
+ [44]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1128.
@@ -1242,13 +1235,13 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1128.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [44]
-<images/home1.png, id=178, 4123.405pt x 3640.60126pt>
+ [45]
+<images/home1.png, id=181, 4123.405pt x 3640.60126pt>
 File: images/home1.png Graphic file (type png)
 <use images/home1.png>
 Package pdftex.def Info: images/home1.png  used on input line 1136.
 (pdftex.def)             Requested size: 455.24411pt x 401.91171pt.
-<images/home2.png, id=179, 4123.405pt x 4054.14626pt>
+<images/home2.png, id=182, 4123.405pt x 4054.14626pt>
 File: images/home2.png Graphic file (type png)
 <use images/home2.png>
 Package pdftex.def Info: images/home2.png  used on input line 1143.
@@ -1261,8 +1254,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1148.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [45 <./images/home1.png>]
-<images/home log in.png, id=184, 4125.4125pt x 2212.265pt>
+ [46 <./images/home1.png>]
+<images/home log in.png, id=187, 4125.4125pt x 2212.265pt>
 File: images/home log in.png Graphic file (type png)
 <use images/home log in.png>
 Package pdftex.def Info: images/home log in.png  used on input line 1151.
@@ -1275,8 +1268,8 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1155.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [46 <./images/home2.png>]
-<images/signup.png, id=189, 4127.42pt x 2628.82124pt>
+ [47 <./images/home2.png>]
+<images/signup.png, id=192, 4127.42pt x 2628.82124pt>
 File: images/signup.png Graphic file (type png)
 <use images/signup.png>
 Package pdftex.def Info: images/signup.png  used on input line 1171.
@@ -1289,16 +1282,16 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1175.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [47 <./images/home log in.png>]
-<images/login.png, id=194, 4127.42pt x 2270.4825pt>
+ [48 <./images/home log in.png>]
+<images/login.png, id=198, 4127.42pt x 2270.4825pt>
 File: images/login.png Graphic file (type png)
 <use images/login.png>
 Package pdftex.def Info: images/login.png  used on input line 1180.
 (pdftex.def)             Requested size: 455.24411pt x 250.4121pt.
-<images/catalog copy.png, id=195, 3095.565pt x 2074.75125pt>
-File: images/catalog copy.png Graphic file (type png)
-<use images/catalog copy.png>
-Package pdftex.def Info: images/catalog copy.png  used on input line 1195.
+<images/catalog.png, id=199, 3095.565pt x 2074.75125pt>
+File: images/catalog.png Graphic file (type png)
+<use images/catalog.png>
+Package pdftex.def Info: images/catalog.png  used on input line 1195.
 (pdftex.def)             Requested size: 455.24411pt x 305.1209pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
@@ -1308,12 +1301,12 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1198.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [48 <./images/signup.png> <./images/login.png>]
-<images/catalog.png, id=202, 4127.42pt x 5234.55624pt>
-File: images/catalog.png Graphic file (type png)
-<use images/catalog.png>
-Package pdftex.def Info: images/catalog.png  used on input line 1203.
-(pdftex.def)             Requested size: 455.24411pt x 577.32056pt.
+ [49 <./images/signup.png> <./images/login.png>]
+<images/catalg detail1.png, id=206, 3095.565pt x 1844.39063pt>
+File: images/catalg detail1.png Graphic file (type png)
+<use images/catalg detail1.png>
+Package pdftex.def Info: images/catalg detail1.png  used on input line 1203.
+(pdftex.def)             Requested size: 455.24411pt x 271.24318pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1207.
@@ -1322,249 +1315,208 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1207.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [49 <./images/catalog copy.png>]
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1216.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1216.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [50 <./images/catalog.png>]
-<images/hebergement.png, id=212, 3095.565pt x 2076.25688pt>
+<images/hebergement.png, id=211, 3095.565pt x 2076.25688pt>
 File: images/hebergement.png Graphic file (type png)
 <use images/hebergement.png>
-Package pdftex.def Info: images/hebergement.png  used on input line 1221.
+Package pdftex.def Info: images/hebergement.png  used on input line 1220.
 (pdftex.def)             Requested size: 455.24411pt x 305.34233pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1225.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1223.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1225.
+Package pdftex.def Info: images/logo dep.png  used on input line 1223.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [51]
+ [51 <./images/catalg detail1.png>]
+<images/hotel.png, id=216, 4127.42pt x 5821.75pt>
+File: images/hotel.png Graphic file (type png)
+<use images/hotel.png>
+Package pdftex.def Info: images/hotel.png  used on input line 1228.
+(pdftex.def)             Requested size: 455.24411pt x 642.0823pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1253.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1232.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1253.
+Package pdftex.def Info: images/logo dep.png  used on input line 1232.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [52{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./images/hebergement.png>]
-
-LaTeX Warning: File `catalog detail.png' not found on input line 1265.
-
-
-/Users/fatima-zahra/Developpement/PFE/main.tex:1265: Package pdftex.def Error: File `catalog detail.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1265 ...cs[width=\textwidth]{catalog detail.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1265.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-LaTeX Warning: File `catalog detail.png' not found on input line 1272.
-
-
-/Users/fatima-zahra/Developpement/PFE/main.tex:1272: Package pdftex.def Error: File `catalog detail.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1272 ...cs[width=\textwidth]{catalog detail.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [52 <./images/hebergement.png>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1275.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1251.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1275.
+Package pdftex.def Info: images/logo dep.png  used on input line 1251.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[53]
-
-LaTeX Warning: File `catalog detail.png' not found on input line 1278.
-
-
-/Users/fatima-zahra/Developpement/PFE/main.tex:1278: Package pdftex.def Error: File `catalog detail.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1278 ...cs[width=\textwidth]{catalog detail.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [53 <./images/hotel.png>]
+<images/transport.png, id=225, 3095.565pt x 1831.59282pt>
+File: images/transport.png Graphic file (type png)
+<use images/transport.png>
+Package pdftex.def Info: images/transport.png  used on input line 1272.
+(pdftex.def)             Requested size: 455.24411pt x 269.36108pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1281.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1276.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1281.
+Package pdftex.def Info: images/logo dep.png  used on input line 1276.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[54]
-
-LaTeX Warning: File `catalog detail.png' not found on input line 1284.
-
-
-/Users/fatima-zahra/Developpement/PFE/main.tex:1284: Package pdftex.def Error: File `catalog detail.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1284 ...cs[width=\textwidth]{catalog detail.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [54{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<images/transport detail.png, id=232, 2054.42531pt x 1472.50125pt>
+File: images/transport detail.png Graphic file (type png)
+<use images/transport detail.png>
+Package pdftex.def Info: images/transport detail.png  used on input line 1280.
+(pdftex.def)             Requested size: 455.24411pt x 326.28801pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1287.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1295.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1287.
+Package pdftex.def Info: images/logo dep.png  used on input line 1295.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[55]
-
-LaTeX Warning: File `catalog detail.png' not found on input line 1290.
-
-
-/Users/fatima-zahra/Developpement/PFE/main.tex:1290: Package pdftex.def Error: File `catalog detail.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1290 ...cs[width=\textwidth]{catalog detail.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [55 <./images/transport.png> <./images/transport detail.png>]
+<images/location.png, id=238, 3095.565pt x 2075.50406pt>
+File: images/location.png Graphic file (type png)
+<use images/location.png>
+Package pdftex.def Info: images/location.png  used on input line 1299.
+(pdftex.def)             Requested size: 455.24411pt x 305.23161pt.
+<images/location voit 2.png, id=239, 4127.42pt x 5757.51pt>
+File: images/location voit 2.png Graphic file (type png)
+<use images/location voit 2.png>
+Package pdftex.def Info: images/location voit 2.png  used on input line 1306.
+(pdftex.def)             Requested size: 455.24411pt x 634.99727pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1293.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1310.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1293.
+Package pdftex.def Info: images/logo dep.png  used on input line 1310.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[56]
+ [56 <./images/location.png>]
+<images/paiement.png, id=244, 4127.42pt x 3515.1325pt>
+File: images/paiement.png Graphic file (type png)
+<use images/paiement.png>
+Package pdftex.def Info: images/paiement.png  used on input line 1321.
+(pdftex.def)             Requested size: 455.24411pt x 387.68488pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1294.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1324.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1294.
+Package pdftex.def Info: images/logo dep.png  used on input line 1324.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [57]
+ [57 <./images/location voit 2.png>]
+<images/facture.png, id=249, 1191.7022pt x 841.64438pt>
+File: images/facture.png Graphic file (type png)
+<use images/facture.png>
+Package pdftex.def Info: images/facture.png  used on input line 1328.
+(pdftex.def)             Requested size: 455.24411pt x 321.51054pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1303.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1332.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1303.
+Package pdftex.def Info: images/logo dep.png  used on input line 1332.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [58]
+ [58 <./images/paiement.png>]
+<images/avis.png, id=254, 3095.565pt x 1156.32pt>
+File: images/avis.png Graphic file (type png)
+<use images/avis.png>
+Package pdftex.def Info: images/avis.png  used on input line 1344.
+(pdftex.def)             Requested size: 455.24411pt x 170.05287pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1323.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1348.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1323.
+Package pdftex.def Info: images/logo dep.png  used on input line 1348.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [59]
-<images/faq.png, id=245, 4127.42pt x 5197.4175pt>
+ [59 <./images/facture.png>]
+<images/profile.png, id=259, 3095.565pt x 1329.46687pt>
+File: images/profile.png Graphic file (type png)
+<use images/profile.png>
+Package pdftex.def Info: images/profile.png  used on input line 1360.
+(pdftex.def)             Requested size: 455.24411pt x 195.51651pt.
+<images/resa.png, id=260, 4127.42pt x 3515.1325pt>
+File: images/resa.png Graphic file (type png)
+<use images/resa.png>
+Package pdftex.def Info: images/resa.png  used on input line 1367.
+(pdftex.def)             Requested size: 455.24411pt x 387.68488pt.
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1371.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1371.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [60 <./images/avis.png> <./images/profile.png>]
+<images/payment.png, id=267, 4127.42pt x 3515.1325pt>
+File: images/payment.png Graphic file (type png)
+<use images/payment.png>
+Package pdftex.def Info: images/payment.png  used on input line 1374.
+(pdftex.def)             Requested size: 455.24411pt x 387.68488pt.
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1378.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1378.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [61 <./images/resa.png>]
+<images/preference.png, id=272, 3095.565pt x 1154.81438pt>
+File: images/preference.png Graphic file (type png)
+<use images/preference.png>
+Package pdftex.def Info: images/preference.png  used on input line 1381.
+(pdftex.def)             Requested size: 455.24411pt x 169.83144pt.
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1396.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1396.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [62 <./images/payment.png> <./images/preference.png>]
+<images/faq.png, id=278, 3095.565pt x 3191.17218pt>
 File: images/faq.png Graphic file (type png)
 <use images/faq.png>
-Package pdftex.def Info: images/faq.png  used on input line 1339.
-(pdftex.def)             Requested size: 386.96027pt x 487.2567pt.
+Package pdftex.def Info: images/faq.png  used on input line 1412.
+(pdftex.def)             Requested size: 386.96027pt x 398.89555pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1343.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1416.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1343.
+Package pdftex.def Info: images/logo dep.png  used on input line 1416.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [60]
-<images/support.png, id=250, 4127.42pt x 3770.085pt>
+ [63]
+<images/support.png, id=282, 3095.565pt x 2089.05469pt>
 File: images/support.png Graphic file (type png)
 <use images/support.png>
-Package pdftex.def Info: images/support.png  used on input line 1346.
-(pdftex.def)             Requested size: 386.96027pt x 353.44461pt.
+Package pdftex.def Info: images/support.png  used on input line 1419.
+(pdftex.def)             Requested size: 386.96027pt x 261.1312pt.
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1350.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1423.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1350.
+Package pdftex.def Info: images/logo dep.png  used on input line 1423.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [61 <./images/faq.png>]
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1367.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1367.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [62 <./images/support.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1387
-[]|\T1/lmr/m/n/12 Consultation de l'his-to-
- []
-
-
-Underfull \hbox (badness 6364) in paragraph at lines 1397--1397
-[]|\T1/lmr/m/n/12 Consultation des dé-tails
- []
-
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1398.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1398.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[63]
-Overfull \hbox (5.68286pt too wide) in paragraph at lines 1411--1412
-\T1/lmr/m/n/12 L'authentification des uti-li-sa-teurs re-pose sur l'uti-li-sa-tion des \T1/lmr/bx/sc/12 JSON Web To-kens (JWT)\T1/lmr/m/n/12 .
- []
-
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1420.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1420.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[64]
+ [64 <./images/faq.png>]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
 Package pdftex.def Info: images/logo fsbm.png  used on input line 1442.
@@ -1573,110 +1525,100 @@ File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
 Package pdftex.def Info: images/logo dep.png  used on input line 1442.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [65]
+ [65 <./images/support.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1462--1462
+[]|\T1/lmr/m/n/12 Consultation de l'his-to-
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 1472--1472
+[]|\T1/lmr/m/n/12 Consultation des dé-tails
+ []
+
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1444.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1473.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1444.
+Package pdftex.def Info: images/logo dep.png  used on input line 1473.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [66]
+[66]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1495.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1495.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [67]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1517.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1517.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [68]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1519.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1519.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [69]
 Chapitre 5.
-[67
+[70
 
 ]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1475.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1550.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1475.
+Package pdftex.def Info: images/logo dep.png  used on input line 1550.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [68]
-Underfull \hbox (badness 2150) in paragraph at lines 1506--1506
+ [71]
+Underfull \hbox (badness 2150) in paragraph at lines 1581--1581
 []|\T1/lmr/m/n/12 Compte créé avec
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 1506--1506
+Underfull \hbox (badness 6592) in paragraph at lines 1581--1581
 []|\T1/lmr/m/n/12 Laisser le champ
  []
 
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1507.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1582.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1507.
+Package pdftex.def Info: images/logo dep.png  used on input line 1582.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[69]
-Underfull \hbox (badness 2165) in paragraph at lines 1532--1532
+[72]
+Underfull \hbox (badness 2165) in paragraph at lines 1607--1607
 []|\T1/lmr/m/n/12 Saisir un mot de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1532--1532
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1607
 []|\T1/lmr/m/n/12 Tenter une
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1532--1532
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1607
 \T1/lmr/m/n/12 connexion avec
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 1532--1532
+Underfull \hbox (badness 4981) in paragraph at lines 1607--1607
 \T1/lmr/m/n/12 un uti-li-sa-teur in-
- []
-
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1534.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1534.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[70]
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1559.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1559.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [71]
-File: images/logo fsbm.png Graphic file (type png)
-<use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1584.
-(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
-File: images/logo dep.png Graphic file (type png)
-<use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1584.
-(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [72]
-Underfull \hbox (badness 3536) in paragraph at lines 1607--1607
-[]|\T1/lmr/m/n/12 Affichage du prix
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1607
-[]|\T1/lmr/m/n/12 Réservation en-re-
- []
-
-
-Underfull \hbox (badness 6445) in paragraph at lines 1607--1607
-[]|\T1/lmr/m/n/12 Génération de la
- []
-
-
-Underfull \hbox (badness 8075) in paragraph at lines 1607--1607
-[]|\T1/lmr/m/n/12 Facture créée au
  []
 
 File: images/logo fsbm.png Graphic file (type png)
@@ -1688,70 +1630,41 @@ File: images/logo dep.png Graphic file (type png)
 Package pdftex.def Info: images/logo dep.png  used on input line 1609.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
 [73]
-Underfull \hbox (badness 2035) in paragraph at lines 1635--1635
-\T1/lmr/m/n/12 lon la ville sé-lec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1635
-[]|\T1/lmr/m/n/12 Filtre par type
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 1635--1635
-[]|\T1/lmr/m/n/12 Filtre par nombre
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 1635--1635
-[]|\T1/lmr/m/n/12 Filtre par gamme
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1635--1635
-[]|\T1/lmr/m/n/12 Affichage cor-rect
- []
-
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1636.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1634.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1636.
+Package pdftex.def Info: images/logo dep.png  used on input line 1634.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
-[74]
+ [74]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1648.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1659.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1648.
+Package pdftex.def Info: images/logo dep.png  used on input line 1659.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [75]
-Underfull \hbox (badness 1394) in paragraph at lines 1656--1656
-[]|\T1/lmr/m/n/12 Effectuer un paie-
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 1656--1656
-[]|\T1/lmr/m/n/12 Utiliser une carte
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
-[]|\T1/lmr/m/n/12 Reçu dis-po-nible
+Underfull \hbox (badness 3536) in paragraph at lines 1682--1682
+[]|\T1/lmr/m/n/12 Affichage du prix
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
-[]|\T1/lmr/m/n/12 Recalcul au-to-ma-
+[]|\T1/lmr/m/n/12 Réservation en-re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1682--1682
-[]|\T1/lmr/m/n/12 Affichage cor-rect
+Underfull \hbox (badness 6445) in paragraph at lines 1682--1682
+[]|\T1/lmr/m/n/12 Génération de la
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 1682--1682
+[]|\T1/lmr/m/n/12 Facture créée au
  []
 
 File: images/logo fsbm.png Graphic file (type png)
@@ -1763,78 +1676,153 @@ File: images/logo dep.png Graphic file (type png)
 Package pdftex.def Info: images/logo dep.png  used on input line 1684.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
 [76]
+Underfull \hbox (badness 2035) in paragraph at lines 1710--1710
+\T1/lmr/m/n/12 lon la ville sé-lec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1710--1710
+[]|\T1/lmr/m/n/12 Filtre par type
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 1710--1710
+[]|\T1/lmr/m/n/12 Filtre par nombre
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 1710--1710
+[]|\T1/lmr/m/n/12 Filtre par gamme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1710--1710
+[]|\T1/lmr/m/n/12 Affichage cor-rect
+ []
+
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1712.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1711.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1712.
+Package pdftex.def Info: images/logo dep.png  used on input line 1711.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [77]
+[77]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1738.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1723.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1738.
+Package pdftex.def Info: images/logo dep.png  used on input line 1723.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [78]
+Underfull \hbox (badness 1394) in paragraph at lines 1731--1731
+[]|\T1/lmr/m/n/12 Effectuer un paie-
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 1731--1731
+[]|\T1/lmr/m/n/12 Utiliser une carte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1731
+[]|\T1/lmr/m/n/12 Reçu dis-po-nible
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+[]|\T1/lmr/m/n/12 Recalcul au-to-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1757--1757
+[]|\T1/lmr/m/n/12 Affichage cor-rect
+ []
+
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1764.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1759.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1764.
+Package pdftex.def Info: images/logo dep.png  used on input line 1759.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [79]
+[79]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1794.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1787.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1794.
+Package pdftex.def Info: images/logo dep.png  used on input line 1787.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [80]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1818.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1814.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1818.
+Package pdftex.def Info: images/logo dep.png  used on input line 1814.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [81]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1861.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1841.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1861.
+Package pdftex.def Info: images/logo dep.png  used on input line 1841.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [82]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1867.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1871.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1867.
+Package pdftex.def Info: images/logo dep.png  used on input line 1871.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
  [83]
 File: images/logo fsbm.png Graphic file (type png)
 <use images/logo fsbm.png>
-Package pdftex.def Info: images/logo fsbm.png  used on input line 1887.
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1895.
 (pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
 File: images/logo dep.png Graphic file (type png)
 <use images/logo dep.png>
-Package pdftex.def Info: images/logo dep.png  used on input line 1887.
+Package pdftex.def Info: images/logo dep.png  used on input line 1895.
 (pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
- [84] (./main.aux)
+ [84]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1938.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1938.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [85]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1944.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1944.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [86]
+File: images/logo fsbm.png Graphic file (type png)
+<use images/logo fsbm.png>
+Package pdftex.def Info: images/logo fsbm.png  used on input line 1965.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: images/logo dep.png Graphic file (type png)
+<use images/logo dep.png>
+Package pdftex.def Info: images/logo dep.png  used on input line 1965.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [87] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1843,23 +1831,20 @@ L3 programming layer <2026-01-19>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 19682 strings out of 467525
- 391415 string characters out of 5418982
- 799048 words of memory out of 5000000
- 48244 multiletter control sequences out of 15000+600000
- 695759 words of font info for 76 fonts, out of 8000000 for 9000
+ 19728 strings out of 467525
+ 392896 string characters out of 5418982
+ 800353 words of memory out of 5000000
+ 48294 multiletter control sequences out of 15000+600000
+ 695441 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,104p,1204b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (85 pages, 31992973 bytes).
+ 84i,17n,104p,1204b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (88 pages, 49112202 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 397 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

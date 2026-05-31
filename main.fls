@@ -310,6 +310,12 @@ INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
@@ -613,16 +619,6 @@ INPUT ./images/login.png
 INPUT ./images/login.png
 INPUT ./images/login.png
 INPUT ./images/login.png
-INPUT ./images/catalog copy.png
-INPUT ./images/catalog copy.png
-INPUT ./images/catalog copy.png
-INPUT ./images/catalog copy.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
 INPUT ./images/catalog.png
 INPUT ./images/catalog.png
 INPUT ./images/catalog.png
@@ -633,6 +629,10 @@ INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/catalg detail1.png
+INPUT ./images/catalg detail1.png
+INPUT ./images/catalg detail1.png
+INPUT ./images/catalg detail1.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -643,6 +643,22 @@ INPUT ./images/hebergement.png
 INPUT ./images/hebergement.png
 INPUT ./images/hebergement.png
 INPUT ./images/hebergement.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/hotel.png
+INPUT ./images/hotel.png
+INPUT ./images/hotel.png
+INPUT ./images/hotel.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -651,6 +667,10 @@ INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT ./images/transport.png
+INPUT ./images/transport.png
+INPUT ./images/transport.png
+INPUT ./images/transport.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -659,46 +679,88 @@ INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
+INPUT ./images/transport detail.png
+INPUT ./images/transport detail.png
+INPUT ./images/transport detail.png
+INPUT ./images/transport detail.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/location.png
+INPUT ./images/location.png
+INPUT ./images/location.png
+INPUT ./images/location.png
+INPUT ./images/location voit 2.png
+INPUT ./images/location voit 2.png
+INPUT ./images/location voit 2.png
+INPUT ./images/location voit 2.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/paiement.png
+INPUT ./images/paiement.png
+INPUT ./images/paiement.png
+INPUT ./images/paiement.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/facture.png
+INPUT ./images/facture.png
+INPUT ./images/facture.png
+INPUT ./images/facture.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/avis.png
+INPUT ./images/avis.png
+INPUT ./images/avis.png
+INPUT ./images/avis.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/profile.png
+INPUT ./images/profile.png
+INPUT ./images/profile.png
+INPUT ./images/profile.png
+INPUT ./images/resa.png
+INPUT ./images/resa.png
+INPUT ./images/resa.png
+INPUT ./images/resa.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -864,4 +926,3 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
