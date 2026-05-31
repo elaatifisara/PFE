@@ -1,0 +1,1745 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.31)  31 MAY 2026 13:56
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen149
+\l@unhyphenated=\language91
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/fr/babel-french.te
+x)
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 4330.
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2025-08-15 v4.0e French support from the babel system
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel-french/french3.ldf
+Language: french 2025-08-15 v3.7e French support from the babel system
+\FB@stdchar=\count286
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count287
+\FBold@everypar=\toks19
+\FB@Mht=\dimen150
+\mc@charclass=\count288
+\mc@charfam=\count289
+\mc@charslot=\count290
+\std@mcc=\count291
+\dec@mcc=\count292
+\FB@pardim=\dimen151
+\listindentFB=\dimen152
+\descindentFB=\dimen153
+\labelindentFB=\dimen154
+\labelwidthFB=\dimen155
+\leftmarginFB=\dimen156
+\parindentFFN=\dimen157
+\FBfnindent=\dimen158
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks21
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks22
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen169
+\pgfutil@tempdimb=\dimen170
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen171
+\pgf@y=\dimen172
+\pgf@xa=\dimen173
+\pgf@ya=\dimen174
+\pgf@xb=\dimen175
+\pgf@yb=\dimen176
+\pgf@xc=\dimen177
+\pgf@yc=\dimen178
+\pgf@xd=\dimen179
+\pgf@yd=\dimen180
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count296
+\c@pgf@countb=\count297
+\c@pgf@countc=\count298
+\c@pgf@countd=\count299
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count300
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen181
+\pgfmath@count=\count303
+\pgfmath@box=\box54
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count304
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen182
+\pgf@picmaxx=\dimen183
+\pgf@picminy=\dimen184
+\pgf@picmaxy=\dimen185
+\pgf@pathminx=\dimen186
+\pgf@pathmaxx=\dimen187
+\pgf@pathminy=\dimen188
+\pgf@pathmaxy=\dimen189
+\pgf@xx=\dimen190
+\pgf@xy=\dimen191
+\pgf@yx=\dimen192
+\pgf@yy=\dimen193
+\pgf@zx=\dimen194
+\pgf@zy=\dimen195
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen196
+\pgf@path@lasty=\dimen197
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen198
+\pgf@shorten@start@additional=\dimen199
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count305
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen256
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen257
+\pgf@pt@y=\dimen258
+\pgf@pt@temp=\dimen259
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen260
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen261
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box58
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box59
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen264
+\pgffor@skip=\dimen265
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen266
+)
+\tikz@lastx=\dimen267
+\tikz@lasty=\dimen268
+\tikz@lastxsaved=\dimen269
+\tikz@lastysaved=\dimen270
+\tikz@lastmovetox=\dimen271
+\tikz@lastmovetoy=\dimen272
+\tikzleveldistance=\dimen273
+\tikzsiblingdistance=\dimen274
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip65
+\RaggedLeftLeftskip=\skip66
+\RaggedRightLeftskip=\skip67
+\CenteringRightskip=\skip68
+\RaggedLeftRightskip=\skip69
+\RaggedRightRightskip=\skip70
+\CenteringParfillskip=\skip71
+\RaggedLeftParfillskip=\skip72
+\RaggedRightParfillskip=\skip73
+\JustifyingParfillskip=\skip74
+\CenteringParindent=\skip75
+\RaggedLeftParindent=\skip76
+\RaggedRightParindent=\skip77
+\JustifyingParindent=\skip78
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip79
+\cftbeforetoctitleskip=\skip80
+\cftaftertoctitleskip=\skip81
+\cftbeforepartskip=\skip82
+\cftpartnumwidth=\skip83
+\cftpartindent=\skip84
+\cftbeforechapskip=\skip85
+\cftchapindent=\skip86
+\cftchapnumwidth=\skip87
+\cftbeforesecskip=\skip88
+\cftsecindent=\skip89
+\cftsecnumwidth=\skip90
+\cftbeforesubsecskip=\skip91
+\cftsubsecindent=\skip92
+\cftsubsecnumwidth=\skip93
+\cftbeforesubsubsecskip=\skip94
+\cftsubsubsecindent=\skip95
+\cftsubsubsecnumwidth=\skip96
+\cftbeforeparaskip=\skip97
+\cftparaindent=\skip98
+\cftparanumwidth=\skip99
+\cftbeforesubparaskip=\skip100
+\cftsubparaindent=\skip101
+\cftsubparanumwidth=\skip102
+\cftbeforeloftitleskip=\skip103
+\cftafterloftitleskip=\skip104
+\cftbeforefigskip=\skip105
+\cftfigindent=\skip106
+\cftfignumwidth=\skip107
+\c@lofdepth=\count317
+\c@lotdepth=\count318
+\cftbeforelottitleskip=\skip108
+\cftafterlottitleskip=\skip109
+\cftbeforetabskip=\skip110
+\cfttabindent=\skip111
+\cfttabnumwidth=\skip112
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen275
+\captionmargin=\dimen276
+\caption@leftmargin=\dimen277
+\caption@rightmargin=\dimen278
+\caption@width=\dimen279
+\caption@indent=\dimen280
+\caption@parindent=\dimen281
+\caption@hangindent=\dimen282
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count319
+\c@continuedfloat=\count320
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count321
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count322
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count323
+\float@exts=\toks35
+\float@box=\box64
+\@float@everytoks=\toks36
+\@floatcapt=\box65
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count324
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count325
+\calc@Bcount=\count326
+\calc@Adimen=\dimen283
+\calc@Bdimen=\dimen284
+\calc@Askip=\skip113
+\calc@Bskip=\skip114
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count327
+\calc@Cskip=\skip115
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip116
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen285
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen286
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count328
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count329
+\leftroot@=\count330
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count331
+\DOTSCASE@=\count332
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen287
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count333
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count334
+\dotsspace@=\muskip17
+\c@parentequation=\count335
+\dspbrk@lvl=\count336
+\tag@help=\toks38
+\row@=\count337
+\column@=\count338
+\maxfields@=\count339
+\andhelp@=\toks39
+\eqnshift@=\dimen288
+\alignsep@=\dimen289
+\tagshift@=\dimen290
+\tagwidth@=\dimen291
+\totwidth@=\dimen292
+\lineht@=\dimen293
+\@envbody=\toks40
+\multlinegap=\skip117
+\multlinetaggap=\skip118
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count340
+\g__chemgreek_tmpa_int=\count341
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count342
+\__mhchem_arrow_extPgfLength_skip=\skip119
+\mhchem@minispace@tmp=\skip120
+\mhchem@minibackspace@tmp=\skip121
+\mhchem@bondwidth=\skip122
+\mhchem@bondheight=\skip123
+\mhchem@smallbondwidth@tmpA=\skip124
+\mhchem@smallbondwidth@tmpB=\skip125
+\mhchem@smallbondwidth=\skip126
+\mhchem@bondtmp@minussidebearingleft=\skip127
+\mhchem@bondtmp@minussidebearingright=\skip128
+\l__mhchem_option_version_int=\count343
+\mhchem@option@minusmathsidebearingleft=\dimen294
+\mhchem@option@minusmathsidebearingright=\dimen295
+\mhchem@option@minustextsidebearingleft=\dimen296
+\mhchem@option@minustextsidebearingright=\dimen297
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen298
+\ar@mcellbox=\box68
+\extrarowheight=\dimen299
+\NC@list=\toks42
+\extratabsurround=\skip129
+\backup@length=\skip130
+\ar@cellbox=\box69
+)
+\TX@col@width=\dimen300
+\TX@old@table=\dimen301
+\TX@old@col=\dimen302
+\TX@target=\dimen303
+\TX@delta=\dimen304
+\TX@cols=\count344
+\TX@ftn=\toks43
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 44
+.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (./main.aux
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 8.
+
+
+LaTeX Warning: Label `tab:test_recherche_lieux' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \degres on input line 44.
+ (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count345
+\scratchdimen=\dimen305
+\scratchbox=\box70
+\nofMPsegments=\count346
+\nofMParguments=\count347
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count348
+\MPscratchDim=\dimen306
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
+\everyMPtoPDFconversion=\toks45
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=60.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Package chemgreek Info: Activating mapping `default' on line 44.
+
+<logo fsbm.png, id=4, 150.5625pt x 98.3675pt>
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 50.
+(pdftex.def)             Requested size: 71.13188pt x 46.47437pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+1.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+1.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+51.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+51.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 51.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 51.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<logo dep.png, id=5, 153.57375pt x 108.405pt>
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 59.
+(pdftex.def)             Requested size: 99.58464pt x 70.29533pt.
+ [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./logo fsbm.png> <./l
+ogo dep.png>]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 129.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 129.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[1]
+Overfull \hbox (1.28442pt too wide) in paragraph at lines 142--144
+[]\T1/lmr/m/n/12 Nous re-mer-cions éga-le-ment l'en-semble du corps en-sei-gnan
+t de la \T1/lmr/bx/n/12 Fa-culté des Sciences
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 160.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 160.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[2]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 169.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 169.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [3]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 180.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 180.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [4] (./main.toc [5])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 185.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 185.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [6]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 245.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 245.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [7] (./main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [8]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 272.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 272.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [9]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 272.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 272.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [10]
+Chapitre 1.
+[11
+
+]
+Overfull \hbox (11.41272pt too wide) in paragraph at lines 285--285
+[]\T1/lmr/bx/n/17.28 Présentation de la Fa-culté des Sciences Ben M'Sick 
+ []
+
+<img fac.png, id=50, 627.34375pt x 429.605pt>
+File: img fac.png Graphic file (type png)
+<use img fac.png>
+Package pdftex.def Info: img fac.png  used on input line 293.
+(pdftex.def)             Requested size: 318.66948pt x 218.23035pt.
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 294.
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 303.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 303.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[12 <./img fac.png>]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 320.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 320.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [13]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 322.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 322.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [14]
+Chapitre 2.
+[15
+
+]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 354.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 354.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [16]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 385.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 385.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [17]
+Overfull \hbox (4.15019pt too wide) in paragraph at lines 419--419
+[]|\T1/lmr/m/n/12 Hébergement| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\T1/lmr/m/n/12 Paiement
+ []
+
+
+Overfull \hbox (4.87268pt too wide) in paragraph at lines 419--419
+[]|\T1/lmr/m/n/12 Transparence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\T1/lmr/m/n/12 prix trans-
+ []
+
+
+Overfull \hbox (3.01143pt too wide) in paragraph at lines 419--419
+[]|\T1/lmr/m/n/12 Booking.com| 
+ []
+
+
+Overfull \hbox (11.16504pt too wide) in paragraph at lines 419--419
+[]|\T1/lmr/m/n/12 GetYourGuide| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Transport
+ []
+
+
+Overfull \hbox (4.15019pt too wide) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Hébergement| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Bilingue
+ []
+
+
+Overfull \hbox (3.01143pt too wide) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Booking.com| 
+ []
+
+
+Overfull \hbox (5.29526pt too wide) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Partiellement| 
+ []
+
+
+Overfull \hbox (3.24089pt too wide) in paragraph at lines 447--447
+\T1/lmr/m/n/12 (particuliers)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 GetYour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\T1/lmr/m/n/12 Activités
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 457.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 457.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[18]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 474.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 474.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [19]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 502.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 502.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [20]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 535.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 535.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [21]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 571.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 571.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [22]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 606.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 606.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [23]
+<Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg, id=89, 432.11438pt x 386.19281pt>
+File: Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg Graphic file (type jpg)
+<use Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg>
+Package pdftex.def Info: Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg  used on inpu
+t line 609.
+(pdftex.def)             Requested size: 227.62206pt x 203.43193pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 635.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 635.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [24 <./Capture dâ€™Ã©cran_30-5-2026_15616_.jpeg>]
+<ChatGPT Image 30 mai 2026, 11_32_33.png, id=94, 1117.17375pt x 667.74469pt>
+File: ChatGPT Image 30 mai 2026, 11_32_33.png Graphic file (type png)
+<use ChatGPT Image 30 mai 2026, 11_32_33.png>
+Package pdftex.def Info: ChatGPT Image 30 mai 2026, 11_32_33.png  used on input
+ line 638.
+(pdftex.def)             Requested size: 227.62206pt x 136.05305pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 665.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 665.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[25 <./ChatGPT Image 30 mai 2026, 11_32_33.png>]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 696.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 696.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [26]
+Chapitre 3.
+[27
+
+]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 730.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 730.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [28]
+<Diagramme sans nom.drawio (1).png, id=109, 251.94125pt x 472.76625pt>
+File: Diagramme sans nom.drawio (1).png Graphic file (type png)
+<use Diagramme sans nom.drawio (1).png>
+Package pdftex.def Info: Diagramme sans nom.drawio (1).png  used on input line 
+741.
+(pdftex.def)             Requested size: 227.62206pt x 427.13045pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 758.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 758.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [29 <./Diagramme sans nom.drawio (1).png>]
+<classe22.png, id=114, 973.6375pt x 712.6625pt>
+File: classe22.png Graphic file (type png)
+<use classe22.png>
+Package pdftex.def Info: classe22.png  used on input line 768.
+(pdftex.def)             Requested size: 318.66948pt x 233.2546pt.
+<usecase111.png, id=115, 855.195pt x 1282.7925pt>
+File: usecase111.png Graphic file (type png)
+<use usecase111.png>
+Package pdftex.def Info: usecase111.png  used on input line 801.
+(pdftex.def)             Requested size: 145.68144pt x 218.52203pt.
+<usecase2.png, id=116, 481.8pt x 862.22125pt>
+File: usecase2.png Graphic file (type png)
+<use usecase2.png>
+Package pdftex.def Info: usecase2.png  used on input line 807.
+(pdftex.def)             Requested size: 145.68144pt x 260.70761pt.
+<usecase3.png, id=117, 414.54875pt x 713.66624pt>
+File: usecase3.png Graphic file (type png)
+<use usecase3.png>
+Package pdftex.def Info: usecase3.png  used on input line 813.
+(pdftex.def)             Requested size: 145.68144pt x 250.78877pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 819.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 819.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [30 <./classe22.png>]
+<rapp fig/voyageur usecase.png, id=122, 724.7075pt x 283.0575pt>
+File: rapp fig/voyageur usecase.png Graphic file (type png)
+<use rapp fig/voyageur usecase.png>
+Package pdftex.def Info: rapp fig/voyageur usecase.png  used on input line 834.
+
+(pdftex.def)             Requested size: 227.62206pt x 88.90443pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 839.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 839.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+
+[31 <./usecase111.png> <./usecase2.png> <./usecase3.png> <./rapp fig/voyageur u
+secase.png>]
+<rapp fig/activite authentification.png, id=129, 1251.67625pt x 714.67pt>
+File: rapp fig/activite authentification.png Graphic file (type png)
+<use rapp fig/activite authentification.png>
+Package pdftex.def Info: rapp fig/activite authentification.png  used on input 
+line 851.
+(pdftex.def)             Requested size: 227.62206pt x 129.96545pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 873.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 873.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [32 <./rapp fig/activite authentification.png>]
+<rapp fig/sequence gestion de reser.png, id=134, 676.5275pt x 878.28125pt>
+File: rapp fig/sequence gestion de reser.png Graphic file (type png)
+<use rapp fig/sequence gestion de reser.png>
+Package pdftex.def Info: rapp fig/sequence gestion de reser.png  used on input 
+line 877.
+(pdftex.def)             Requested size: 227.62206pt x 295.50253pt.
+<rapp fig/sequence reservation.png, id=135, 941.5175pt x 813.0375pt>
+File: rapp fig/sequence reservation.png Graphic file (type png)
+<use rapp fig/sequence reservation.png>
+Package pdftex.def Info: rapp fig/sequence reservation.png  used on input line 
+890.
+(pdftex.def)             Requested size: 227.62206pt x 196.55966pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 894.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 894.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [33 <./rapp fig/sequence gestion de reser.png>]
+<rapp fig/sequence lieux touri.png, id=140, 536.0025pt x 1085.05376pt>
+File: rapp fig/sequence lieux touri.png Graphic file (type png)
+<use rapp fig/sequence lieux touri.png>
+Package pdftex.def Info: rapp fig/sequence lieux touri.png  used on input line 
+901.
+(pdftex.def)             Requested size: 227.62206pt x 460.78578pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 905.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 905.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [34 <./rapp fig/sequence reservation.png>]
+File: rapp fig/sequence reservation.png Graphic file (type png)
+<use rapp fig/sequence reservation.png>
+Package pdftex.def Info: rapp fig/sequence reservation.png  used on input line 
+914.
+(pdftex.def)             Requested size: 227.62206pt x 196.55966pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 918.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 918.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+
+[35 <./rapp fig/sequence lieux touri.png>]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 940.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 940.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [36]
+Chapitre 4.
+[37
+
+]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 989.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 989.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [38]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1017.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1017.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [39]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1029.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1029.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [40]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1077.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1077.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [41]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1135.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1135.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [42]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1147.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1147.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [43]
+<accueil.png, id=175, 4127.42pt x 8208.6675pt>
+File: accueil.png Graphic file (type png)
+<use accueil.png>
+Package pdftex.def Info: accueil.png  used on input line 1155.
+(pdftex.def)             Requested size: 455.24411pt x 905.33606pt.
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1160.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1160.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [44]
+Overfull \vbox (227.05296pt too high) has occurred while \output is active []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1160.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1160.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+
+[45 <./accueil.png>]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1189.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1189.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [46]
+Overfull \hbox (56.87332pt too wide) detected at line 1191
+[][] \OT1/lmr/m/n/12 = [] + ([] \OMS/lmsy/m/n/12 ^^B []\OT1/lmr/m/n/12 ) + [] +
+ [] + []
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1215.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1215.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[47{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local
+/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1234.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1234.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [48]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1273.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1273.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [49]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1320.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1320.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [50]
+Overfull \hbox (5.68286pt too wide) in paragraph at lines 1333--1334
+\T1/lmr/m/n/12 L'authentification des uti-li-sa-teurs re-pose sur l'uti-li-sa-t
+ion des \T1/lmr/bx/sc/12 JSON Web To-kens (JWT)\T1/lmr/m/n/12 .
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1346.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1346.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[51]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1364.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1364.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [52]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1366.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1366.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [53]
+Chapitre 5.
+[54
+
+]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1397.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1397.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [55]
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1429
+[]|\T1/lmr/m/n/12 Saisir des in-for-ma-
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 1430--1430
+[]|\T1/lmr/m/n/12 Affichage d'un mes-
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1438.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1438.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[56]
+Underfull \hbox (badness 1953) in paragraph at lines 1460--1460
+\T1/lmr/m/n/12 mail et un mot de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
+[]|\T1/lmr/m/n/12 Affichage d'un mes-sage
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1473.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1473.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[57]
+Underfull \hbox (badness 5008) in paragraph at lines 1491--1491
+[]|\T1/lmr/m/n/12 Résultats triés se-lon les
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1512.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1512.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[58]
+Overfull \hbox (1.87317pt too wide) in paragraph at lines 1517--1524
+ [][] 
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 1552--1552
+[]|\T1/lmr/m/n/12 Facture créée au for-mat
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1556.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1556.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 1582--1582
+[]|\T1/lmr/m/n/12 Filtre par nombre
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 1584--1584
+[]|\T1/lmr/m/n/12 Navigation cor-recte entre les
+ []
+
+
+Overfull \hbox (3.01317pt too wide) in paragraph at lines 1577--1587
+ [][] 
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1588.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1588.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[60]
+Overfull \hbox (1.87317pt too wide) in paragraph at lines 1606--1613
+ [][] 
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1615.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1615.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1641--1641
+[]|\T1/lmr/m/n/12 Recalcul au-to-ma-tique de la
+ []
+
+
+Overfull \hbox (1.87317pt too wide) in paragraph at lines 1637--1644
+ [][] 
+ []
+
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1646.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1646.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+[62]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1679.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1679.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [63]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1713.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1713.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [64]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1750.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1750.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [65]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1796.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1796.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [66]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1843.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1843.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [67]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1849.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1849.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [68]
+Chapitre 6.
+[69
+
+]
+File: logo fsbm.png Graphic file (type png)
+<use logo fsbm.png>
+Package pdftex.def Info: logo fsbm.png  used on input line 1879.
+(pdftex.def)             Requested size: 65.32414pt x 42.67912pt.
+File: logo dep.png Graphic file (type png)
+<use logo dep.png>
+Package pdftex.def Info: logo dep.png  used on input line 1879.
+(pdftex.def)             Requested size: 60.46294pt x 42.67912pt.
+ [70] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19475 strings out of 467525
+ 386310 string characters out of 5418982
+ 799505 words of memory out of 5000000
+ 48045 multiletter control sequences out of 15000+600000
+ 695441 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,17n,104p,1166b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
+cal/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/f
+onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
+/public/lm/lmsy10.pfb>
+Output written on main.pdf (71 pages, 6871161 bytes).
+PDF statistics:
+ 299 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+
