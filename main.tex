@@ -1192,7 +1192,7 @@ Le module de recherche et de recommandation a été conçu pour faciliter l’ac
 %Interface de recherche
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{catalog copy.png}
+\includegraphics[width=\textwidth]{catalog.png}
 \caption{Page du catalogue}
 \label{fig:Page du catalogue}
 \end{figure}
@@ -1200,11 +1200,10 @@ Le module de recherche et de recommandation a été conçu pour faciliter l’ac
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{catalog.png}
+\includegraphics[width=\textwidth]{catalg detail1.png}
 \caption{Exemple d'activité à réserver}
 \label{fig:Exemple d'activité à réserver}
 \end{figure}
-
 
 
 
@@ -1221,6 +1220,14 @@ Parmi les principales fonctionnalités proposées figurent la consultation des h
 \includegraphics[width=\textwidth]{hebergement.png}
 \caption{Page de recherche d'hébergement}
 \label{fig:Page de recherche d'hébergement}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{hotel.png}
+\caption{Exemple d'hébergement}
+\label{fig:Exemple d'hébergement}
 \end{figure}
 
 \end{spacing}
@@ -1256,41 +1263,51 @@ où :
     \item \textbf{MajorationWeekend} correspond à un ajustement tarifaire appliqué durant les week-ends ;
     \item \textbf{MajorationSaison} représente une majoration liée aux périodes de forte affluence touristique.
 \end{itemize}
-Cette méthode de calcul permet d’obtenir une tarification dynamique, équitable et adaptée aux différentes conditions d’exploitation du service de transport. Pour l’utilisateur, le montant est affiché de manière transparente avant la validation définitive de la réservation.
+Cette méthode de calcul permet d’obtenir une tarification dynamique, équitable et adaptée aux différentes conditions d’exploitation du service de transport. 
+Pour l’utilisateur, le montant est affiché de manière transparente avant la validation définitive de la réservation.
 
-
-%Capture écran réservation
+%Capture écran transpot
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{location.png}
+\includegraphics[width=\textwidth]{transport.png}
 \caption{Page de transport}
 \label{fig:Page de transport}
 \end{figure}
+
 %Capture écran estimation du prix
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{catalog detail.png}
-\caption{Exemple d'activité à réserver}
-\label{fig:Exemple d'activité à réserver}
+\includegraphics[width=\textwidth]{transport detail.png}
+\caption{Exemple de détail de transport}
+\label{fig:Exemple de détail de transport}
 \end{figure}
+
+
+\subsection{Module de Location de voiture}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+Le module de location de voiture permet aux utilisateurs de réserver des véhicules directement depuis la plateforme. Après avoir sélectionné un véhicule, l’utilisateur peut consulter les détails du véhicule, 
+vérifier sa disponibilité et effectuer une réservation en ligne. 
+Le système offre également la possibilité de \textbf{filtrer les véhicules} en fonction de critères spécifiques tels que le type de véhicule, le prix ou les options disponibles. 
+Afin de garantir une expérience utilisateur optimale, la plateforme effectue automatiquement le \textbf{calcul du coût total} de la location en fonction de la durée et des options choisies. 
+Ce module favorise la transparence, renforce la confiance des utilisateurs et contribue à améliorer la qualité des services proposés.
+
+%Interface de location de voiture
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{catalog detail.png}
-\caption{Exemple d'activité à réserver}
-\label{fig:Exemple d'activité à réserver}
+\includegraphics[width=\textwidth]{location.png}
+\caption{Page de location de voiture}
+\label{fig:Page de location de voiture}
 \end{figure}
+%Affichage des détails du véhicule
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{catalog detail.png}
-\caption{Exemple d'activité à réserver}
-\label{fig:Exemple d'activité à réserver}
+\includegraphics[width=\textwidth]{location voit 2.png}
+\caption{Exemple de détail de véhicule}
+\label{fig:Exemple de détail de véhicule}
 \end{figure}
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{catalog detail.png}
-\caption{Exemple d'activité à réserver}
-\label{fig:Exemple d'activité à réserver}
-\end{figure}
+
 \end{spacing}
 
 \subsection{Module de paiement}
@@ -1299,7 +1316,20 @@ Cette méthode de calcul permet d’obtenir une tarification dynamique, équitab
 \justifying
 Le module de paiement a été développé afin de permettre aux utilisateurs d’effectuer leurs transactions en ligne de manière simple et sécurisée. Il intègre des mécanismes de \textbf{paiement sécurisé} reposant sur l’utilisation de passerelles de paiement fiables telles que Stripe ou PayPal, garantissant la protection des données financières des utilisateurs. Une fois le paiement effectué, le système procède à la \textbf{validation de la transaction} afin de vérifier son succès avant de confirmer définitivement la réservation concernée. Le module assure également la \textbf{génération automatique d’une facture au format PDF}, permettant à l’utilisateur de conserver une preuve de paiement et de consulter les détails de sa transaction à tout moment. Cette fonctionnalité contribue à renforcer la transparence, la fiabilité et la traçabilité des opérations financières réalisées sur la plateforme.
 %Page paiement
-%Message de confirmation
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{paiement.png}
+\caption{Page de paiement}
+\label{fig:Page de paiement}
+\end{figure}
+%Exemple de facture générée
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{facture.png}
+\caption{Exemple de facture générée}
+\label{fig:Exemple de facture générée}
+\end{figure}
+
 \end{spacing}
 
 \subsection{Module d’avis et de notation}
@@ -1307,8 +1337,51 @@ Le module de paiement a été développé afin de permettre aux utilisateurs d�
 \begin{spacing}{1.5}
 \justifying
 Le module d’avis et de notation permet aux utilisateurs de partager leurs expériences et d’évaluer les différents services proposés sur la plateforme. Après avoir utilisé un service ou effectué une réservation, l’utilisateur peut \textbf{ajouter} un avis afin d’exprimer son niveau de satisfaction et fournir des retours utiles aux autres utilisateurs. Le système offre également la possibilité d’\textbf{attribuer une note} à chaque service, permettant ainsi d’évaluer sa qualité de manière quantitative. Afin de fournir une appréciation globale et objective, la plateforme effectue automatiquement le \textbf{calcul de la note moyenne} à partir de l’ensemble des évaluations reçues. Ce module favorise la transparence, renforce la confiance des utilisateurs et contribue à améliorer la qualité des services proposés.
-%Interface de dépôt d'avis
+
 %Affichage des évaluations
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{avis.png}
+\caption{Exemple d'avis et de notation}
+\label{fig:Exemple d'avis et de notation}
+\end{figure}
+\end{spacing}
+
+\subsection{Espace profil utilisateur}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+L’espace profil regroupe dans une interface unique les informations personnelles et les principales données liées au compte utilisateur. Ce module a été conçu pour offrir une gestion centralisée, simple et claire des éléments essentiels du parcours utilisateur.
+
+Depuis cette section, l’utilisateur peut consulter et modifier ses informations de profil (nom, prénom, langue), accéder à l’historique de ses \textbf{réservations}, visualiser ses \textbf{paiements} ainsi que gérer ses \textbf{préférences}. Cette organisation améliore l’expérience utilisateur en facilitant l’accès rapide aux informations importantes sans naviguer entre plusieurs pages.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{profile.png}
+\caption{Espace profil utilisateur}
+\label{fig:Espace profil utilisateur}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{resa.png}
+\caption{Onglet des réservations dans l’espace profil}
+\label{fig:Onglet reservations profil}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{payment.png}
+\caption{Onglet des paiements dans l’espace profil}
+\label{fig:Onglet paiements profil}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{preference.png}
+\caption{Onglet des préférences dans l’espace profil}
+\label{fig:Onglet preferences profil}
+\end{figure}
 
 \end{spacing}
 
@@ -1347,6 +1420,8 @@ Le formulaire de contact permet quant à lui aux utilisateurs de soumettre des d
 \caption{Formulaire de contact et de support}
 \label{fig:support}
 \end{figure}
+
+
 
 \end{spacing}
 \section{Implémentation des API REST}
@@ -1406,13 +1481,13 @@ L’implémentation de ces API REST assure une séparation claire entre les couc
 \justifying
 La sécurité constitue un aspect essentiel de la plateforme, notamment en raison de la gestion des données personnelles des utilisateurs, des réservations et des transactions financières. Afin de garantir la confidentialité, l’intégrité et la disponibilité des données, plusieurs mécanismes de sécurité ont été mis en œuvre.
 \begin{itemize}
-    \item \textbf{Authentification par JWT}
+    \item \textbf{Authentification avec Firebase}
 \end{itemize}
-L’authentification des utilisateurs repose sur l’utilisation des \textbf{JSON Web Tokens (JWT)}. Après une connexion réussie, un jeton sécurisé est généré et transmis au client. Ce mécanisme permet de vérifier l’identité de l’utilisateur lors de chaque requête tout en limitant les risques d’accès non autorisés aux ressources protégées.
+L’authentification des utilisateurs est assurée par \textbf{Firebase Authentication}. L’inscription et la connexion peuvent se faire soit via \textbf{e-mail/mot de passe}, soit via \textbf{SSO Google}. Après authentification, Firebase gère de manière sécurisée les jetons de session et l’identité des utilisateurs, ce qui permet de protéger l’accès aux ressources de la plateforme.
 \begin{itemize}
-    \item \textbf{Hashage des mots de passe}
+    \item \textbf{Protection des mots de passe}
 \end{itemize}
-Les mots de passe des utilisateurs ne sont jamais stockés en clair dans la base de données. Ils sont chiffrés à l’aide de la bibliothèque \textbf{bcrypt}, qui applique une fonction de hachage robuste avant leur enregistrement. Cette approche renforce la protection des comptes utilisateurs en cas de compromission de la base de données.
+Les mots de passe des utilisateurs ne sont jamais stockés en clair. Pour les comptes créés avec e-mail/mot de passe, leur sécurisation est prise en charge par \textbf{Firebase Authentication}, qui applique des mécanismes de protection adaptés avant tout stockage. Cette approche renforce la sécurité des comptes utilisateurs en cas de compromission des données.
 \begin{itemize}
     \item \textbf{Validation des entrées}
 \end{itemize}
