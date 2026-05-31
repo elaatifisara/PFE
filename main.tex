@@ -219,7 +219,7 @@ This report presents the work carried out as part of the Final Year Project for 
 
 \textbf{API} & Application Programming Interface \\
 
-\textbf{JWT} & JSON Web Token \\
+\textbf{SSO} & Single Sign-On \\
 
 \textbf{REST} & Representational State Transfer \\
 
@@ -1432,12 +1432,12 @@ Afin d’assurer la communication entre le frontend et le backend, la plateforme
 \begin{itemize}
     \item \textbf{Authentification}
 \end{itemize}
-Les services d’authentification permettent la création de comptes utilisateurs et la gestion des connexions sécurisées à l’aide des jetons JWT.
+Les services d’authentification permettent la création de comptes utilisateurs et la gestion des connexions sécurisées.
 \begin{StdTable}[H]{API d'Authentification}{tab:api_auth}{|X|X|X|}
 \hline
 \textbf{Méthode} & \textbf{Endpoint} & \textbf{Description} \\ \hline
 POST & /api/auth/register & Inscription d’un nouvel utilisateur \\ \hline
-POST & /api/auth/login & Authentification et génération du jeton JWT \\ \hline
+POST & /api/auth/login & Authentification \\ \hline
 \end{StdTable}
 
 \begin{itemize}
@@ -1549,7 +1549,7 @@ Les tests d’intégration visent à valider la communication et l’échange de
 \begin{itemize}
     \item \textbf{Tests de sécurité}
 \end{itemize}
-Les tests de sécurité ont été réalisés afin d’évaluer la protection des données et des accès utilisateurs. Ils concernent notamment l’authentification par JWT, le chiffrement des mots de passe, la validation des entrées utilisateur et la protection contre les attaques courantes telles que les injections SQL.
+Les tests de sécurité ont été réalisés afin d’évaluer la protection des données et des accès utilisateurs. Ils concernent notamment l’authentification par SSO Google, email et mot de passe, la validation des entrées utilisateur et la protection contre les attaques courantes telles que les injections SQL.
 \begin{itemize}
     \item \textbf{Tests de performance}
 \end{itemize}
@@ -1803,7 +1803,8 @@ Les tests de sécurité ont été réalisés afin de vérifier la robustesse de 
 \begin{StdTable}[H]{Résultats des Tests de Sécurité}{tab:test_securite}{|X|X|}
 \hline
 \textbf{Test} & \textbf{Résultat} \\ \hline
-Protection par JWT & Conforme \\ \hline
+Authentification par SSO Google & Conforme \\ \hline
+Authentification par email et mot de passe & Conforme \\ \hline
 Hashage des mots de passe (bcrypt) & Conforme \\ \hline
 Contrôle d’accès par rôle & Conforme \\ \hline
 Validation des entrées utilisateur & Conforme \\ \hline
@@ -1813,7 +1814,8 @@ Protection contre les injections SQL & Conforme \\ \hline
 
 \textbf{Analyse des résultats}
 
-Les différents mécanismes de sécurité implémentés ont été testés avec succès. L’authentification basée sur les jetons JWT assure un contrôle sécurisé des accès, tandis que le hashage des mots de passe à l’aide de bcrypt garantit la confidentialité des informations sensibles. Les contrôles d’accès selon les rôles fonctionnent correctement et empêchent les utilisateurs non autorisés d’accéder aux ressources protégées. De plus, la validation des entrées et l’utilisation de requêtes sécurisées permettent de limiter efficacement les risques d’injection SQL et d’autres attaques courantes.
+Les différents mécanismes de sécurité implémentés ont été testés avec succès. L’authentification basée sur Firebase assure un contrôle sécurisé des accès, 
+ Les contrôles d’accès selon les rôles fonctionnent correctement et empêchent les utilisateurs non autorisés d’accéder aux ressources protégées. De plus, la validation des entrées et l’utilisation de requêtes sécurisées permettent de limiter efficacement les risques d’injection SQL et d’autres attaques courantes.
 
 
 \end{spacing}
@@ -1901,7 +1903,7 @@ La sécurisation des sessions utilisateurs et la protection des informations d�
 
 \textbf{Solution :}
 
-Afin de garantir un niveau de sécurité élevé, un système d’authentification basé sur les JSON Web Tokens (JWT) a été mis en place. De plus, les mots de passe sont protégés grâce à l’utilisation de bcrypt, qui assure leur hachage avant leur stockage dans la base de données.
+Afin de garantir un niveau de sécurité élevé, un système d’authentification basé sur Firebase et SSO Google a été mis en place. De plus, les mots de passe sont protégés grâce à l’utilisation de bcrypt, qui assure leur hachage avant leur stockage dans la base de données.
 
 
 \begin{itemize}
