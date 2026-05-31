@@ -1,12 +1,12 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{Liste des abréviations}{7}{}%
-\contentsline {section}{Introduction}{9}{}%
-\contentsline {chapter}{\numberline {1} Présentation de l'organisme}{11}{}%
+\contentsline {section}{Liste des abréviations}{9}{}%
+\contentsline {section}{Introduction}{10}{}%
+\contentsline {chapter}{\numberline {1} Présentation de l'organisme}{12}{}%
 \contentsline {section}{\numberline {1.1}Introduction}{12}{}%
 \contentsline {section}{\numberline {1.2}Présentation de la Faculté des Sciences Ben M’Sick}{12}{}%
 \contentsline {section}{\numberline {1.3}Présentation du Département Mathématiques et Informatique}{13}{}%
 \contentsline {section}{\numberline {1.4}Présentation de la Filière Développement Informatique}{13}{}%
-\contentsline {section}{\numberline {1.5}Conclusion}{13}{}%
+\contentsline {section}{\numberline {1.5}Conclusion}{14}{}%
 \contentsline {chapter}{\numberline {2} Étude préalable et analyse des besoins}{15}{}%
 \contentsline {section}{\numberline {2.1}Introduction}{16}{}%
 \contentsline {section}{\numberline {2.2}Présentation du projet}{16}{}%
@@ -19,72 +19,73 @@
 \contentsline {subsection}{\numberline {2.5.4}Présentation des acteurs du système}{20}{}%
 \contentsline {section}{\numberline {2.6}Spécification des besoins}{21}{}%
 \contentsline {subsection}{\numberline {2.6.1}Introduction}{21}{}%
-\contentsline {subsection}{\numberline {2.6.2}Besoins fonctionnels}{21}{}%
+\contentsline {subsection}{\numberline {2.6.2}Besoins fonctionnels}{22}{}%
 \contentsline {subsection}{\numberline {2.6.3}Besoins non fonctionnels}{22}{}%
-\contentsline {section}{\numberline {2.7}Planification du projet}{22}{}%
-\contentsline {subsection}{\numberline {2.7.1}Introduction}{22}{}%
-\contentsline {subsection}{\numberline {2.7.2}Déroulement des étapes du projet}{22}{}%
+\contentsline {section}{\numberline {2.7}Planification du projet}{23}{}%
+\contentsline {subsection}{\numberline {2.7.1}Introduction}{23}{}%
+\contentsline {subsection}{\numberline {2.7.2}Déroulement des étapes du projet}{23}{}%
 \contentsline {subsection}{\numberline {2.7.3}Planning prévisionnel du projet}{24}{}%
-\contentsline {section}{\numberline {2.8}Analyse des écarts entre le planning prévisionnel et réel}{24}{}%
-\contentsline {subsection}{\numberline {2.8.1}Introduction}{24}{}%
+\contentsline {section}{\numberline {2.8}Analyse des écarts entre le planning prévisionnel et réel}{25}{}%
+\contentsline {subsection}{\numberline {2.8.1}Introduction}{25}{}%
 \contentsline {subsection}{\numberline {2.8.2}Planning réel du projet}{25}{}%
-\contentsline {subsection}{\numberline {2.8.3}Analyse des écarts observés}{25}{}%
+\contentsline {subsection}{\numberline {2.8.3}Analyse des écarts observés}{26}{}%
 \contentsline {subsection}{\numberline {2.8.4}Solutions proposées pour limiter les écarts}{26}{}%
-\contentsline {section}{\numberline {2.9}Conclusion}{26}{}%
-\contentsline {chapter}{\numberline {3} Conception du système}{27}{}%
-\contentsline {section}{\numberline {3.1}Introduction}{28}{}%
-\contentsline {section}{\numberline {3.2}Architecture logicielle}{28}{}%
-\contentsline {subsection}{\numberline {3.2.1}Architecture technique}{28}{}%
-\contentsline {section}{\numberline {3.3}Diagramme de classes}{30}{}%
-\contentsline {section}{\numberline {3.4}Diagrammes de cas d’utilisation}{30}{}%
-\contentsline {subsection}{\numberline {3.4.1}Diagramme de cas d’utilisation global}{31}{}%
-\contentsline {subsection}{\numberline {3.4.2}Diagramme de cas d’utilisation du voyageur}{31}{}%
-\contentsline {section}{\numberline {3.5}Diagramme d’activité}{32}{}%
-\contentsline {section}{\numberline {3.6}Diagrammes de séquence}{32}{}%
-\contentsline {subsection}{\numberline {3.6.1}Inscription et authentification}{33}{}%
-\contentsline {subsection}{\numberline {3.6.2}Gestion des utilisateurs }{33}{}%
-\contentsline {subsection}{\numberline {3.6.3}Recherche et filtrage de lieux touristiques}{34}{}%
-\contentsline {subsection}{\numberline {3.6.4}Réservation de transport aéroport}{35}{}%
-\contentsline {section}{\numberline {3.7}Conclusion}{36}{}%
-\contentsline {chapter}{\numberline {4} Réalisation et implémentation}{37}{}%
-\contentsline {section}{\numberline {4.1}Introduction}{38}{}%
-\contentsline {section}{\numberline {4.2}Environnement de développement}{38}{}%
-\contentsline {subsection}{\numberline {4.2.1}Outils logiciels}{38}{}%
-\contentsline {section}{\numberline {4.3}Choix de l’architecture monolithique}{38}{}%
-\contentsline {section}{\numberline {4.4}Choix des technologies utilisées}{39}{}%
-\contentsline {subsubsection}{Frontend : React.js et Next.js}{39}{}%
-\contentsline {subsubsection}{Backend : Node.js et Express.js}{40}{}%
-\contentsline {subsubsection}{Base de données : MySQL 8}{40}{}%
-\contentsline {subsubsection}{APIs externes : Google Maps, Stripe et PayPal}{40}{}%
-\contentsline {section}{\numberline {4.5}Implémentation de la base de données}{41}{}%
-\contentsline {section}{\numberline {4.6}Réalisation des modules fonctionnels}{43}{}%
-\contentsline {subsection}{\numberline {4.6.1}Page d’accueil de la plateforme}{44}{}%
-\contentsline {subsection}{\numberline {4.6.2}Module d'authentification}{46}{}%
-\contentsline {subsection}{\numberline {4.6.3}Module de recherche touristique}{46}{}%
-\contentsline {subsection}{\numberline {4.6.4}Module de réservation de transport}{46}{}%
-\contentsline {subsection}{\numberline {4.6.5}Module de paiement}{47}{}%
-\contentsline {subsection}{\numberline {4.6.6}Module d’avis et de notation}{48}{}%
-\contentsline {subsection}{\numberline {4.6.7}Module d’hébergement}{48}{}%
-\contentsline {subsection}{\numberline {4.6.8}Espace administrateur}{49}{}%
-\contentsline {section}{\numberline {4.7}Implémentation des API REST}{49}{}%
-\contentsline {section}{\numberline {4.8}Sécurité de l’application}{51}{}%
-\contentsline {section}{\numberline {4.9}Conclusion}{52}{}%
-\contentsline {chapter}{\numberline {5} Tests et validation}{54}{}%
-\contentsline {section}{\numberline {5.1}Introduction}{55}{}%
-\contentsline {section}{\numberline {5.2}Stratégie de test}{55}{}%
-\contentsline {section}{\numberline {5.3}Tests fonctionnels}{56}{}%
-\contentsline {subsection}{\numberline {5.3.1}Test du module d'inscription}{56}{}%
-\contentsline {subsection}{\numberline {5.3.2}Test du module de connexion}{57}{}%
-\contentsline {subsection}{\numberline {5.3.3}Test du module de connexion}{58}{}%
-\contentsline {subsection}{\numberline {5.3.4}Test du module de recherche touristique}{58}{}%
-\contentsline {subsection}{\numberline {5.3.5}Test du module de réservation de transport}{59}{}%
-\contentsline {subsection}{\numberline {5.3.6}Test du module d'hébergement}{60}{}%
-\contentsline {subsection}{\numberline {5.3.7}Test du système de paiement}{61}{}%
-\contentsline {subsection}{\numberline {5.3.8}Test du système d'avis}{62}{}%
-\contentsline {section}{\numberline {5.4}Tests d'intégration}{63}{}%
-\contentsline {section}{\numberline {5.5}Tests de sécurité}{64}{}%
-\contentsline {section}{\numberline {5.6}Tests de performance}{65}{}%
-\contentsline {section}{\numberline {5.7}Validation des objectifs du projet}{66}{}%
-\contentsline {section}{\numberline {5.8}Difficultés rencontrées et solutions apportées}{66}{}%
-\contentsline {section}{\numberline {5.9}Conclusion}{67}{}%
-\contentsline {chapter}{\numberline {6}Conclusion Générale}{69}{}%
+\contentsline {section}{\numberline {2.9}Conclusion}{27}{}%
+\contentsline {chapter}{\numberline {3} Conception du système}{28}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{29}{}%
+\contentsline {section}{\numberline {3.2}Architecture logicielle}{29}{}%
+\contentsline {subsection}{\numberline {3.2.1}Architecture technique}{29}{}%
+\contentsline {section}{\numberline {3.3}Diagramme de classes}{31}{}%
+\contentsline {section}{\numberline {3.4}Diagrammes de cas d’utilisation}{31}{}%
+\contentsline {subsection}{\numberline {3.4.1}Diagramme de cas d’utilisation global}{32}{}%
+\contentsline {subsection}{\numberline {3.4.2}Diagramme de cas d’utilisation du voyageur}{32}{}%
+\contentsline {section}{\numberline {3.5}Diagramme d’activité}{33}{}%
+\contentsline {section}{\numberline {3.6}Diagrammes de séquence}{33}{}%
+\contentsline {subsection}{\numberline {3.6.1}Inscription et authentification}{34}{}%
+\contentsline {subsection}{\numberline {3.6.2}Gestion des utilisateurs }{34}{}%
+\contentsline {subsection}{\numberline {3.6.3}Recherche et filtrage de lieux touristiques}{35}{}%
+\contentsline {subsection}{\numberline {3.6.4}Réservation de transport aéroport}{36}{}%
+\contentsline {section}{\numberline {3.7}Conclusion}{37}{}%
+\contentsline {chapter}{\numberline {4} Réalisation et implémentation}{38}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{39}{}%
+\contentsline {section}{\numberline {4.2}Environnement de développement}{39}{}%
+\contentsline {subsection}{\numberline {4.2.1}Outils logiciels}{39}{}%
+\contentsline {section}{\numberline {4.3}Choix de l’architecture monolithique}{39}{}%
+\contentsline {section}{\numberline {4.4}Choix des technologies utilisées}{40}{}%
+\contentsline {subsubsection}{Frontend : React.js et Next.js}{41}{}%
+\contentsline {subsubsection}{Backend : Node.js et Express.js}{41}{}%
+\contentsline {subsubsection}{Base de données : MySQL 8}{41}{}%
+\contentsline {subsubsection}{APIs externes : Firebase, Open Street Map, Stripe et PayPal}{42}{}%
+\contentsline {section}{\numberline {4.5}Implémentation de la base de données}{42}{}%
+\contentsline {section}{\numberline {4.6}Réalisation des modules fonctionnels}{44}{}%
+\contentsline {subsection}{\numberline {4.6.1}Page d’accueil de la plateforme}{45}{}%
+\contentsline {subsection}{\numberline {4.6.2}Module d'authentification}{47}{}%
+\contentsline {subsection}{\numberline {4.6.3}Module de recherche touristique}{49}{}%
+\contentsline {subsection}{\numberline {4.6.4}Module d’hébergement}{51}{}%
+\contentsline {subsection}{\numberline {4.6.5}Module de réservation de transport}{52}{}%
+\contentsline {subsection}{\numberline {4.6.6}Module de paiement}{58}{}%
+\contentsline {subsection}{\numberline {4.6.7}Module d’avis et de notation}{59}{}%
+\contentsline {subsection}{\numberline {4.6.8}Espace administrateur}{59}{}%
+\contentsline {subsection}{\numberline {4.6.9}Module FAQ et support}{60}{}%
+\contentsline {section}{\numberline {4.7}Implémentation des API REST}{62}{}%
+\contentsline {section}{\numberline {4.8}Sécurité de l’application}{64}{}%
+\contentsline {section}{\numberline {4.9}Conclusion}{65}{}%
+\contentsline {chapter}{\numberline {5} Tests et validation}{67}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{68}{}%
+\contentsline {section}{\numberline {5.2}Stratégie de test}{68}{}%
+\contentsline {section}{\numberline {5.3}Tests fonctionnels}{69}{}%
+\contentsline {subsection}{\numberline {5.3.1}Test du module d'inscription}{69}{}%
+\contentsline {subsection}{\numberline {5.3.2}Test du module de connexion}{70}{}%
+\contentsline {subsection}{\numberline {5.3.3}Test du module de connexion}{71}{}%
+\contentsline {subsection}{\numberline {5.3.4}Test du module de recherche touristique}{72}{}%
+\contentsline {subsection}{\numberline {5.3.5}Test du module de réservation de transport}{73}{}%
+\contentsline {subsection}{\numberline {5.3.6}Test du module d'hébergement}{74}{}%
+\contentsline {subsection}{\numberline {5.3.7}Test du système de paiement}{75}{}%
+\contentsline {subsection}{\numberline {5.3.8}Test du système d'avis}{76}{}%
+\contentsline {section}{\numberline {5.4}Tests d'intégration}{77}{}%
+\contentsline {section}{\numberline {5.5}Tests de sécurité}{78}{}%
+\contentsline {section}{\numberline {5.6}Tests de performance}{79}{}%
+\contentsline {section}{\numberline {5.7}Validation des objectifs du projet}{80}{}%
+\contentsline {section}{\numberline {5.8}Difficultés rencontrées et solutions apportées}{81}{}%
+\contentsline {section}{\numberline {5.9}Conclusion}{82}{}%
+\contentsline {section}{Conclusion Générale}{84}{}%

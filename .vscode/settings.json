@@ -4,6 +4,9 @@
       "name": "latexmk",
       "command": "/Library/TeX/texbin/latexmk",
       "args": [
+        "-f",
+        "-g",
+        "-pdflatex=/Library/TeX/texbin/pdflatex %O %S",
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",

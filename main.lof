@@ -1,20 +1,33 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Image de la Faculté des Sciences Ben M’Sick }}{12}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Image de la Faculté des Sciences Ben M’Sick }}{13}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces }}{24}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Gantt réel du projet }}{25}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de Gantt prévisionnel du projet}}{25}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de Gantt réel du projet }}{26}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de la plateforme }}{29}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classe }}{30}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de cas d'utilisation globale}}{31}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de cas d'utilisation voyageur }}{31}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme d'activité -Authentification }}{32}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de séquence -Gestion de réservation }}{33}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence-Gestion des utilisateurs }}{34}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de séquence-Recherche de lieux touristiques }}{35}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de séquence-Réservation de transport }}{36}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de la plateforme }}{30}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classe }}{31}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagramme de cas d'utilisation globale}}{32}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de cas d'utilisation voyageur }}{32}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagramme d'activité -Authentification }}{33}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de séquence -Gestion de réservation }}{34}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de séquence-Gestion des utilisateurs }}{35}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de séquence-Recherche de lieux touristiques }}{36}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de séquence-Réservation de transport }}{37}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Page d'accueil}}{45}{}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Page d'accueil avant la connexion}}{45}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Suite page d'accueil avant la connexion}}{46}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Page d'accueil après la connexion}}{47}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Formulaire d'inscription}}{48}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Formulaire de connexion}}{48}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Page du catalogue}}{49}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple d'activité à réserver}}{50}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Page de recherche d'hébergement}}{52}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Exemple d'activité à réserver}}{54}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Exemple d'activité à réserver}}{55}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Exemple d'activité à réserver}}{56}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Exemple d'activité à réserver}}{57}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Exemple d'activité à réserver}}{58}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Page FAQ de la plateforme TravEasy}}{61}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Formulaire de contact et de support}}{62}{}%
 \addvspace {10\p@ }

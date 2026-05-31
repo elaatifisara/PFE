@@ -1,9 +1,9 @@
 \documentclass[a4paper,12pt]{report}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
 \usepackage{graphicx}
-\graphicspath{{images/}}
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{tikz}
@@ -16,17 +16,29 @@
 \usepackage{float}
 \usepackage[version=4]{mhchem}
 \usepackage{tabularx}
+\usepackage{array}
+\usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{xparse}
+
+\graphicspath{{images/}}
 
 
 \geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
 \captionsetup[figure]{labelfont=bf, labelsep=space}
 \captionsetup[table]{labelfont=bf, labelsep=space}
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.3}
 \setlength{\cftbeforetoctitleskip}{1cm}
 \setlength{\cftaftertoctitleskip}{1cm}
 \renewcommand{\cfttoctitlefont}{\LARGE\bfseries\centering}
 \renewcommand{\contentsname}{\centering Table des mati\`eres}
 \setlength{\headheight}{60pt} % Important pour éviter les avertissements avec fancyhdr
+
+% Environnement standard pour homogénéiser les tableaux du rapport.
+\NewDocumentEnvironment{StdTable}{O{H} m m m +b}
+{\begin{table}[#1]\centering\caption{#2}\label{#3}\begin{tabularx}{\textwidth}{#4}#5\end{tabularx}\end{table}}
+{}
 
 \newcommand{\chapitreencadre}[1]{
     \chapter{#1} % Numérotation activée
@@ -88,7 +100,7 @@
 
 \begin{minipage}{\textwidth}
 \begin{flushleft}
-\textbf{Soutenu le    Juin 2026 devant le jury composé de :}\\[0.2cm]
+\textbf{Soutenu le 13 Juin 2026 devant le jury composé de :}\\[0.2cm]
 \vspace{0.5cm}
 \begin{tabular}{l l}
 Pr.       \\
@@ -126,6 +138,7 @@ Pr.  \\
     \Huge \textit{À nos très chers parents\ldots}
 \end{flushright}
 \vspace*{\fill}
+
 % ------------------ REMERCIEMENTS ------------------
 \newpage
 \vspace*{0.5cm}
@@ -140,7 +153,7 @@ Pr.  \\
   Nous tenons à adresser nos plus sincères remerciements à notre encadrante, Pr. \textbf{OUNACER Soumaya}, pour la confiance qu’elle nous a accordée, son accompagnement précieux, sa disponibilité ainsi que la richesse de ses conseils tout au long de notre parcours universitaire et particulièrement durant la réalisation de ce mémoire de fin d’études. Son encadrement rigoureux, ses orientations pertinentes et son soutien constant ont constitué un apport essentiel à l’aboutissement de ce travail. Nous exprimons également notre profonde gratitude à Mme \textbf{ABBOUR FATIMA ZAHRA} pour son accompagnement, sa disponibilité et les précieux conseils apportés durant la période d’encadrement de notre projet de fin d’études. Son soutien et ses orientations nous ont permis de mener ce travail dans les meilleures conditions.
 \vspace*{0.5cm}
 
-    Nous remercions également l’ensemble du corps enseignant de la \textbf{Faculté des Sciences Ben M'Sick}, pour la richesse de leurs enseignements, leur accompagnement et leur implication tout au long de notre formation.
+Nous remercions également l’ensemble du corps enseignant de la \textbf{Faculté des Sciences Ben M'Sick}, pour la richesse de leurs enseignements, leur accompagnement et leur implication tout au long de notre formation.
 \vspace*{0.5cm}
 
 Travailler en binôme a été une véritable force. Nous avons partagé les efforts, les idées, les doutes et les réussites, mais aussi les rires et les longues heures de réflexion. Cette aventure commune nous a permis de mieux nous découvrir, de nous compléter et de nous soutenir mutuellement. C’est ensemble que nous sommes fières du chemin parcouru.
@@ -157,6 +170,7 @@ Enfin, merci à cette petite voix en nous qui nous rappelle chaque jour que rêv
 
 
 \end{spacing}
+
 % ------------------ RESUME ------------------
 \newpage
 \vspace*{0.5cm}
@@ -166,6 +180,7 @@ Enfin, merci à cette petite voix en nous qui nous rappelle chaque jour que rêv
 Ce rapport présente le travail réalisé dans le cadre du Projet de Fin d’Études de la Licence Fondamentale en Développement Informatique à la Faculté des Sciences Ben M’Sick de l’Université Hassan II de Casablanca. Le projet consiste en la conception et le développement de \textbf{TravEasy}, une plateforme web touristique unifiée destinée à centraliser les principaux services liés au tourisme au Maroc. Elle permet aux utilisateurs de découvrir des destinations touristiques, de bénéficier de recommandations d’hôtels adaptées à leurs besoins, de réserver des moyens de transport vers et depuis les aéroports, ainsi que de consulter et partager des avis au sein d’un espace communautaire. Dotée d’une interface bilingue français–anglais, la plateforme vise à offrir une expérience fluide, sécurisée et accessible à une clientèle nationale et internationale, tout en contribuant à la valorisation du tourisme marocain à travers les technologies numériques.
 
 \vspace{2cm}\textbf{Mots-clés :} Platforme web, Bilinguisme, Destinations touristiques, Maroc, Plateforme unifiée, Réservation, Tourisme.
+
 % ------------------ ABSTRACT ------------------
 \newpage
 \vspace*{0.5cm}
@@ -177,11 +192,20 @@ Ce rapport présente le travail réalisé dans le cadre du Projet de Fin d’Ét
 This report presents the work carried out as part of the Final Year Project for the Bachelor’s degree in Computer Science Development at the Faculty of Sciences Ben M’Sick, Hassan II University of Casablanca. The project focuses on the design and development of \textbf{TravEasy}, a unified web-based tourism platform tailored to the Moroccan market. In response to the fragmentation of online tourism services, TravEasy provides a centralized and seamless experience that enables users to discover tourist destinations, access hotel recommendations, book airport transfers, and share reviews and ratings through a single interface. The platform also features a fully bilingual French–English interface designed to meet the needs of both local and international travelers. This project demonstrates the successful development of a complete digital solution that combines usability, performance, and security while contributing to the promotion and modernization of Moroccan tourism.
 
 \textbf{Keywords:} Bilingualism, Booking, Destination catalog, Morocco, Tourism, Unified platform, Web application.
+
 % ------------------ TABLE DES MATIÈRES ------------------
 \newpage
 \tableofcontents
 
-```latex
+% ------------------ LISTE DES FIGURES ------------------
+\newpage
+\listoffigures
+
+
+% ------------------ LISTE DES TABLEAUX ------------------
+\newpage
+\listoftables
+
 % ------------------ LISTE DES ABRÉVIATIONS ------------------
 \newpage
 \section*{Liste des abréviations}
@@ -242,10 +266,6 @@ This report presents the work carried out as part of the Final Year Project for 
 \end{spacing}
 
 
-% ------------------ LISTE DES FIGURES ------------------
-\newpage
-\listoffigures
-
 % ------------------ INTRODUCTION ------------------
 \newpage
 \section*{Introduction Générale}
@@ -267,14 +287,12 @@ C’est dans cette optique qu’a été développé \textbf{TravEasy}, une plate
 Ce projet s’inscrit ainsi dans une démarche de conception d’une solution numérique moderne, intuitive et performante, visant à améliorer l’expérience utilisateur tout en contribuant à la valorisation de l’offre touristique marocaine.
 
 Le présent rapport retrace les différentes étapes de réalisation du projet TravEasy, depuis l’étude du contexte et l’analyse des besoins jusqu’à la conception, l’implémentation et la validation de la solution développée. Il met en évidence les choix fonctionnels et techniques adoptés pour répondre aux problématiques identifiées dans le domaine du tourisme numérique. À travers ce document, nous présentons l’architecture du système, les technologies utilisées, les différents modules développés ainsi que les résultats obtenus lors de la phase de test, permettant ainsi d’évaluer la qualité et la conformité de la plateforme aux objectifs fixés.
-
-
 \end{spacing}
-\newpage
+
+% ------------------ PRÉSENTATION DE L'ORGANISME ------------------
 \chapter{ Présentation de l'organisme}
 
 
-\newpage
 %yasmine
 \section{Introduction}
 \vspace{0.5cm}
@@ -293,7 +311,7 @@ Faculté des Sciences Ben M'Sick est un établissement relevant de l’\textbf{U
     \centering
     \includegraphics[width=0.7\textwidth]{img fac.png}
     \caption{Image de la Faculté des Sciences Ben M’Sick }
-    \label{fig:Zones d'activité du groupe OCP au Maroc}
+    \label{fig:faculté_sciences_ben_m_sick}
 \end{figure}
 \end{spacing}
 \section{Présentation du Département Mathématiques et Informatique}
@@ -311,6 +329,8 @@ Le département encourage également la réalisation de projets académiques per
 La filière \textbf{Développement Informatique} a pour mission de former des étudiants capables de concevoir, développer et maintenir des applications informatiques répondant aux besoins des organisations et des utilisateurs. Elle offre une formation alliant connaissances théoriques et compétences pratiques dans les domaines du développement logiciel, des bases de données, des systèmes d’information, des technologies web et de l’ingénierie logicielle.
 
 Grâce à un programme pédagogique diversifié, la filière permet aux étudiants d’acquérir les compétences techniques et méthodologiques nécessaires à la réalisation de projets informatiques, tout en développant leur capacité d’analyse, de résolution de problèmes et d’adaptation aux évolutions technologiques. Elle prépare ainsi les futurs diplômés à intégrer le monde professionnel ou à poursuivre leurs études dans des domaines spécialisés de l’informatique.
+
+\end{spacing}
 
 \section{Conclusion}
 \vspace{0.5cm}
@@ -386,52 +406,13 @@ Avant de développer une plateforme touristique unifiée, il est essentiel d’a
 
 Dans le cadre de cette étude, une analyse comparative a été réalisée sur plusieurs acteurs majeurs du secteur, notamment \textbf{Google Travel, Booking.com, Airbnb, TripAdvisor, Expedia, GetYourGuide et Uber}. L’objectif est d’évaluer leurs fonctionnalités, leur niveau d’intégration, leur couverture du marché marocain ainsi que leur capacité à répondre aux besoins des utilisateurs.
 
-
-
-
-
-
-Cette première analyse montre qu’aucune plateforme ne propose une centralisation complète du parcours touristique. Chacune reste spécialisée dans un domaine précis, ce qui limite la continuité et la fluidité de l’expérience utilisateur.
-
-Une seconde analyse plus approfondie a été menée en intégrant des critères liés à l’expérience utilisateur, tels que les avis, le multilinguisme, les paiements locaux et la transparence des prix.
-
-\renewcommand{\arraystretch}{1.3} % Augmente la hauteur des lignes de 30%
-\begin{table}[h]
-\centering
-\caption{Comparatif des plateformes}
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
-\hline
-Plateforme    & Hébergement & Avis utilisateurs & Multilingue & Paiement local Maroc & Transparence prix transport \\
-\hline
-Google Travel & Oui         & Oui               & Oui         & Non                  & Variable                    \\
-\hline
-Booking.com   & Très étendu & Très étendu       & Oui         & Non                  & Faible                      \\
-\hline
-Airbnb        & Très étendu & Oui               & Oui         & Non                  & Sans objet                  \\
-\hline
-Tripadvisor   & Agrégation  & Très étendu       & Oui         & Non                  & Sans objet                  \\
-\hline
-Expedia       & Très étendu & Moyen             & Oui         & Non                  & Moyenne                     \\
-\hline
-GetYourGuide  & Absent      & Oui               & Oui         & Non                  & Sans objet                  \\
-\hline
-Uber          & Absent      & Oui               & Oui         & Partiel              & Bonne                      \\
-\hline
-\end{tabularx}
-\end{table}
-
-Cette seconde analyse confirme que, malgré leur maturité, ces plateformes ne répondent pas pleinement aux besoins spécifiques du marché marocain. Les principales limites concernent l’intégration des moyens de paiement locaux, la couverture des services de transport interurbain et la transparence des tarifs, notamment pour les voyageurs internationaux
-\renewcommand{\arraystretch}{1.3} % Augmente la hauteur des lignes de 30%
-\begin{table}[h]
-\centering
-\caption{Comparatif des plateformes}
+\begin{StdTable}[h]{Comparatif des plateformes}{tab:comparatif_plateformes_1}{|X|X|X|X|X|X|}
 % \textwidth force le tableau à prendre exactement la largeur de la page.
 % Le "X" (en majuscule) crée des colonnes qui s'adaptent et reviennent à la ligne automatiquement.
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|}
 \hline
 Plateforme & Transport aéroport & Lieux \newline touristiques & Hébergement & Bilingue FR/EN & Paiement \\
 \hline
-Google Travel & Non & Oui \newline (agrégation) & Oui \newline (agrégation) & Partiel & Non \\
+Google \newline Travel & Non & Oui \newline (agrégation) & Oui \newline (agrégation) & Partiel & Non \\
 \hline
 Booking.com & Partiel & Non & Très étendu & Oui & Partiel \\
 \hline
@@ -445,10 +426,36 @@ GetYour Guide & Non & Activités seules & Non & Oui & Non \\
 \hline
 Uber & Oui & Non & Non & Partiel & Non \\
 \hline
-\end{tabularx}
-\end{table}
+\end{StdTable}
+
+Cette première analyse montre qu’aucune plateforme ne propose une centralisation complète du parcours touristique. Chacune reste spécialisée dans un domaine précis, ce qui limite la continuité et la fluidité de l’expérience utilisateur.
+
+Une seconde analyse plus approfondie a été menée en intégrant des critères liés à l’expérience utilisateur, tels que les avis, le multilinguisme, les paiements locaux et la transparence des prix.
+
+
+\begin{StdTable}[h]{Comparatif des plateformes}{tab:comparatif_plateformes_2}{|X|X|X|X|X|X|}
+\hline
+Plateforme    & Hébergement & Avis \newline utilisateurs & Multilingue & Paiement local Maroc & Transparence prix \newline transport \\
+\hline
+Google \newline Travel & Oui         & Oui               & Oui         & Non                  & Variable                    \\
+\hline
+Booking.com   & Très étendu & Très étendu       & Oui         & Non                  & Faible                      \\
+\hline
+Airbnb        & Très étendu & Oui               & Oui         & Non                  & Sans objet                  \\
+\hline
+Tripadvisor   & Agrégation  & Très étendu       & Oui         & Non                  & Sans objet                  \\
+\hline
+Expedia       & Très étendu & Moyen             & Oui         & Non                  & Moyenne                     \\
+\hline
+GetYour \newline Guide  & Absent      & Oui               & Oui         & Non                  & Sans objet                  \\
+\hline
+Uber          & Absent      & Oui               & Oui         & Partiel              & Bonne                      \\
+\hline
+\end{StdTable}
+Cette seconde analyse confirme que, malgré leur maturité, ces plateformes ne répondent pas pleinement aux besoins spécifiques du marché marocain. Les principales limites concernent l’intégration des moyens de paiement locaux, la couverture des services de transport interurbain et la transparence des tarifs, notamment pour les voyageurs internationaux.
 
 \end{spacing}
+
 \subsection{Synthèse critique de l’existant}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -464,9 +471,8 @@ Par ailleurs, le transport aéroportuaire constitue une faiblesse notable, avec 
 Enfin, la dispersion des informations touristiques oblige les voyageurs à consulter plusieurs sources pour obtenir une vision complète de leur séjour.
 
 Ces limites confirment donc la nécessité de développer une plateforme touristique unifiée, capable de centraliser les services essentiels tout en répondant aux besoins spécifiques du contexte marocain.
-
-
 \end{spacing}
+
 \subsection{Valeur ajoutée de la solution proposée}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -482,8 +488,13 @@ Contrairement à plusieurs plateformes spécialisées, TravEasy permet égalemen
 \justifying
 Cette section s’inscrit dans l’analyse fonctionnelle de la plateforme web touristique unifiée et vise à identifier les principaux acteurs du système ainsi que leurs rôles et interactions. Cette identification constitue une étape essentielle pour la définition des besoins fonctionnels et la modélisation du système.
 
-
-
+\begin{StdTable}{Présentation des acteurs du système}{tab:acteurs}{|p{3.2cm}|X|X|}
+\hline
+\textbf{Acteur} & \textbf{Description} & \textbf{Principales interactions avec le système} \\ \hline
+\textbf{Touriste \newline (Utilisateur)} & Voyageur national ou international souhaitant organiser son séjour au Maroc via la plateforme. & Recherche de lieux, réservation de transport, hébergement et activités, paiement, gestion du profil et publication d'avis. \\ \hline
+\textbf{Prestataire de services} & Professionnel proposant des services touristiques (hébergement, transport, activités, restauration, excursions, etc.). & Publication et gestion des offres, mise à jour des disponibilités, gestion des réservations et interaction avec les avis clients. \\ \hline
+\textbf{Administrateur} & Responsable de la gestion et du bon fonctionnement global de la plateforme. & Gestion des utilisateurs, validation des prestataires, supervision des contenus, modération des avis et suivi des paiements. \\ \hline
+\end{StdTable}
 
 
 En résumé, l’interaction entre ces trois acteurs permet d’assurer une plateforme structurée, sécurisée et fonctionnelle, garantissant une gestion efficace des services touristiques.
@@ -608,8 +619,8 @@ Le planning prévisionnel du projet a été élaboré sous forme d’un diagramm
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.50\textwidth]{Capture d’écran_30-5-2026_15616_.jpeg}
-    \caption{ }
-    \label{fig: }
+    \caption{ Diagramme de Gantt prévisionnel du projet}
+    \label{fig: Diagramme de Gantt prévisionnel du projet }
 \end{figure}
 
 \end{spacing}
@@ -680,8 +691,6 @@ Afin de réduire les écarts entre la planification théorique et l’exécution
 
 %%La comparaison entre le planning prévisionnel et le planning réel a mis en évidence certains écarts liés aux ajustements du développement, tout en démontrant une bonne capacité d’adaptation ayant permis de mener le projet à terme dans un délai maîtrisé. Cette analyse a également permis d’identifier des axes d’amélioration pour une meilleure gestion des projets futurs.
 
-\end{spacing}
-
 \section{Conclusion}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -739,7 +748,7 @@ L’architecture globale de la plateforme suit une approche client–serveur org
 \begin{spacing}{1.5}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.50\textwidth]{Diagramme sans nom.drawio (1).png}
+    \includegraphics[width=0.50\textwidth]{rapp fig/ARCHI.drawio.png}
     \caption{Architecture de la plateforme }
     \label{fig: Architecture de la plateforme}
 \end{figure}
@@ -916,6 +925,8 @@ Ce diagramme modélise les différentes interactions nécessaires à la réserva
     \caption{ Diagramme de séquence-Réservation de transport    }
     \label{ Diagramme de séquence-Réservation de transport  }
 \end{figure}
+
+\end{spacing}
  
 \section{Conclusion}
 \vspace{0.5cm}
@@ -935,9 +946,6 @@ Ainsi, cette phase de conception constitue une base essentielle avant la réalis
 
 
 
- 
-
-\end{spacing}
 \newpage
 \chapter{ Réalisation et implémentation}
 \newpage
@@ -960,20 +968,15 @@ Dans ce chapitre, nous sommes dédiés à la réalisation de la plateforme. Cett
 \justifying
 Afin de mener à bien le développement de la plateforme TravEasy, plusieurs outils logiciels ont été utilisés tout au long du projet. Ces outils ont permis d’assurer la conception, le développement, les tests, la gestion des versions ainsi que la modélisation du système. Le tableau suivant présente les principaux outils utilisés et leur rôle dans le projet.
 
-\begin{table}[H]
-\centering
-\caption{Outils utilisés dans le projet}
-\label{tab:outils}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Outils utilisés dans le projet}{tab:outils}{|X|X|}
 \hline
 \textbf{Outil} & \textbf{Utilisation} \\ \hline
 Visual Studio Code & Développement \\ \hline
 Git / GitHub & Gestion des versions \\ \hline
 Postman & Test des API \\ \hline
-MySQL / PostgreSQL & Base de données \\ \hline
+MySQL & Base de données \\ \hline
 Draw.io / StarUML & Diagrammes UML \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 
 \end{spacing}
 
@@ -1024,9 +1027,11 @@ Le backend repose sur Node.js associé au framework Express.js. Ce choix s’exp
 
 Pour la gestion des données, MySQL 8 a été retenu comme système de gestion de base de données relationnelle. Ce choix repose sur sa robustesse, sa fiabilité et sa compatibilité avec l’environnement Node.js. De plus, la nature des données manipulées dans le projet implique de nombreuses relations entre les utilisateurs, les réservations, les paiements et les activités touristiques, ce qui rend le modèle relationnel particulièrement adapté. Contrairement à certaines bases de données NoSQL, MySQL garantit une meilleure cohérence des données et une gestion efficace des relations complexes, tout en offrant d’excellentes performances et une administration simplifiée.
 
-\subsubsection{APIs externes : Google Maps, Stripe et PayPal}
+\subsubsection{APIs externes : Firebase, Open Street Map, Stripe et PayPal}
 
-La plateforme intègre plusieurs APIs externes afin d’enrichir ses fonctionnalités. Google Maps API a été choisie pour sa précision, sa couverture géographique mondiale et ses fonctionnalités avancées de géolocalisation et de cartographie. Pour les paiements en ligne, Stripe et PayPal ont été retenus en raison de leur fiabilité, de leur niveau élevé de sécurité et de leur large adoption dans le commerce électronique. Le recours à ces solutions permet de bénéficier de services éprouvés et régulièrement mis à jour, évitant ainsi le développement de fonctionnalités complexes tout en garantissant une meilleure expérience utilisateur.
+La plateforme intègre plusieurs APIs externes afin d’enrichir ses fonctionnalités. 
+Firebase avec SSO google a été choisi pour la gestion de l’authentification en raison de sa simplicité d’intégration, de sa sécurité renforcée.  
+Open Street Map a été choisie pour sa précision, sa couverture géographique mondiale et ses fonctionnalités avancées de géolocalisation et de cartographie. Pour les paiements en ligne, Stripe et PayPal ont été retenus en raison de leur fiabilité, de leur niveau élevé de sécurité et de leur large adoption dans le commerce électronique. Le recours à ces solutions permet de bénéficier de services éprouvés et régulièrement mis à jour, évitant ainsi le développement de fonctionnalités complexes tout en garantissant une meilleure expérience utilisateur.
 \end{spacing}
 
 \section{Implémentation de la base de données}
@@ -1040,30 +1045,21 @@ La base de données de la plateforme a été implémentée à l’aide de MySQL 
 
 Cette table stocke les informations relatives aux utilisateurs de la plateforme, notamment leurs identifiants de connexion et leur rôle au sein du système.
 
-\begin{table}[H]
-\centering
-\caption{Table Utilisateur}
-\label{tab:utilisateur}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Table Utilisateur}{tab:utilisateur}{|X|X|}
 \hline
 \textbf{Champ} & \textbf{Type} \\ \hline
 id & INT \\ \hline
 email & VARCHAR \\ \hline
 password & VARCHAR \\ \hline
 role & VARCHAR \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Table Place}
 \end{itemize}
 
 La table \textbf{Place} contient les informations concernant les lieux touristiques référencés sur la plateforme.
 
-\begin{table}[H]
-\centering
-\caption{Table Point d'intérêt}
-\label{tab:point_interet}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Table Point d'intérêt}{tab:point_interet}{|X|X|}
 \hline
 \textbf{Champ} & \textbf{Type} \\ \hline
 id & INT \\ \hline
@@ -1072,56 +1068,41 @@ category & VARCHAR \\ \hline
 description & TEXT \\ \hline
 latitude & FLOAT \\ \hline
 longitude & FLOAT \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Table TransportBooking}
 \end{itemize}
 
 Cette table permet d’enregistrer les réservations de transport effectuées par les utilisateurs ainsi que les informations nécessaires au calcul du tarif.
 
-\begin{table}[H]
-\centering
-\caption{Table Estimation de trajet}
-\label{tab:estimation_trajet}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Table Estimation de trajet}{tab:estimation_trajet}{|X|X|}
 \hline
 \textbf{Champ} & \textbf{Type} \\ \hline
 pickup & VARCHAR \\ \hline
 dropoff & VARCHAR \\ \hline
 distanceKm & FLOAT \\ \hline
 calculatedPrice & FLOAT \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Table Payment}
 \end{itemize}
 
 La table \textbf{Payment} assure le suivi des transactions financières réalisées sur la plateforme.
 
-\begin{table}[H]
-\centering
-\caption{Table Paiement}
-\label{tab:paiement}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Table Paiement}{tab:paiement}{|X|X|}
 \hline
 \textbf{Champ} & \textbf{Type} \\ \hline
 amount & FLOAT \\ \hline
 method & VARCHAR \\ \hline
 status & VARCHAR \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Table Accommodation}
 \end{itemize}
 
 La table \textbf{Accommodation} stocke les informations relatives aux différents hébergements proposés sur la plateforme, tels que les hôtels, les riads, les auberges et les maisons d’hôtes. Elle permet d’effectuer les recherches et les filtrages selon plusieurs critères, notamment la ville, le type d’établissement, le nombre d’étoiles et la gamme de prix.
 
-\begin{table}[H]
-\centering
-\caption{Table Hébergement}
-\label{tab:hebergement}
-\begin{tabular}{|l|l|}
+\begin{StdTable}[H]{Table Hébergement}{tab:hebergement}{|X|X|}
 \hline
 \textbf{Champ} & \textbf{Type} \\ \hline
 id & INT \\ \hline
@@ -1132,8 +1113,7 @@ stars & INT \\ \hline
 priceRange & VARCHAR \\ \hline
 description & TEXT \\ \hline
 websiteUrl & VARCHAR \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 
 %les tables 
 %capture decrand d base de donnees
@@ -1153,11 +1133,25 @@ websiteUrl & VARCHAR \\ \hline
 La page d’accueil constitue le point d’entrée principal de la plateforme TravEasy. Elle a été conçue pour offrir aux utilisateurs un accès rapide et intuitif aux différentes fonctionnalités disponibles. Cette interface met en avant les principaux services proposés, notamment la consultation des destinations touristiques, la recherche d’hébergements, la réservation de transport ainsi que l’accès aux avis des utilisateurs. La figure suivante présente l’interface d’accueil développée dans le cadre du projet.
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{accueil.png}
-\caption{Page d'accueil}
-\label{fig:accueil}
+\includegraphics[width=\textwidth]{home1.png}
+\caption{Page d'accueil avant la connexion}
+\label{fig:Page d'accueil avant la connexion}
 \end{figure}
-%capture de page dácceuil
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{home2.png}
+\caption{Suite page d'accueil avant la connexion}
+\label{fig:Suite page d'accueil avant la connexion}
+\end{figure}
+%capture de page d'accueil
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{home log in.png}
+\caption{Page d'accueil après la connexion}
+\label{fig:Page d'accueil apres la connexion}
+\end{figure}
 
 \end{spacing}
 
@@ -1165,11 +1159,28 @@ La page d’accueil constitue le point d’entrée principal de la plateforme Tr
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-Le module d’authentification constitue la première couche de sécurité de la plateforme. Il permet aux utilisateurs de créer un compte à travers la fonctionnalité d’\textbf{inscription} et d’accéder à leurs espaces personnels via la \textbf{connexion}. Afin de garantir la sécurité des échanges et la protection des données, l’authentification repose sur l’utilisation de \textbf{JSON Web Tokens (JWT)}, qui assurent une gestion sécurisée des sessions utilisateur. Ce module intègre également un mécanisme de \textbf{gestion des rôles}, permettant de définir différents niveaux d’accès et d’autorisation selon le profil de l’utilisateur (administrateur, utilisateur standard, etc.). Cette approche garantit un contrôle efficace des ressources et des fonctionnalités accessibles au sein de la plateforme.
-
+Le module d’authentification constitue la première couche de sécurité de la plateforme. 
+Il permet aux utilisateurs de créer un compte à travers la fonctionnalité d’\textbf{inscription} et d’accéder à leurs espaces personnels via la \textbf{connexion}. 
+Afin de garantir la sécurité des échanges et la protection des données, l’authentification repose sur l’utilisation du module \textbf{Firebase} soit via un formulaire soit via \textbf{SSO Google}, ce qui assure une gestion sécurisée des sessions utilisateur. 
+Ce module intègre également un mécanisme de \textbf{gestion des rôles}, permettant de définir différents niveaux d’accès et d’autorisation selon le profil de l’utilisateur (administrateur, utilisateur standard, etc.). 
+Cette approche garantit un contrôle efficace des ressources et des fonctionnalités accessibles au sein de la plateforme.
 
 %Capture écran formulaire inscription
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{signup.png}
+\caption{Formulaire d'inscription}
+\label{fig:Formulaire d'inscription}
+\end{figure}
+
 %Capture écran connexion
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{login.png}
+\caption{Formulaire de connexion}
+\label{fig:Formulaire de connexion}
+\end{figure}
 
 \end{spacing}
 
@@ -1179,16 +1190,62 @@ Le module d’authentification constitue la première couche de sécurité de la
 \justifying
 Le module de recherche et de recommandation a été conçu pour faciliter l’accès aux informations touristiques et améliorer l’expérience de navigation des utilisateurs. Il intègre une fonctionnalité de \textbf{recherche multicritère} permettant de trouver rapidement des destinations, activités ou hébergements selon différents paramètres. Afin d’affiner les résultats obtenus, le système propose plusieurs options de \textbf{filtrage} adaptées aux besoins des utilisateurs. Les résultats peuvent également être \textbf{triés par note} afin de mettre en avant les offres les mieux évaluées, ou \textbf{triés par prix} pour faciliter la comparaison des différentes options disponibles. Enfin, une fonctionnalité de \textbf{gestion des favoris} permet aux utilisateurs de sauvegarder les destinations ou services qui les intéressent et de les consulter ultérieurement. Cette approche contribue à rendre la plateforme plus intuitive, personnalisée et efficace.
 %Interface de recherche
-%Liste des résultats
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog copy.png}
+\caption{Page du catalogue}
+\label{fig:Page du catalogue}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog.png}
+\caption{Exemple d'activité à réserver}
+\label{fig:Exemple d'activité à réserver}
+\end{figure}
+
+
+
+
+\subsection{Module d’hébergement}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+Le module d’hébergement a été développé afin de permettre aux utilisateurs de rechercher et de consulter différents types d’établissements touristiques disponibles sur la plateforme, notamment les hôtels, les riads, les auberges et les maisons d’hôtes. Ce module vise à faciliter l’accès aux informations relatives aux hébergements et à aider les utilisateurs dans le choix d’un établissement adapté à leurs besoins et à leur budget.
+
+Parmi les principales fonctionnalités proposées figurent la consultation des hébergements disponibles, la recherche par nom ou par ville, ainsi que plusieurs options de filtrage permettant d’affiner les résultats selon différents critères tels que le type d’hébergement, la ville, le nombre d’étoiles ou encore la gamme de prix. Afin d’améliorer l’expérience utilisateur et de faciliter la navigation, les résultats sont organisés à l’aide d’un système de pagination. Le module offre également la possibilité de consulter les détails complets d’un établissement, incluant ses caractéristiques principales et les informations utiles à la réservation. Enfin, une fonctionnalité de redirection vers le site officiel de réservation permet à l’utilisateur d’accéder directement à la plateforme de réservation de l’établissement sélectionné. Cette approche contribue à rendre la recherche d’hébergement plus simple, rapide et efficace.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{hebergement.png}
+\caption{Page de recherche d'hébergement}
+\label{fig:Page de recherche d'hébergement}
+\end{figure}
+
 \end{spacing}
+%Interface principale du module d'hébergement.
+%Système de recherche et de filtrage des hébergements.
+%Affichage paginé des hébergements(chi example dyal chi hotel kiach kitl3)
+
+
+\end{spacing}
+
+
+
 \subsection{Module de réservation de transport}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-Le module de réservation de transport permet aux utilisateurs de réserver facilement un moyen de transport pour leurs déplacements. Lors du processus de réservation, l’utilisateur sélectionne d’abord son \textbf{point de départ} ainsi que sa \textbf{destination}. À partir de ces informations, le système effectue un \textbf{calcul automatique du tarif} en tenant compte de plusieurs paramètres liés au trajet. Une fois le montant calculé et les informations vérifiées, l’utilisateur peut procéder à la \textbf{confirmation de la réservation}.
+Le module de réservation de transport permet aux utilisateurs de réserver facilement un moyen de transport pour leurs déplacements. 
+Lors du processus de réservation, l’utilisateur sélectionne d’abord son \textbf{point de départ} ainsi que sa \textbf{destination}. 
+À partir de ces informations, le système effectue un \textbf{calcul automatique du tarif} en tenant compte de plusieurs paramètres liés au trajet. Une fois le montant calculé et les informations vérifiées, l’utilisateur peut procéder à la \textbf{confirmation de la réservation}.
 Le calcul du prix est basé sur une formule tarifaire permettant d’adapter le coût du trajet aux différentes conditions de transport. Cette formule est définie comme suit :
 \begin{equation}
-\text{Prix} = \text{TarifBase} + (\text{Distance} \times \text{Coefficient}) + \text{MajorationNuit} + \text{MajorationWeekend} + \text{MajorationSaison}
+\begin{aligned}
+\text{Prix} = {}& \text{TarifBase} + (\text{Distance} \times \text{Coefficient}) \\
+& + \text{MajorationNuit} + \text{MajorationWeekend} + \text{MajorationSaison}
+\end{aligned}
 \end{equation}
 où :
 \begin{itemize}
@@ -1203,7 +1260,37 @@ Cette méthode de calcul permet d’obtenir une tarification dynamique, équitab
 
 
 %Capture écran réservation
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{location.png}
+\caption{Page de transport}
+\label{fig:Page de transport}
+\end{figure}
 %Capture écran estimation du prix
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog detail.png}
+\caption{Exemple d'activité à réserver}
+\label{fig:Exemple d'activité à réserver}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog detail.png}
+\caption{Exemple d'activité à réserver}
+\label{fig:Exemple d'activité à réserver}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog detail.png}
+\caption{Exemple d'activité à réserver}
+\label{fig:Exemple d'activité à réserver}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{catalog detail.png}
+\caption{Exemple d'activité à réserver}
+\label{fig:Exemple d'activité à réserver}
+\end{figure}
 \end{spacing}
 
 \subsection{Module de paiement}
@@ -1225,21 +1312,6 @@ Le module d’avis et de notation permet aux utilisateurs de partager leurs exp�
 
 \end{spacing}
 
-\subsection{Module d’hébergement}
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
-Le module d’hébergement a été développé afin de permettre aux utilisateurs de rechercher et de consulter différents types d’établissements touristiques disponibles sur la plateforme, notamment les hôtels, les riads, les auberges et les maisons d’hôtes. Ce module vise à faciliter l’accès aux informations relatives aux hébergements et à aider les utilisateurs dans le choix d’un établissement adapté à leurs besoins et à leur budget.
-
-Parmi les principales fonctionnalités proposées figurent la consultation des hébergements disponibles, la recherche par nom ou par ville, ainsi que plusieurs options de filtrage permettant d’affiner les résultats selon différents critères tels que le type d’hébergement, la ville, le nombre d’étoiles ou encore la gamme de prix. Afin d’améliorer l’expérience utilisateur et de faciliter la navigation, les résultats sont organisés à l’aide d’un système de pagination. Le module offre également la possibilité de consulter les détails complets d’un établissement, incluant ses caractéristiques principales et les informations utiles à la réservation. Enfin, une fonctionnalité de redirection vers le site officiel de réservation permet à l’utilisateur d’accéder directement à la plateforme de réservation de l’établissement sélectionné. Cette approche contribue à rendre la recherche d’hébergement plus simple, rapide et efficace.
-
-
-%Interface principale du module d'hébergement.
-%Système de recherche et de filtrage des hébergements.
-%Affichage paginé des hébergements(chi example dyal chi hotel kiach kitl3)
-
-
-\end{spacing}
 
 
 \subsection{Espace administrateur}
@@ -1252,6 +1324,31 @@ L’espace administrateur constitue le module de gestion et de supervision de la
 \end{spacing}
 
 \end{spacing}
+\subsection{Module FAQ et support}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+Le module FAQ et support a été développé afin d'accompagner les utilisateurs tout au long de leur expérience sur la plateforme TravEasy. Il se compose de deux volets complémentaires : une \textbf{foire aux questions (FAQ)} et un \textbf{formulaire de contact et de support}.
+
+La section FAQ regroupe les réponses aux interrogations les plus fréquentes des utilisateurs, couvrant des thématiques variées telles que la création de compte, la gestion des réservations, les modalités de paiement, et les conditions d'utilisation de la plateforme. Cette ressource permet aux utilisateurs de trouver des réponses rapidement et de manière autonome, sans nécessiter l'intervention du service d'assistance.
+
+Le formulaire de contact permet quant à lui aux utilisateurs de soumettre des demandes d'assistance, de signaler des problèmes techniques ou d'envoyer des suggestions d'amélioration. Les messages sont transmis directement à l'équipe d'administration via un service d'envoi de courrier électronique sécurisé (SMTP), garantissant un traitement rapide et efficace des requêtes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{faq.png}
+\caption{Page FAQ de la plateforme TravEasy}
+\label{fig:faq}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{support.png}
+\caption{Formulaire de contact et de support}
+\label{fig:support}
+\end{figure}
+
+\end{spacing}
 \section{Implémentation des API REST}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -1261,63 +1358,43 @@ Afin d’assurer la communication entre le frontend et le backend, la plateforme
     \item \textbf{Authentification}
 \end{itemize}
 Les services d’authentification permettent la création de comptes utilisateurs et la gestion des connexions sécurisées à l’aide des jetons JWT.
-\begin{table}[H]
-\centering
-\caption{API d'Authentification}
-\label{tab:api_auth}
-\begin{tabular}{|l|l|p{7cm}|}
+\begin{StdTable}[H]{API d'Authentification}{tab:api_auth}{|X|X|X|}
 \hline
 \textbf{Méthode} & \textbf{Endpoint} & \textbf{Description} \\ \hline
 POST & /api/auth/register & Inscription d’un nouvel utilisateur \\ \hline
 POST & /api/auth/login & Authentification et génération du jeton JWT \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 
 \begin{itemize}
     \item \textbf{Transport}
 \end{itemize}
 Les endpoints relatifs au transport permettent de calculer le coût d’un trajet et de gérer les réservations effectuées par les utilisateurs.
-\begin{table}[H]
-\centering
-\caption{API de Transport}
-\label{tab:api_transport}
-\begin{tabular}{|l|l|p{7cm}|}
+\begin{StdTable}[H]{API de Transport}{tab:api_transport}{|X|X|X|}
 \hline
 \textbf{Méthode} & \textbf{Endpoint} & \textbf{Description} \\ \hline
 GET & /api/transport/price & Calcul du tarif d’un trajet \\ \hline
 POST & /api/transport/book & Création d’une réservation de transport \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Paiement}
 \end{itemize}
 Le module de paiement expose des services permettant d’effectuer des transactions sécurisées et de consulter l’historique des paiements.
-\begin{table}[H]
-\centering
-\caption{API de Paiement}
-\label{tab:api_paiement}
-\begin{tabular}{|l|l|p{7cm}|}
+\begin{StdTable}[H]{API de Paiement}{tab:api_paiement}{|X|X|X|}
 \hline
 \textbf{Méthode} & \textbf{Endpoint} & \textbf{Description} \\ \hline
 POST & /api/payment & Traitement d’un paiement \\ \hline
 GET & /api/payment/history & Consultation de l’historique des paiements \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \begin{itemize}
     \item \textbf{Lieux touristiques}
 \end{itemize}
 Ces endpoints permettent d’accéder aux informations relatives aux destinations et lieux touristiques disponibles sur la plateforme.
-\begin{table}[H]
-\centering
-\caption{API des Lieux Touristiques}
-\label{tab:api_places}
-\begin{tabular}{|l|l|p{8cm}|}
+\begin{StdTable}[H]{API des Lieux Touristiques}{tab:api_places}{|X|X|X|}
 \hline
 \textbf{Méthode} & \textbf{Endpoint} & \textbf{Description} \\ \hline
 GET & /api/places & Récupération de la liste des lieux touristiques \\ \hline
 GET & /api/places/\{id\} & Consultation des détails d’un lieu touristique spécifique \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \textbf{CONCLUSION}
 L’implémentation de ces API REST assure une séparation claire entre les couches de présentation et de traitement des données, favorisant ainsi la modularité, la maintenabilité et l’évolutivité de la plateforme.
 
@@ -1420,18 +1497,13 @@ L’ensemble de ces tests contribue à assurer la stabilité, la sécurité et l
 L’objectif de ce test est de vérifier qu’un nouvel utilisateur peut créer un compte sur la plateforme et que les mécanismes de validation des données fonctionnent correctement.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Inscription}
-\label{tab:test_inscription}
-\begin{tabular}{|l|p{4cm}|p{4cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Inscription}{tab:test_inscription}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF01 & Saisir des informations valides & Compte créé avec succès & Conforme \\ \hline
 TF02 & Saisir une adresse e-mail déjà utilisée & Affichage d’un message d’erreur & Conforme \\ \hline
 TF03 & Laisser le champ mot de passe vide & Refus de la création du compte & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 
 
 \textbf{Analyse des résultats}
@@ -1451,18 +1523,13 @@ Les tests réalisés sur le module d’inscription ont confirmé le bon fonction
 L’objectif de ce test est de vérifier le bon fonctionnement du processus d’authentification des utilisateurs et de s’assurer que seuls les utilisateurs disposant d’identifiants valides peuvent accéder à la plateforme.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Connexion}
-\label{tab:test_connexion}
-\begin{tabular}{|l|p{4cm}|p{5cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Connexion}{tab:test_connexion}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF04 & Saisir une adresse e-mail et un mot de passe corrects & Connexion réussie & Conforme \\ \hline
 TF05 & Saisir un mot de passe incorrect & Affichage d’un message d’erreur & Conforme \\ \hline
 TF06 & Tenter une connexion avec un utilisateur inexistant & Accès refusé & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau 
 
 \textbf{Analyse des résultats}
@@ -1481,18 +1548,13 @@ Les tests effectués sur le module de connexion ont permis de valider le mécani
 L’objectif de ce test est de vérifier le bon fonctionnement du mécanisme d’authentification et de s’assurer que seuls les utilisateurs disposant d’identifiants valides peuvent accéder à la plateforme.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Recherche de lieux touristiques}
-\label{tab:test_module_connexion}
-\begin{tabular}{|l|p{4cm}|p{5cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Recherche de lieux touristiques}{tab:test_module_connexion}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF07 & Recherche par catégorie & Liste des lieux filtrée selon la catégorie choisie & Conforme \\ \hline
 TF08 & Recherche par note & Résultats triés selon les notes attribuées & Conforme \\ \hline
 TF09 & Recherche par prix & Résultats cohérents selon le critère de prix & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau 
 
 \textbf{Analyse des résultats}
@@ -1511,18 +1573,13 @@ Les résultats obtenus montrent que le module de connexion fonctionne conformém
 L’objectif de ce test est de valider le bon fonctionnement du moteur de recherche multicritère de la plateforme et de vérifier que les résultats affichés correspondent aux critères sélectionnés par l’utilisateur.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Recherche de lieux touristiques}
-\label{tab:test_recherche_lieux}
-\begin{tabular}{|l|p{4cm}|p{6cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Recherche de lieux touristiques}{tab:test_recherche_lieux}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF07 & Recherche par catégorie & Liste des lieux filtrée selon la catégorie choisie & Conforme \\ \hline
 TF08 & Recherche par note & Résultats triés selon les notes attribuées & Conforme \\ \hline
 TF09 & Recherche par prix & Résultats cohérents selon le critère de prix & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau 
 \textbf{Analyse des résultats}
 
@@ -1541,18 +1598,13 @@ Les tests réalisés ont confirmé le bon fonctionnement du module de recherche 
 L’objectif de ce test est de vérifier le bon fonctionnement du processus de réservation de transport, notamment le calcul automatique du tarif, l’enregistrement de la réservation et la génération de la facture associée.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Réservation de Transport}
-\label{tab:test_reservation_transport}
-\begin{tabular}{|l|p{4cm}|p{5cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Réservation de Transport}{tab:test_reservation_transport}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF10 & Sélection d’un trajet & Affichage du prix calculé & Conforme \\ \hline
 TF11 & Confirmation de la réservation & Réservation enregistrée avec succès & Conforme \\ \hline
 TF12 & Génération de la facture & Facture créée au format PDF & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau
 
 \textbf{Analyse des résultats}
@@ -1571,11 +1623,7 @@ Les tests effectués sur le module de réservation de transport ont confirmé le
 L’objectif de ce test est de vérifier le bon fonctionnement du module d’hébergement, notamment les fonctionnalités de recherche, de filtrage, de pagination et d’accès aux informations détaillées des établissements touristiques.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Recherche d'Hébergements}
-\label{tab:test_hebergements}
-\begin{tabular}{|l|p{4cm}|p{6cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Recherche d'Hébergements}{tab:test_hebergements}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Cas de test} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TH01 & Recherche par ville & Résultats filtrés selon la ville sélectionnée & Conforme \\ \hline
@@ -1584,8 +1632,7 @@ TH03 & Filtre par nombre d’étoiles & Résultats corrects & Conforme \\ \hline
 TH04 & Filtre par gamme de prix & Affichage correct des résultats & Conforme \\ \hline
 TH05 & Pagination des résultats & Navigation correcte entre les pages & Conforme \\ \hline
 TH06 & Bouton « Détails » & Redirection vers le site officiel de réservation & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 \textbf{Analyse des résultats}
 
 Les tests réalisés ont permis de confirmer le bon fonctionnement de l’ensemble des fonctionnalités du module d’hébergement. Les recherches et les différents filtres appliqués retournent des résultats cohérents avec les critères sélectionnés par l’utilisateur. Le système de pagination facilite la navigation entre les résultats, tandis que la consultation des détails et les redirections vers les sites officiels des établissements s’effectuent correctement.
@@ -1600,18 +1647,13 @@ Les tests réalisés ont permis de confirmer le bon fonctionnement de l’ensemb
 L’objectif de ce test est de vérifier le bon fonctionnement du système de paiement en ligne, notamment la validation des transactions, la gestion des paiements refusés et la génération des reçus de paiement.
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Paiement}
-\label{tab:test_paiement}
-\begin{tabular}{|l|p{4cm}|p{6cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Paiement}{tab:test_paiement}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF13 & Effectuer un paiement valide & Paiement accepté & Conforme \\ \hline
 TF14 & Utiliser une carte refusée & Affichage d’un message d’erreur & Conforme \\ \hline
 TF15 & Génération du reçu de paiement & Reçu disponible après validation du paiement & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau
 
 \textbf{Analyse des résultats}
@@ -1631,18 +1673,13 @@ L’objectif de ce test est de vérifier le bon fonctionnement du module d’avi
 
 
 \textbf{Cas de test}
-\begin{table}[H]
-\centering
-\caption{Tests Fonctionnels - Avis et Notations}
-\label{tab:test_avis_notations}
-\begin{tabular}{|l|p{4cm}|p{6cm}|l|}
+\begin{StdTable}[H]{Tests Fonctionnels - Avis et Notations}{tab:test_avis_notations}{|X|X|X|X|}
 \hline
 \textbf{ID} & \textbf{Action} & \textbf{Résultat attendu} & \textbf{Résultat obtenu} \\ \hline
 TF16 & Ajouter un avis & Avis enregistré avec succès & Conforme \\ \hline
 TF17 & Attribuer une note & Recalcul automatique de la moyenne & Conforme \\ \hline
 TF18 & Consulter les avis & Affichage correct des avis et des notes & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau 
 
 \textbf{Analyse des résultats}
@@ -1662,11 +1699,7 @@ Les tests effectués ont permis de valider le bon fonctionnement du système d�
 Les tests d’intégration ont pour objectif de vérifier la communication et l’échange de données entre les différents modules de la plateforme. Ils permettent de s’assurer que les composants développés fonctionnent correctement lorsqu’ils interagissent entre eux et que les informations sont transmises de manière cohérente tout au long des processus métier.
 
 \textbf{Résultats des tests}
-\begin{table}[H]
-\centering
-\caption{Résultats des Tests d'Intégration}
-\label{tab:test_integration}
-\begin{tabular}{|p{7cm}|l|}
+\begin{StdTable}[H]{Résultats des Tests d'Intégration}{tab:test_integration}{|X|X|}
 \hline
 \textbf{Modules testés} & \textbf{Résultat} \\ \hline
 Authentification - Réservation & Conforme \\ \hline
@@ -1674,8 +1707,7 @@ Réservation - Paiement & Conforme \\ \hline
 Paiement - Facturation & Conforme \\ \hline
 Utilisateur - Avis & Conforme \\ \hline
 Recherche - Base de données & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau
 \textbf{Analyse des résultats}
 
@@ -1693,11 +1725,7 @@ Les tests réalisés ont confirmé le bon fonctionnement des interactions entre 
 Les tests de sécurité ont été réalisés afin de vérifier la robustesse de la plateforme face aux risques de sécurité les plus courants. Ils visent à garantir la protection des données des utilisateurs, la sécurisation des accès ainsi que la fiabilité des mécanismes d’authentification et d’autorisation.
 
 \textbf{Vérifications réalisées}
-\begin{table}[H]
-\centering
-\caption{Résultats des Tests de Sécurité}
-\label{tab:test_securite}
-\begin{tabular}{|p{8cm}|l|}
+\begin{StdTable}[H]{Résultats des Tests de Sécurité}{tab:test_securite}{|X|X|}
 \hline
 \textbf{Test} & \textbf{Résultat} \\ \hline
 Protection par JWT & Conforme \\ \hline
@@ -1705,8 +1733,7 @@ Hashage des mots de passe (bcrypt) & Conforme \\ \hline
 Contrôle d’accès par rôle & Conforme \\ \hline
 Validation des entrées utilisateur & Conforme \\ \hline
 Protection contre les injections SQL & Conforme \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau
 
 \textbf{Analyse des résultats}
@@ -1725,19 +1752,14 @@ Les différents mécanismes de sécurité implémentés ont été testés avec s
 Les tests de performance ont été réalisés afin d’évaluer la rapidité de réponse de la plateforme et de vérifier que les principales fonctionnalités offrent une expérience utilisateur fluide. Ces tests permettent de mesurer le temps nécessaire à l’exécution des opérations les plus importantes du système.
 
 \textbf{Résultats des tests}
-\begin{table}[H]
-\centering
-\caption{Résultats des Tests de Performance}
-\label{tab:test_performance}
-\begin{tabular}{|p{8cm}|l|}
+\begin{StdTable}[H]{Résultats des Tests de Performance}{tab:test_performance}{|X|X|}
 \hline
 \textbf{Fonctionnalité} & \textbf{Temps moyen} \\ \hline
 Connexion & 0,8 s \\ \hline
 Recherche touristique & 1,2 s \\ \hline
 Réservation de transport & 1,4 s \\ \hline
 Paiement & 1,8 s \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau 
 
 \textbf{Analyse des résultats}
@@ -1757,11 +1779,7 @@ Les résultats obtenus montrent que l’ensemble des fonctionnalités de la plat
 Cette étape vise à vérifier que l’ensemble des objectifs définis au début du projet a été atteint et que les fonctionnalités prévues ont été correctement implémentées au sein de la plateforme.
 
 \textbf{Résultats de validation}
-\begin{table}[H]
-\centering
-\caption{Bilan des Objectifs du Projet}
-\label{tab:bilan_objectifs}
-\begin{tabular}{|p{8cm}|l|}
+\begin{StdTable}[H]{Bilan des Objectifs du Projet}{tab:bilan_objectifs}{|X|X|}
 \hline
 \textbf{Objectif} & \textbf{Statut} \\ \hline
 Gestion des utilisateurs & Atteint \\ \hline
@@ -1771,8 +1789,7 @@ Paiement sécurisé & Atteint \\ \hline
 Gestion des avis et notations & Atteint \\ \hline
 Interface multilingue & Atteint \\ \hline
 Tableau de bord administrateur & Atteint \\ \hline
-\end{tabular}
-\end{table}
+\end{StdTable}
 %tableau
 
 \textbf{Analyse des résultats}
@@ -1848,20 +1865,11 @@ Ce chapitre a permis de valider la plateforme web touristique unifiée TravEasy 
 
 
 \newpage
-\chapter{Conclusion Générale}
+\section*{Conclusion Générale}
+\addcontentsline{toc}{section}{Conclusion Générale}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-\newpage
-
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
-
-
-
-
-
 Au terme de ce projet de fin d’études, nous avons pu concevoir et développer TravEasy, une plateforme web touristique unifiée ayant pour objectif de faciliter l’accès aux principaux services touristiques au Maroc à travers une interface unique, moderne et intuitive.
 
 Ce projet nous a permis d’appliquer les connaissances acquises tout au long de notre formation en Développement Informatique, notamment dans les domaines du développement web, de la modélisation UML, de la conception de bases de données, de la sécurité informatique et de la gestion de projets logiciels. L’étude préalable réalisée nous a permis d’identifier les limites des solutions existantes ainsi que les besoins des utilisateurs, servant ainsi de base à la conception d’une solution adaptée au contexte touristique marocain.
@@ -1874,7 +1882,6 @@ Au-delà des objectifs atteints, plusieurs perspectives d’amélioration peuven
 
 Enfin, cette expérience a représenté une opportunité enrichissante tant sur le plan technique que personnel. Elle nous a permis de développer nos compétences en analyse, conception et développement d’applications web tout en renforçant notre capacité à travailler en équipe et à mener à bien un projet informatique complet.
 
-\end{spacing}
 \end{spacing}
 
 \end{document}
