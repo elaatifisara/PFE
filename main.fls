@@ -310,12 +310,6 @@ INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
@@ -605,30 +599,50 @@ INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/home1 en.png
+INPUT ./images/home1 en.png
+INPUT ./images/home1 en.png
+INPUT ./images/home1 en.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/home2 en.png
+INPUT ./images/home2 en.png
+INPUT ./images/home2 en.png
+INPUT ./images/home2 en.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./images/signup.png
 INPUT ./images/signup.png
 INPUT ./images/signup.png
 INPUT ./images/signup.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
 INPUT ./images/login.png
 INPUT ./images/login.png
 INPUT ./images/login.png
 INPUT ./images/login.png
-INPUT ./images/catalog.png
-INPUT ./images/catalog.png
-INPUT ./images/catalog.png
-INPUT ./images/catalog.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
+INPUT ./images/catalog.png
+INPUT ./images/catalog.png
+INPUT ./images/catalog.png
+INPUT ./images/catalog.png
 INPUT ./images/catalg detail1.png
 INPUT ./images/catalg detail1.png
 INPUT ./images/catalg detail1.png
@@ -693,20 +707,20 @@ INPUT ./images/location.png
 INPUT ./images/location.png
 INPUT ./images/location.png
 INPUT ./images/location.png
-INPUT ./images/location voit 2.png
-INPUT ./images/location voit 2.png
-INPUT ./images/location voit 2.png
-INPUT ./images/location voit 2.png
+INPUT ./images/voit det.png
+INPUT ./images/voit det.png
+INPUT ./images/voit det.png
+INPUT ./images/voit det.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
-INPUT ./images/paiement.png
-INPUT ./images/paiement.png
-INPUT ./images/paiement.png
-INPUT ./images/paiement.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
+INPUT ./images/payment.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -747,20 +761,24 @@ INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
-INPUT ./images/payment.png
-INPUT ./images/payment.png
-INPUT ./images/payment.png
-INPUT ./images/payment.png
+INPUT ./images/paie.png
+INPUT ./images/paie.png
+INPUT ./images/paie.png
+INPUT ./images/paie.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
+INPUT ./images/preference.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
 INPUT ./images/logo dep.png
-INPUT ./images/preference.png
-INPUT ./images/preference.png
-INPUT ./images/preference.png
-INPUT ./images/preference.png
+INPUT ./images/admin.png
+INPUT ./images/admin.png
+INPUT ./images/admin.png
+INPUT ./images/admin.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
@@ -781,12 +799,6 @@ INPUT ./images/support.png
 INPUT ./images/support.png
 INPUT ./images/support.png
 INPUT ./images/support.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo fsbm.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
-INPUT ./images/logo dep.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
 INPUT ./images/logo fsbm.png
