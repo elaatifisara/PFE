@@ -219,12 +219,11 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
 OUTPUT main.pdf
-INPUT ./logo fsbm.png
+INPUT ./images/logo fsbm.png
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -261,11 +260,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
@@ -275,285 +273,224 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
 OUTPUT main.toc
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
 OUTPUT main.lof
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./img fac.png
-INPUT ./img fac.png
-INPUT ./img fac.png
-INPUT ./img fac.png
-INPUT ./img fac.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/img fac.png
+INPUT ./images/img fac.png
+INPUT ./images/img fac.png
+INPUT ./images/img fac.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./Capture d’écran_30-5-2026_15616_.jpeg
 INPUT ./Capture d’écran_30-5-2026_15616_.jpeg
 INPUT ./Capture d’écran_30-5-2026_15616_.jpeg
 INPUT ./Capture d’écran_30-5-2026_15616_.jpeg
 INPUT ./Capture d’écran_30-5-2026_15616_.jpeg
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./ChatGPT Image 30 mai 2026, 11_32_33.png
-INPUT ./ChatGPT Image 30 mai 2026, 11_32_33.png
-INPUT ./ChatGPT Image 30 mai 2026, 11_32_33.png
-INPUT ./ChatGPT Image 30 mai 2026, 11_32_33.png
-INPUT ./ChatGPT Image 30 mai 2026, 11_32_33.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./Diagramme sans nom.drawio (1).png
-INPUT ./Diagramme sans nom.drawio (1).png
-INPUT ./Diagramme sans nom.drawio (1).png
-INPUT ./Diagramme sans nom.drawio (1).png
-INPUT ./Diagramme sans nom.drawio (1).png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./classe22.png
-INPUT ./classe22.png
-INPUT ./classe22.png
-INPUT ./classe22.png
-INPUT ./classe22.png
-INPUT ./usecase111.png
-INPUT ./usecase111.png
-INPUT ./usecase111.png
-INPUT ./usecase111.png
-INPUT ./usecase111.png
-INPUT ./usecase2.png
-INPUT ./usecase2.png
-INPUT ./usecase2.png
-INPUT ./usecase2.png
-INPUT ./usecase2.png
-INPUT ./usecase3.png
-INPUT ./usecase3.png
-INPUT ./usecase3.png
-INPUT ./usecase3.png
-INPUT ./usecase3.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/ChatGPT Image 30 mai 2026, 11_32_33.png
+INPUT ./images/ChatGPT Image 30 mai 2026, 11_32_33.png
+INPUT ./images/ChatGPT Image 30 mai 2026, 11_32_33.png
+INPUT ./images/ChatGPT Image 30 mai 2026, 11_32_33.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/Diagramme sans nom.drawio (1).png
+INPUT ./images/Diagramme sans nom.drawio (1).png
+INPUT ./images/Diagramme sans nom.drawio (1).png
+INPUT ./images/Diagramme sans nom.drawio (1).png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/classe22.png
+INPUT ./images/classe22.png
+INPUT ./images/classe22.png
+INPUT ./images/classe22.png
+INPUT ./images/usecase111.png
+INPUT ./images/usecase111.png
+INPUT ./images/usecase111.png
+INPUT ./images/usecase111.png
+INPUT ./images/usecase2.png
+INPUT ./images/usecase2.png
+INPUT ./images/usecase2.png
+INPUT ./images/usecase2.png
+INPUT ./images/usecase3.png
+INPUT ./images/usecase3.png
+INPUT ./images/usecase3.png
+INPUT ./images/usecase3.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./rapp fig/voyageur usecase.png
 INPUT ./rapp fig/voyageur usecase.png
 INPUT ./rapp fig/voyageur usecase.png
 INPUT ./rapp fig/voyageur usecase.png
 INPUT ./rapp fig/voyageur usecase.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./rapp fig/activite authentification.png
 INPUT ./rapp fig/activite authentification.png
 INPUT ./rapp fig/activite authentification.png
 INPUT ./rapp fig/activite authentification.png
 INPUT ./rapp fig/activite authentification.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./rapp fig/sequence gestion de reser.png
 INPUT ./rapp fig/sequence gestion de reser.png
 INPUT ./rapp fig/sequence gestion de reser.png
@@ -564,304 +501,233 @@ INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./rapp fig/sequence lieux touri.png
 INPUT ./rapp fig/sequence lieux touri.png
 INPUT ./rapp fig/sequence lieux touri.png
 INPUT ./rapp fig/sequence lieux touri.png
 INPUT ./rapp fig/sequence lieux touri.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
 INPUT ./rapp fig/sequence reservation.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./accueil.png
-INPUT ./accueil.png
-INPUT ./accueil.png
-INPUT ./accueil.png
-INPUT ./accueil.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/accueil.png
+INPUT ./images/accueil.png
+INPUT ./images/accueil.png
+INPUT ./images/accueil.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo fsbm.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
-INPUT ./logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo fsbm.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
+INPUT ./images/logo dep.png
 INPUT main.aux
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
