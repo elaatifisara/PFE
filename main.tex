@@ -967,17 +967,7 @@ services réservés
     \end{figure}
 
 \end{spacing}
-\subsection{Gestion des utilisateurs }
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
-Ce diagramme modélise les différentes interactions nécessaires à la réservation d’un transport depuis ou vers l’aéroport.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{rapp fig/sequence reservation.png}
-    \caption{ Diagramme de séquence-Gestion des utilisateurs   }
-    \label{ Diagramme de séquence-Gestion des utilisateurs   }
-\end{figure}
+
 \subsection{Recherche et filtrage de lieux touristiques}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -1034,7 +1024,6 @@ Ce scénario décrit le fonctionnement du système lors de la recherche d’un l
     \caption{Diagramme de séquence -- Recherche de lieux touristiques}
     \label{fig:seq_catalog}
     \end{figure}
-\end{spacing}
 \end{spacing}
 \subsection{Réservation de transport aéroport}
 \vspace{0.5cm}
@@ -1305,13 +1294,17 @@ La page d’accueil constitue le point d’entrée principal de la plateforme Tr
 \label{fig:Page d'accueil avant la connexion}
 \end{figure}
 
+La page d'accueil constitue le point d'entrée principal de la plateforme TravEasy. Elle offre un accès rapide et intuitif aux différentes fonctionnalités disponibles, notamment la consultation des destinations touristiques, la recherche d'hébergements, la réservation de transport et l'accès aux avis des utilisateurs.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{home2.png}
 \caption{Suite page d'accueil avant la connexion}
 \label{fig:Suite page d'accueil avant la connexion}
 \end{figure}
-%capture de page d'accueil
+
+Cette vue présente la suite de la page d'accueil, complétant la présentation des services et fonctionnalités proposés par la plateforme avant toute connexion de l'utilisateur.
+
 
 \begin{figure}[H]
 \centering
@@ -1320,6 +1313,9 @@ La page d’accueil constitue le point d’entrée principal de la plateforme Tr
 \label{fig:Page d'accueil apres la connexion}
 \end{figure}
 
+Une fois connecté, l'utilisateur accède à une interface d'accueil personnalisée lui permettant de naviguer directement vers l'ensemble des fonctionnalités de la plateforme selon son profil et ses préférences.
+
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{home1 en.png}
@@ -1327,12 +1323,16 @@ La page d’accueil constitue le point d’entrée principal de la plateforme Tr
 \label{fig:Page d'accueil en anglais}
 \end{figure}
 
+La plateforme TravEasy intègre un support multilingue. Cette figure illustre l'interface d'accueil affichée en langue anglaise, permettant d'élargir l'accessibilité de la plateforme à un public international.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{home2 en.png}
 \caption{Suite page d'accueil en anglais}
 \label{fig:Suite page d'accueil en anglais}
 \end{figure}
+
+Cette vue présente la suite de la page d'accueil en version anglaise, confirmant la prise en charge complète du multilingue sur l'ensemble du contenu de l'interface.
 
 \end{spacing}
 
@@ -1354,6 +1354,8 @@ Cette approche garantit un contrôle efficace des ressources et des fonctionnali
 \label{fig:Formulaire d'inscription}
 \end{figure}
 
+Le formulaire d'inscription permet aux nouveaux utilisateurs de créer un compte sur la plateforme, soit via un formulaire classique, soit via l'authentification SSO Google, garantissant ainsi une prise en main simple et sécurisée grâce à Firebase.
+
 %Capture écran connexion
 
 \begin{figure}[H]
@@ -1362,6 +1364,8 @@ Cette approche garantit un contrôle efficace des ressources et des fonctionnali
 \caption{Formulaire de connexion}
 \label{fig:Formulaire de connexion}
 \end{figure}
+
+Le formulaire de connexion permet aux utilisateurs enregistrés d'accéder à leur espace personnel. Il repose sur le module Firebase et intègre un mécanisme de gestion des rôles afin de contrôler les niveaux d'accès et les autorisations selon le profil de chaque utilisateur.
 
 \end{spacing}
 
@@ -1378,6 +1382,7 @@ Le module de recherche et de recommandation a été conçu pour faciliter l’ac
 \label{fig:Page du catalogue}
 \end{figure}
 
+La page du catalogue présente l'ensemble des destinations et activités touristiques disponibles sur la plateforme. Elle intègre une fonctionnalité de recherche multicritère, des options de filtrage et de tri par note ou par prix, facilitant ainsi la navigation et la découverte des offres.
 
 \begin{figure}[H]
 \centering
@@ -1386,7 +1391,7 @@ Le module de recherche et de recommandation a été conçu pour faciliter l’ac
 \label{fig:Exemple d'activité à réserver}
 \end{figure}
 
-
+Cette figure illustre la fiche détaillée d'une activité touristique disponible à la réservation. L'utilisateur peut y consulter les informations complètes de l'activité et l'ajouter à ses favoris pour la retrouver ultérieurement.
 
 \subsection{Module d’hébergement}
 \vspace{0.5cm}
@@ -1403,6 +1408,7 @@ Parmi les principales fonctionnalités proposées figurent la consultation des h
 \label{fig:Page de recherche d'hébergement}
 \end{figure}
 
+La page de recherche d'hébergement permet aux utilisateurs de consulter les différents types d'établissements disponibles (hôtels, riads, auberges, maisons d'hôtes). Elle propose des options de filtrage par ville, type d'hébergement, nombre d'étoiles et gamme de prix, avec une organisation paginée des résultats.
 
 \begin{figure}[H]
 \centering
@@ -1410,6 +1416,8 @@ Parmi les principales fonctionnalités proposées figurent la consultation des h
 \caption{Exemple d'hébergement}
 \label{fig:Exemple d'hébergement}
 \end{figure}
+
+Cette figure présente la fiche détaillée d'un hébergement, incluant ses caractéristiques principales, les informations utiles à la réservation ainsi qu'un lien de redirection vers le site officiel de l'établissement.
 
 \end{spacing}
 %Interface principale du module d'hébergement.
@@ -1455,6 +1463,9 @@ Pour l’utilisateur, le montant est affiché de manière transparente avant la 
 \label{fig:Page de transport}
 \end{figure}
 
+
+La page de transport permet à l'utilisateur de saisir son point de départ et sa destination afin d'initier une réservation. Le système calcule automatiquement le tarif en tenant compte de la distance, du coefficient kilométrique et des majorations applicables (nuit, week-end, saison).
+
 %Capture écran estimation du prix
 \begin{figure}[H]
 \centering
@@ -1463,6 +1474,8 @@ Pour l’utilisateur, le montant est affiché de manière transparente avant la 
 \label{fig:Exemple de détail de transport}
 \end{figure}
 
+
+Cette figure illustre la vue détaillée d'une réservation de transport, affichant de manière transparente le montant calculé selon la formule tarifaire dynamique avant la validation définitive par l'utilisateur.
 
 \subsection{Module de Location de voiture}
 \vspace{0.5cm}
@@ -1481,6 +1494,9 @@ Ce module favorise la transparence, renforce la confiance des utilisateurs et co
 \caption{Page de location de voiture}
 \label{fig:Page de location de voiture}
 \end{figure}
+
+La page de location de voiture présente les véhicules disponibles sur la plateforme. L'utilisateur peut filtrer les résultats selon le type de véhicule, le prix ou les options, et consulter la disponibilité de chaque véhicule avant d'effectuer une réservation en ligne.
+
 %Affichage des détails du véhicule
 \begin{figure}[H]
 \centering
@@ -1488,6 +1504,9 @@ Ce module favorise la transparence, renforce la confiance des utilisateurs et co
 \caption{Exemple de détail de véhicule}
 \label{fig:Exemple de détail de véhicule}
 \end{figure}
+
+
+Cette figure présente la fiche détaillée d'un véhicule disponible à la location, incluant ses caractéristiques, les options disponibles et le calcul automatique du coût total selon la durée et les options choisies.
 
 \end{spacing}
 
@@ -1503,6 +1522,9 @@ Le module de paiement a été développé afin de permettre aux utilisateurs d�
 \caption{Page de paiement}
 \label{fig:Page de paiement}
 \end{figure}
+
+La page de paiement permet aux utilisateurs de finaliser leurs transactions en ligne de manière sécurisée, via des passerelles de paiement fiables telles que Stripe ou PayPal. Le montant et les détails de la réservation sont affichés clairement avant confirmation.
+
 %Exemple de facture générée
 \begin{figure}[H]
 \centering
@@ -1510,6 +1532,8 @@ Le module de paiement a été développé afin de permettre aux utilisateurs d�
 \caption{Exemple de facture générée}
 \label{fig:Exemple de facture générée}
 \end{figure}
+
+À la suite d'un paiement validé, le système génère automatiquement une facture au format PDF. Cette figure illustre un exemple de facture produite, permettant à l'utilisateur de conserver une preuve de paiement et de consulter les détails de sa transaction.
 
 \end{spacing}
 
@@ -1526,6 +1550,10 @@ Le module d’avis et de notation permet aux utilisateurs de partager leurs exp�
 \caption{Exemple d'avis et de notation}
 \label{fig:Exemple d'avis et de notation}
 \end{figure}
+
+
+Cette figure illustre le module d'avis et de notation, permettant aux utilisateurs d'évaluer les services utilisés et de laisser des commentaires. La plateforme calcule automatiquement la note moyenne afin de fournir une appréciation globale et objective de chaque service.
+
 \end{spacing}
 
 \subsection{Espace profil utilisateur}
@@ -1543,12 +1571,16 @@ Depuis cette section, l’utilisateur peut consulter et modifier ses information
 \label{fig:Espace profil utilisateur}
 \end{figure}
 
+L'espace profil regroupe dans une interface unique les informations personnelles de l'utilisateur (nom, prénom, langue) ainsi que l'accès à ses réservations, paiements et préférences, offrant une gestion centralisée et simplifiée du compte.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{resa.png}
 \caption{Onglet des réservations dans l’espace profil}
 \label{fig:Onglet reservations profil}
 \end{figure}
+
+Cet onglet permet à l'utilisateur de consulter l'historique complet de ses réservations effectuées sur la plateforme, facilitant le suivi et la gestion de ses activités passées et à venir.
 
 \begin{figure}[H]
 \centering
@@ -1557,12 +1589,17 @@ Depuis cette section, l’utilisateur peut consulter et modifier ses information
 \label{fig:Onglet paiements profil}
 \end{figure}
 
+
+Cet onglet donne accès à l'historique des transactions financières de l'utilisateur, lui permettant de visualiser et de suivre l'ensemble de ses paiements réalisés sur la plateforme.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{preference.png}
 \caption{Onglet des préférences dans l’espace profil}
 \label{fig:Onglet preferences profil}
 \end{figure}
+
+Cet onglet permet à l'utilisateur de personnaliser son expérience en gérant ses préférences, contribuant ainsi à une navigation plus adaptée à ses besoins et centres d'intérêt.
 
 \end{spacing}
 
@@ -1580,6 +1617,8 @@ L’espace administrateur constitue le module de gestion et de supervision de la
 \caption{Tableau de bord administrateur}
 \label{fig:Tableau de bord administrateur}
 \end{figure}
+
+Le tableau de bord administrateur offre une vue d'ensemble sur l'activité de la plateforme, incluant le nombre d'utilisateurs, de réservations et d'avis. Il centralise également les outils de gestion des utilisateurs, des lieux touristiques et des réservations, facilitant la supervision et la prise de décision.
 
 \end{spacing}
 
@@ -1601,6 +1640,8 @@ Le formulaire de contact permet quant à lui aux utilisateurs de soumettre des d
 \label{fig:faq}
 \end{figure}
 
+La page FAQ regroupe les réponses aux questions les plus fréquentes des utilisateurs, couvrant des thématiques telles que la création de compte, la gestion des réservations, les modalités de paiement et les conditions d'utilisation, permettant une assistance autonome et rapide.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{support.png}
@@ -1609,6 +1650,7 @@ Le formulaire de contact permet quant à lui aux utilisateurs de soumettre des d
 \end{figure}
 
 
+Le formulaire de contact permet aux utilisateurs de soumettre des demandes d'assistance, de signaler des problèmes techniques ou d'envoyer des suggestions. Les messages sont transmis directement à l'équipe d'administration via un service SMTP sécurisé, garantissant un traitement rapide des requêtes.
 
 \end{spacing}
 \end{spacing}
