@@ -1,25 +1,21 @@
 {
   "latex-workshop.latex.tools": [
     {
-      "name": "latexmk",
-      "command": "/Library/TeX/texbin/latexmk",
+      "name": "pdflatex",
+      "command": "pdflatex",
       "args": [
-        "-f",
-        "-g",
-        "-pdflatex=/Library/TeX/texbin/pdflatex %O %S",
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",
-        "-pdf",
         "%DOC%"
       ]
     }
   ],
   "latex-workshop.latex.recipes": [
     {
-      "name": "latexmk (pdf)",
+      "name": "pdflatex",
       "tools": [
-        "latexmk"
+        "pdflatex"
       ]
     }
   ],
