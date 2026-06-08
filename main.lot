@@ -5,15 +5,15 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Acteurs du système TravEasy}}{20}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Outils utilisés dans le projet}}{38}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Table Utilisateur}}{41}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Table Point d'intérêt}}{42}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Table Estimation de trajet}}{42}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Table Paiement}}{43}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Table Hébergement}}{43}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Outils utilisés dans le projet}}{39}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Table Utilisateur}}{42}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Table Point d'intérêt}}{43}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Table Estimation de trajet}}{43}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Table Paiement}}{44}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Table Hébergement}}{44}{}%
 \contentsline {table}{\numberline {4.7}{\ignorespaces API d'Authentification}}{66}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces API de Transport}}{66}{}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces API de Paiement}}{66}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces API de Transport}}{67}{}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces API de Paiement}}{67}{}%
 \contentsline {table}{\numberline {4.10}{\ignorespaces API des Lieux Touristiques}}{67}{}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Tests Fonctionnels - Inscription}}{73}{}%
