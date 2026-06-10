@@ -5,25 +5,25 @@
 \contentsline {table}{\numberline {2.2}{\ignorespaces Acteurs du système TravEasy}}{20}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Outils utilisés dans le projet}}{38}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Table Utilisateur}}{41}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Table Point d'intérêt}}{42}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Table Estimation de trajet}}{42}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Table Paiement}}{43}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Table Hébergement}}{43}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces API d'Authentification}}{67}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces API de Transport}}{67}{}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces API de Paiement}}{67}{}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces API des Lieux Touristiques}}{68}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Outils utilisés dans le projet}}{39}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Table Utilisateur}}{42}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Table Point d'intérêt}}{43}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Table Estimation de trajet}}{43}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Table Paiement}}{44}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Table Hébergement}}{44}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces API d'Authentification}}{68}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces API de Transport}}{68}{}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces API de Paiement}}{68}{}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces API des Lieux Touristiques}}{69}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Tests Fonctionnels - Inscription}}{74}{}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Tests Fonctionnels - Connexion}}{75}{}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Tests Fonctionnels - Recherche de lieux touristiques}}{76}{}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Tests Fonctionnels - Réservation de Transport}}{77}{}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Tests Fonctionnels - Recherche d'Hébergements}}{78}{}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Tests Fonctionnels - Paiement}}{79}{}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Tests Fonctionnels - Avis et Notations}}{80}{}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces Résultats des Tests d'Intégration}}{81}{}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Résultats des Tests de Sécurité}}{82}{}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Résultats des Tests de Performance}}{83}{}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces Bilan des Objectifs du Projet}}{84}{}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Tests Fonctionnels - Inscription}}{75}{}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Tests Fonctionnels - Connexion}}{76}{}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Tests Fonctionnels - Recherche de lieux touristiques}}{77}{}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Tests Fonctionnels - Réservation de Transport}}{78}{}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Tests Fonctionnels - Recherche d'Hébergements}}{79}{}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Tests Fonctionnels - Paiement}}{80}{}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Tests Fonctionnels - Avis et Notations}}{81}{}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Résultats des Tests d'Intégration}}{82}{}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Résultats des Tests de Sécurité}}{83}{}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Résultats des Tests de Performance}}{84}{}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Bilan des Objectifs du Projet}}{85}{}%

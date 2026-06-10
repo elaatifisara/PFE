@@ -927,42 +927,8 @@ Scénario : Le voyageur s'inscrit sur la plateforme et se connecte pour accéder
 services réservés 
 \begin{figure}[H]
     \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
-    
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{LoginPage})};
-      \node[seqpart] at (\CPC,0) {\texttt{AuthController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(Sequelize)};
-    
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD}
-        \draw[seqlife] (\x,-0.36) -- (\x,-16);
-    
-      \actbar{\CPA}{-0.36}{-1.9}
-      \actbar{\CPB}{-1.9}{-15.2}
-      \actbar{\CPC}{-3.1}{-14.0}
-      \actbar{\CPD}{-4.3}{-12.5}
-      \actbar{\CPA}{-12.8}{-13.3}
-    
-      \seqF{-0.65}{-0.7}{18.65}{-10.5}{loop}{[tant que identifiants incorrects]}
-    
-      \seqA{\CPA}{\CPB}{-1.9}{saisit email + mot de passe}
-      \seqA{\CPB}{\CPC}{-3.1}{\texttt{POST /auth/login} (email, password)}
-      \seqA{\CPC}{\CPD}{-4.3}{\texttt{User.findOne(\{email\})}}
-    
-      \seqF{\CPB-0.1}{-5.1}{\CPD+0.65}{-8.8}{alt}{[utilisateur non trouvé ou mot de passe incorrect]}
-      \seqR{\CPD}{\CPC}{-6.2}{null\,/\,erreur}
-      \seqR{\CPC}{\CPB}{-7.0}{\texttt{401} Email ou mot de passe incorrect}
-      \seqR{\CPB}{\CPA}{-7.8}{affiche message d'erreur, réinitialise formulaire}
-    
-      \seqR{\CPD}{\CPC}{-9.5}{user trouvé + hash mdp vérifié}
-      \seqR{\CPC}{\CPB}{-10.5}{\texttt{JWT accessToken} + profil utilisateur}
-    
-      \seqR{\CPB}{\CPA}{-12.0}{redirige vers IHM principale (droits appliqués)}
-    
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Authentification}
+    \includegraphics[width=\textwidth]{diag_auth.png}
+    \caption{Diagramme de séquence - Inscription et authentification}
     \label{fig:seq_auth}
     \end{figure}
 
@@ -975,54 +941,9 @@ services réservés
 Ce scénario décrit le fonctionnement du système lors de la recherche d’un lieu touristique selon différents critères de filtrage.
 \begin{figure}[H]
     \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
-    
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{ExplorePage})};
-      \node[seqpart] at (\CPC,0) {\texttt{CatalogController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{CatalogSearchService}\\(SQL)};
-      \node[seqpart] at (\CPE,0) {\texttt{Base de Données}\\(\texttt{places})};
-    
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
-        \draw[seqlife] (\x,-0.36) -- (\x,-22);
-    
-      \actbar{\CPA}{-0.36}{-1.9}
-      \actbar{\CPB}{-1.9}{-21.0}
-      \actbar{\CPC}{-3.1}{-20.0}
-      \actbar{\CPD}{-4.2}{-10.2}
-      \actbar{\CPE}{-5.2}{-9.2}
-      \actbar{\CPD}{-13.2}{-16.8}
-      \actbar{\CPE}{-14.0}{-15.8}
-      \actbar{\CPA}{-19.0}{-19.5}
-    
-      \seqA{\CPA}{\CPB}{-1.9}{saisit mot-clé, catégorie, localisation, filtres}
-      \seqA{\CPB}{\CPC}{-3.1}{\texttt{GET /catalog/suggestions?q=...}}
-      \seqA{\CPC}{\CPD}{-4.2}{\texttt{searchSuggestions(query)}}
-      \seqA{\CPD}{\CPE}{-5.2}{\texttt{SELECT name FROM places WHERE name LIKE ?}}
-      \seqR{\CPE}{\CPD}{-6.2}{liste de noms correspondants}
-      \seqR{\CPD}{\CPC}{-7.2}{\{id, name, category\}[]}
-      \seqR{\CPC}{\CPB}{-8.2}{suggestions JSON}
-      \seqR{\CPB}{\CPA}{-9.0}{affiche liste autocomplete}
-    
-      \seqA{\CPA}{\CPB}{-10.2}{confirme recherche (filtres: prix, note, openNow, rayon GPS)}
-      \seqA{\CPB}{\CPC}{-11.4}{\texttt{GET /catalog/search?category=\&lat=\&lng=\&sortBy=rating}}
-      \seqA{\CPC}{\CPD}{-12.5}{\texttt{searchPlaces(filters, sortBy, limit, offset)}}
-      \seqA{\CPD}{\CPE}{-13.2}{\texttt{SELECT p.*, distance(Haversine) WHERE filters ORDER BY rating}}
-      \seqR{\CPE}{\CPD}{-14.9}{lignes: id, name, category, rating, distance, photos...}
-      \seqR{\CPD}{\CPC}{-15.9}{places[] + total + pagination}
-      \seqR{\CPC}{\CPB}{-16.9}{\{places, total, page, filters\}}
-      \seqR{\CPB}{\CPA}{-17.7}{affiche liste / carte des lieux}
-    
-      \seqA{\CPA}{\CPB}{-18.8}{clique sur un lieu}
-      \seqA{\CPB}{\CPC}{-19.6}{\texttt{GET /catalog/:placeId}}
-      \seqR{\CPC}{\CPB}{-20.5}{détails complets + photos + avis + horaires}
-      \seqR{\CPB}{\CPA}{-21.3}{affiche fiche lieu}
-    
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Recherche de lieux touristiques}
-    \label{fig:seq_catalog}
+    \includegraphics[width=\textwidth]{rech_fil_lieux_tour.png}
+    \caption{Diagramme de séquence - Recherche et filtrage de lieux touristiques}
+    \label{diagramme Recherche et filtrage de lieux touristiques}
     \end{figure}
 \end{spacing}
 \subsection{Réservation de transport aéroport}
@@ -1030,56 +951,28 @@ Ce scénario décrit le fonctionnement du système lors de la recherche d’un l
 \begin{spacing}{1.5}
 \justifying
 Ce diagramme modélise les différentes interactions nécessaires à la réservation d’un transport depuis ou vers l’aéroport.
+
 \begin{figure}[H]
     \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
-    
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{TransportPage})};
-      \node[seqpart] at (\CPC,0) {\texttt{TransportController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(\texttt{transport\_bookings})};
-      \node[seqpart] at (\CPE,0) {\texttt{PaymentService}\\(Stripe/CMI)};
-    
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
-        \draw[seqlife] (\x,-0.36) -- (\x,-23);
-    
-      \actbar{\CPA}{-0.36}{-2.1}
-      \actbar{\CPB}{-2.1}{-22.0}
-      \actbar{\CPC}{-3.3}{-21.0}
-      \actbar{\CPD}{-4.6}{-7.8}
-      \actbar{\CPD}{-11.8}{-15.3}
-      \actbar{\CPE}{-13.8}{-17.8}
-      \actbar{\CPA}{-20.5}{-21.0}
-    
-      \seqA{\CPA}{\CPB}{-2.1}{saisit départ, destination, type véhicule, date/heure}
-      \seqA{\CPB}{\CPC}{-3.3}{\texttt{GET /transport/estimate} (pickup, dest, vehicleType)}
-      \seqA{\CPC}{\CPD}{-4.6}{\texttt{SELECT fare\_config WHERE vehicle\_type = ?}}
-      \seqR{\CPD}{\CPC}{-5.7}{tarifs: baseFare, pricePerKm, surcharges...}
-      \seqR{\CPC}{\CPB}{-6.7}{estimation: distance, durée, totalFare (MAD)}
-      \seqR{\CPB}{\CPA}{-7.5}{affiche récapitulatif tarifaire}
-    
-      \seqF{-0.65}{-8.4}{25.65}{-11.5}{alt}{[utilisateur confirme la réservation]}
-      \seqA{\CPA}{\CPB}{-9.4}{confirme la réservation}
-      \seqA{\CPB}{\CPC}{-10.5}{\texttt{POST /transport/book} (JWT + données trajet)}
-    
-      \seqA{\CPC}{\CPD}{-11.8}{\texttt{INSERT transport\_bookings} (status: pending)}
-      \seqR{\CPD}{\CPC}{-12.8}{bookingId généré}
-      \seqA{\CPC}{\CPE}{-13.8}{\texttt{createPaymentIntent(totalFare, MAD)}}
-      \seqR{\CPE}{\CPC}{-14.9}{paymentClientSecret}
-      \seqR{\CPC}{\CPB}{-15.7}{bookingId + paymentClientSecret}
-      \seqA{\CPB}{\CPC}{-16.8}{\texttt{POST /payment/confirm} (paymentId)}
-    
-      \seqF{\CPB-0.1}{-17.6}{\CPE+0.65}{-20.2}{alt}{[paiement accepté] / [paiement refusé]}
-      \seqA{\CPC}{\CPD}{-18.5}{\texttt{UPDATE transport\_bookings SET status='assigned'}}
-      \seqR{\CPD}{\CPC}{-19.6}{OK}
-      \seqR{\CPC}{\CPB}{-20.6}{confirmation + détails chauffeur}
-      \seqR{\CPB}{\CPA}{-21.5}{affiche confirmation + numéro réservation}
-    
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Réservation de transport}
-    \label{fig:seq_transport}
+    \includegraphics[width=\textwidth]{diagramme-reservation-transport.png}
+    \caption{Diagramme de séquence - Réservation de transport aéroport}
+    \label{fig:Page du catalogue}
+    \end{figure}
+
+\end{spacing}
+
+\subsection{Gestion des réservations d'hébergements}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+
+Ce diagramme de séquence illustre les interactions entre l’utilisateur, l’interface, le serveur et les services externes lors du processus de réservation. Il montre les différentes étapes du traitement de la demande, depuis la saisie des informations jusqu’à la confirmation de l’opération.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{diag_seq_ges_res.png}
+    \caption{Diagramme de séquence - Gestion des réservations d'hebergements}
+    \label{fig:diagram gestion des reservations}
     \end{figure}
 
 \end{spacing}
@@ -1649,7 +1542,7 @@ Cette section regroupe les questions fréquemment posées afin d’aider les uti
 \end{figure}
 
 
-Le formulaire de contact permet aux utilisateurs de soumettre des demandes d'assistance, de signaler des problèmes techniques ou d'envoyer des suggestions. Les messages sont transmis directement à l'équipe d'administration via un service SMTP sécurisé, garantissant un traitement rapide des requêtes.
+Cette interface permet aux utilisateurs d’envoyer leurs demandes d’assistance ou de contacter l’équipe de support de la plateforme.
 
 \end{spacing}
 \end{spacing}
