@@ -62,29 +62,29 @@
 \contentsline {subsection}{\numberline {4.6.4}Module d’hébergement}{52}{}%
 \contentsline {subsection}{\numberline {4.6.5}Module de réservation de transport}{55}{}%
 \contentsline {subsection}{\numberline {4.6.6}Module de Location de voiture}{57}{}%
-\contentsline {subsection}{\numberline {4.6.7}Module de paiement}{60}{}%
-\contentsline {subsection}{\numberline {4.6.8}Module d’avis et de notation}{61}{}%
-\contentsline {subsection}{\numberline {4.6.9}Espace profil utilisateur}{62}{}%
-\contentsline {subsection}{\numberline {4.6.10}Espace administrateur}{64}{}%
-\contentsline {subsection}{\numberline {4.6.11}Module FAQ et support}{65}{}%
-\contentsline {section}{\numberline {4.7}Implémentation des API REST}{67}{}%
-\contentsline {section}{\numberline {4.8}Sécurité de l’application}{69}{}%
-\contentsline {section}{\numberline {4.9}Conclusion}{70}{}%
-\contentsline {chapter}{\numberline {5} Tests et validation}{72}{}%
-\contentsline {section}{\numberline {5.1}Introduction}{73}{}%
-\contentsline {section}{\numberline {5.2}Stratégie de test}{73}{}%
-\contentsline {section}{\numberline {5.3}Tests fonctionnels}{74}{}%
-\contentsline {subsection}{\numberline {5.3.1}Test du module d'inscription}{74}{}%
-\contentsline {subsection}{\numberline {5.3.2}Test du module de connexion}{75}{}%
-\contentsline {subsection}{\numberline {5.3.3}Test du module de recherche touristique}{76}{}%
-\contentsline {subsection}{\numberline {5.3.4}Test du module de réservation de transport}{77}{}%
-\contentsline {subsection}{\numberline {5.3.5}Test du module d'hébergement}{78}{}%
-\contentsline {subsection}{\numberline {5.3.6}Test du système de paiement}{79}{}%
-\contentsline {subsection}{\numberline {5.3.7}Test du système d'avis}{80}{}%
-\contentsline {section}{\numberline {5.4}Tests d'intégration}{81}{}%
-\contentsline {section}{\numberline {5.5}Tests de sécurité}{82}{}%
-\contentsline {section}{\numberline {5.6}Tests de performance}{83}{}%
-\contentsline {section}{\numberline {5.7}Validation des objectifs du projet}{84}{}%
-\contentsline {section}{\numberline {5.8}Difficultés rencontrées et solutions apportées}{85}{}%
-\contentsline {section}{\numberline {5.9}Conclusion}{86}{}%
-\contentsline {section}{Conclusion Générale}{88}{}%
+\contentsline {subsection}{\numberline {4.6.7}Module de paiement}{59}{}%
+\contentsline {subsection}{\numberline {4.6.8}Module d’avis et de notation}{60}{}%
+\contentsline {subsection}{\numberline {4.6.9}Espace profil utilisateur}{61}{}%
+\contentsline {subsection}{\numberline {4.6.10}Espace administrateur}{63}{}%
+\contentsline {subsection}{\numberline {4.6.11}Module FAQ et support}{64}{}%
+\contentsline {section}{\numberline {4.7}Implémentation des API REST}{66}{}%
+\contentsline {section}{\numberline {4.8}Sécurité de l’application}{68}{}%
+\contentsline {section}{\numberline {4.9}Conclusion}{69}{}%
+\contentsline {chapter}{\numberline {5} Tests et validation}{71}{}%
+\contentsline {section}{\numberline {5.1}Introduction}{72}{}%
+\contentsline {section}{\numberline {5.2}Stratégie de test}{72}{}%
+\contentsline {section}{\numberline {5.3}Tests fonctionnels}{73}{}%
+\contentsline {subsection}{\numberline {5.3.1}Test du module d'inscription}{73}{}%
+\contentsline {subsection}{\numberline {5.3.2}Test du module de connexion}{74}{}%
+\contentsline {subsection}{\numberline {5.3.3}Test du module de recherche touristique}{75}{}%
+\contentsline {subsection}{\numberline {5.3.4}Test du module de réservation de transport}{76}{}%
+\contentsline {subsection}{\numberline {5.3.5}Test du module d'hébergement}{77}{}%
+\contentsline {subsection}{\numberline {5.3.6}Test du système de paiement}{78}{}%
+\contentsline {subsection}{\numberline {5.3.7}Test du système d'avis}{79}{}%
+\contentsline {section}{\numberline {5.4}Tests d'intégration}{80}{}%
+\contentsline {section}{\numberline {5.5}Tests de sécurité}{81}{}%
+\contentsline {section}{\numberline {5.6}Tests de performance}{82}{}%
+\contentsline {section}{\numberline {5.7}Validation des objectifs du projet}{83}{}%
+\contentsline {section}{\numberline {5.8}Difficultés rencontrées et solutions apportées}{84}{}%
+\contentsline {section}{\numberline {5.9}Conclusion}{85}{}%
+\contentsline {section}{Conclusion Générale}{87}{}%
