@@ -2,7 +2,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "pdflatex",
-      "command": "/Library/TeX/texbin/pdflatex",
+      "command": "C:\\Users\\HP\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -20,16 +20,24 @@
     }
   ],
   "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.autoBuild.enabled": true,
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoBuild.onSave.enabled": true,
+  "latex-workshop.latex.autoBuild.onSave.run": "pdflatex",
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
-    "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
+    "**/CVS": true,
     "**/main.aux": true,
     "**/main.log": true,
     "**/main.gz": true,
-    "**/main.out": true
+    "**/main.out": true,
+    "**/c:\\Dev\\PFE\\main.aux": true,
+    "**/c:\\Dev\\PFE\\main.log": true,
+    "**/c:\\Dev\\PFE\\main.gz": true,
+    "**/c:\\Dev\\PFE\\main.out": true
   }
 }

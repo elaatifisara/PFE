@@ -1,4 +1,4 @@
-
+% !TeX root = main.tex
 \documentclass[a4paper,12pt]{report}
 
 \usepackage[utf8]{inputenc}
@@ -21,6 +21,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{xparse}
+%tableau modif
+\usepackage{pdflscape}
 
 \graphicspath{{images/}}
 
@@ -447,25 +449,46 @@ Avant de développer une plateforme touristique unifiée, il est essentiel d’a
 Dans le cadre de cette étude, une analyse comparative a été réalisée sur plusieurs acteurs majeurs du secteur, notamment \textbf{Google Travel, Booking.com, Airbnb, TripAdvisor, Expedia, GetYourGuide et Uber}. L’objectif est d’évaluer leurs fonctionnalités, leur niveau d’intégration, leur couverture du marché marocain ainsi que leur capacité à répondre aux besoins des utilisateurs.
 
 
-\begin{StdTable}[h]{Comparatif des plateformes touristiques existantes}{tab:comparatif}{|X|X|X|X|X|X|X|X|}
-    \hline
-    Plateforme & Hébergement & Transport aéroport & Lieux touristiques & Avis utilisateurs & Multilingue FR/EN & Paiement local Maroc & Transparence prix \\
-    \hline
-    Google Travel & Oui (agrégation) & Non & Oui (agrégation) & Oui & Partiel & Non & Variable \\
-    \hline
-    Booking.com & Très étendu & Partiel & Non & Très étendu & Oui & Non & Faible \\
-    \hline
-    Airbnb & Oui (particuliers) & Non & Partiel & Oui & Oui & Non & Sans objet \\
-    \hline
-    Tripadvisor & Agrégation & Non & Oui & Très étendu & Oui & Non & Sans objet \\
-    \hline
-    Expedia & Très étendu & Partiel & Activités & Moyen & Oui & Non & Moyenne \\
-    \hline
-    GetYour Guide & Absent & Non & Activités seules & Oui & Oui & Non & Sans objet \\
-    \hline
-    Uber & Non & Oui & Non & Partiel & Partiel & Non & Sans objet \\
-    \hline
-    \end{StdTable}
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+
+\caption{Comparatif des plateformes touristiques existantes}
+\label{tab:comparatif_plateformes}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Plateforme} &
+\textbf{Hébergement} &
+\textbf{Transport aéroport} &
+\textbf{Lieux touristiques} &
+\textbf{Avis utilisateurs} &
+\textbf{Multilingue FR/EN} &
+\textbf{Paiement local Maroc} &
+\textbf{Transparence prix} \\
+\hline
+
+Google Travel & Oui (agrégation) & Non & Oui (agrégation) & Oui & Partiel & Non & Variable \\
+\hline
+Booking.com & Très étendu & Partiel & Non & Très étendu & Oui & Non & Faible \\
+\hline
+Airbnb & Oui (particuliers) & Non & Partiel & Oui & Oui & Non & Sans objet \\
+\hline
+Tripadvisor & Agrégation & Non & Oui & Très étendu & Oui & Non & Sans objet \\
+\hline
+Expedia & Très étendu & Partiel & Activités & Moyen & Oui & Non & Moyenne \\
+\hline
+GetYourGuide & Absent & Non & Activités seules & Oui & Oui & Non & Sans objet \\
+\hline
+Uber & Non & Oui & Non & Partiel & Partiel & Non & Sans objet \\
+\hline
+
+\end{tabular}
+}
+\end{table}
+
 
 Cette analyse montre qu’aucune plateforme ne propose une centralisation complète du parcours touristique. Chacune reste spécialisée dans un domaine précis, ce qui limite la continuité et la fluidité de l’expérience utilisateur.
 
@@ -925,164 +948,189 @@ Ce scénario décrit le processus permettant à un utilisateur de créer un comp
 
 Scénario : Le voyageur s'inscrit sur la plateforme et se connecte pour accéder aux 
 services réservés 
-\begin{figure}[H]
-    \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
+% \begin{figure}[H]
+%     \centering
+%     \begin{adjustbox}{max width=\textwidth}
+%     \begin{tikzpicture}[node distance=0cm]
     
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{LoginPage})};
-      \node[seqpart] at (\CPC,0) {\texttt{AuthController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(Sequelize)};
+%       \node[seqpart] at (\CPA,0) {Utilisateur};
+%       \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{LoginPage})};
+%       \node[seqpart] at (\CPC,0) {\texttt{AuthController}\\(backend)};
+%       \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(Sequelize)};
     
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD}
-        \draw[seqlife] (\x,-0.36) -- (\x,-16);
+%       \foreach \x in {\CPA,\CPB,\CPC,\CPD}
+%         \draw[seqlife] (\x,-0.36) -- (\x,-16);
     
-      \actbar{\CPA}{-0.36}{-1.9}
-      \actbar{\CPB}{-1.9}{-15.2}
-      \actbar{\CPC}{-3.1}{-14.0}
-      \actbar{\CPD}{-4.3}{-12.5}
-      \actbar{\CPA}{-12.8}{-13.3}
+%       \actbar{\CPA}{-0.36}{-1.9}
+%       \actbar{\CPB}{-1.9}{-15.2}
+%       \actbar{\CPC}{-3.1}{-14.0}
+%       \actbar{\CPD}{-4.3}{-12.5}
+%       \actbar{\CPA}{-12.8}{-13.3}
     
-      \seqF{-0.65}{-0.7}{18.65}{-10.5}{loop}{[tant que identifiants incorrects]}
+%       \seqF{-0.65}{-0.7}{18.65}{-10.5}{loop}{[tant que identifiants incorrects]}
     
-      \seqA{\CPA}{\CPB}{-1.9}{saisit email + mot de passe}
-      \seqA{\CPB}{\CPC}{-3.1}{\texttt{POST /auth/login} (email, password)}
-      \seqA{\CPC}{\CPD}{-4.3}{\texttt{User.findOne(\{email\})}}
+%       \seqA{\CPA}{\CPB}{-1.9}{saisit email + mot de passe}
+%       \seqA{\CPB}{\CPC}{-3.1}{\texttt{POST /auth/login} (email, password)}
+%       \seqA{\CPC}{\CPD}{-4.3}{\texttt{User.findOne(\{email\})}}
     
-      \seqF{\CPB-0.1}{-5.1}{\CPD+0.65}{-8.8}{alt}{[utilisateur non trouvé ou mot de passe incorrect]}
-      \seqR{\CPD}{\CPC}{-6.2}{null\,/\,erreur}
-      \seqR{\CPC}{\CPB}{-7.0}{\texttt{401} Email ou mot de passe incorrect}
-      \seqR{\CPB}{\CPA}{-7.8}{affiche message d'erreur, réinitialise formulaire}
+%       \seqF{\CPB-0.1}{-5.1}{\CPD+0.65}{-8.8}{alt}{[utilisateur non trouvé ou mot de passe incorrect]}
+%       \seqR{\CPD}{\CPC}{-6.2}{null\,/\,erreur}
+%       \seqR{\CPC}{\CPB}{-7.0}{\texttt{401} Email ou mot de passe incorrect}
+%       \seqR{\CPB}{\CPA}{-7.8}{affiche message d'erreur, réinitialise formulaire}
     
-      \seqR{\CPD}{\CPC}{-9.5}{user trouvé + hash mdp vérifié}
-      \seqR{\CPC}{\CPB}{-10.5}{\texttt{JWT accessToken} + profil utilisateur}
+%       \seqR{\CPD}{\CPC}{-9.5}{user trouvé + hash mdp vérifié}
+%       \seqR{\CPC}{\CPB}{-10.5}{\texttt{JWT accessToken} + profil utilisateur}
     
-      \seqR{\CPB}{\CPA}{-12.0}{redirige vers IHM principale (droits appliqués)}
+%       \seqR{\CPB}{\CPA}{-12.0}{redirige vers IHM principale (droits appliqués)}
     
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Authentification}
-    \label{fig:seq_auth}
-    \end{figure}
-
-\end{spacing}
-
-\subsection{Recherche et filtrage de lieux touristiques}
-\vspace{0.5cm}
+%     \end{tikzpicture}
+%     \end{adjustbox}
+%     \caption{Diagramme de séquence -- Authentification}
+%     \label{fig:seq_auth}
+%     \end{figure}
 \begin{spacing}{1.5}
-\justifying
-Ce scénario décrit le fonctionnement du système lors de la recherche d’un lieu touristique selon différents critères de filtrage.
+ \begin{figure}[H]
+     \centering
+     \includegraphics[width=0.5\textwidth]{authentif sequence.jpeg} 
+     \caption{Diagramme de séquence -- Authentification}
+     \label{fig:seq_auth}
+ \end{figure}
+ \end{spacing}
+
+ \subsection{Recherche et filtrage de lieux touristiques}
+ \vspace{0.5cm}
+ \begin{spacing}{1.5}
+ \justifying
+ Ce scénario décrit le fonctionnement du système lors de la recherche d’un lieu touristique selon différents critères de filtrage.
+% \begin{figure}[H]
+%     \centering
+%     \begin{adjustbox}{max width=\textwidth}
+%     \begin{tikzpicture}[node distance=0cm]
+    
+%       \node[seqpart] at (\CPA,0) {Utilisateur};
+%       \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{ExplorePage})};
+%       \node[seqpart] at (\CPC,0) {\texttt{CatalogController}\\(backend)};
+%       \node[seqpart] at (\CPD,0) {\texttt{CatalogSearchService}\\(SQL)};
+%       \node[seqpart] at (\CPE,0) {\texttt{Base de Données}\\(\texttt{places})};
+    
+%       \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
+%         \draw[seqlife] (\x,-0.36) -- (\x,-22);
+    
+%       \actbar{\CPA}{-0.36}{-1.9}
+%       \actbar{\CPB}{-1.9}{-21.0}
+%       \actbar{\CPC}{-3.1}{-20.0}
+%       \actbar{\CPD}{-4.2}{-10.2}
+%       \actbar{\CPE}{-5.2}{-9.2}
+%       \actbar{\CPD}{-13.2}{-16.8}
+%       \actbar{\CPE}{-14.0}{-15.8}
+%       \actbar{\CPA}{-19.0}{-19.5}
+    
+%       \seqA{\CPA}{\CPB}{-1.9}{saisit mot-clé, catégorie, localisation, filtres}
+%       \seqA{\CPB}{\CPC}{-3.1}{\texttt{GET /catalog/suggestions?q=...}}
+%       \seqA{\CPC}{\CPD}{-4.2}{\texttt{searchSuggestions(query)}}
+%       \seqA{\CPD}{\CPE}{-5.2}{\texttt{SELECT name FROM places WHERE name LIKE ?}}
+%       \seqR{\CPE}{\CPD}{-6.2}{liste de noms correspondants}
+%       \seqR{\CPD}{\CPC}{-7.2}{\{id, name, category\}[]}
+%       \seqR{\CPC}{\CPB}{-8.2}{suggestions JSON}
+%       \seqR{\CPB}{\CPA}{-9.0}{affiche liste autocomplete}
+    
+%       \seqA{\CPA}{\CPB}{-10.2}{confirme recherche (filtres: prix, note, openNow, rayon GPS)}
+%       \seqA{\CPB}{\CPC}{-11.4}{\texttt{GET /catalog/search?category=\&lat=\&lng=\&sortBy=rating}}
+%       \seqA{\CPC}{\CPD}{-12.5}{\texttt{searchPlaces(filters, sortBy, limit, offset)}}
+%       \seqA{\CPD}{\CPE}{-13.2}{\texttt{SELECT p.*, distance(Haversine) WHERE filters ORDER BY rating}}
+%       \seqR{\CPE}{\CPD}{-14.9}{lignes: id, name, category, rating, distance, photos...}
+%       \seqR{\CPD}{\CPC}{-15.9}{places[] + total + pagination}
+%       \seqR{\CPC}{\CPB}{-16.9}{\{places, total, page, filters\}}
+%       \seqR{\CPB}{\CPA}{-17.7}{affiche liste / carte des lieux}
+    
+%       \seqA{\CPA}{\CPB}{-18.8}{clique sur un lieu}
+%       \seqA{\CPB}{\CPC}{-19.6}{\texttt{GET /catalog/:placeId}}
+%       \seqR{\CPC}{\CPB}{-20.5}{détails complets + photos + avis + horaires}
+%       \seqR{\CPB}{\CPA}{-21.3}{affiche fiche lieu}
+    
+%     \end{tikzpicture}
+%     \end{adjustbox}
+%     \caption{Diagramme de séquence -- Recherche de lieux touristiques}
+%     \label{fig:seq_catalog}
+%     \end{figure}
+\begin{spacing}{1.5}
 \begin{figure}[H]
     \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
-    
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{ExplorePage})};
-      \node[seqpart] at (\CPC,0) {\texttt{CatalogController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{CatalogSearchService}\\(SQL)};
-      \node[seqpart] at (\CPE,0) {\texttt{Base de Données}\\(\texttt{places})};
-    
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
-        \draw[seqlife] (\x,-0.36) -- (\x,-22);
-    
-      \actbar{\CPA}{-0.36}{-1.9}
-      \actbar{\CPB}{-1.9}{-21.0}
-      \actbar{\CPC}{-3.1}{-20.0}
-      \actbar{\CPD}{-4.2}{-10.2}
-      \actbar{\CPE}{-5.2}{-9.2}
-      \actbar{\CPD}{-13.2}{-16.8}
-      \actbar{\CPE}{-14.0}{-15.8}
-      \actbar{\CPA}{-19.0}{-19.5}
-    
-      \seqA{\CPA}{\CPB}{-1.9}{saisit mot-clé, catégorie, localisation, filtres}
-      \seqA{\CPB}{\CPC}{-3.1}{\texttt{GET /catalog/suggestions?q=...}}
-      \seqA{\CPC}{\CPD}{-4.2}{\texttt{searchSuggestions(query)}}
-      \seqA{\CPD}{\CPE}{-5.2}{\texttt{SELECT name FROM places WHERE name LIKE ?}}
-      \seqR{\CPE}{\CPD}{-6.2}{liste de noms correspondants}
-      \seqR{\CPD}{\CPC}{-7.2}{\{id, name, category\}[]}
-      \seqR{\CPC}{\CPB}{-8.2}{suggestions JSON}
-      \seqR{\CPB}{\CPA}{-9.0}{affiche liste autocomplete}
-    
-      \seqA{\CPA}{\CPB}{-10.2}{confirme recherche (filtres: prix, note, openNow, rayon GPS)}
-      \seqA{\CPB}{\CPC}{-11.4}{\texttt{GET /catalog/search?category=\&lat=\&lng=\&sortBy=rating}}
-      \seqA{\CPC}{\CPD}{-12.5}{\texttt{searchPlaces(filters, sortBy, limit, offset)}}
-      \seqA{\CPD}{\CPE}{-13.2}{\texttt{SELECT p.*, distance(Haversine) WHERE filters ORDER BY rating}}
-      \seqR{\CPE}{\CPD}{-14.9}{lignes: id, name, category, rating, distance, photos...}
-      \seqR{\CPD}{\CPC}{-15.9}{places[] + total + pagination}
-      \seqR{\CPC}{\CPB}{-16.9}{\{places, total, page, filters\}}
-      \seqR{\CPB}{\CPA}{-17.7}{affiche liste / carte des lieux}
-    
-      \seqA{\CPA}{\CPB}{-18.8}{clique sur un lieu}
-      \seqA{\CPB}{\CPC}{-19.6}{\texttt{GET /catalog/:placeId}}
-      \seqR{\CPC}{\CPB}{-20.5}{détails complets + photos + avis + horaires}
-      \seqR{\CPB}{\CPA}{-21.3}{affiche fiche lieu}
-    
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Recherche de lieux touristiques}
+    \includegraphics[width=0.5\textwidth]{filtre seq.png}
+    \caption{Diagramme de séquence -- Recherche de lieux touristiques }
     \label{fig:seq_catalog}
-    \end{figure}
+\end{figure}
 \end{spacing}
 \subsection{Réservation de transport aéroport}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
 Ce diagramme modélise les différentes interactions nécessaires à la réservation d’un transport depuis ou vers l’aéroport.
-\begin{figure}[H]
-    \centering
-    \begin{adjustbox}{max width=\textwidth}
-    \begin{tikzpicture}[node distance=0cm]
+% \begin{figure}[H]
+%     \centering
+%     \begin{adjustbox}{max width=\textwidth}
+%     \begin{tikzpicture}[node distance=0cm]
     
-      \node[seqpart] at (\CPA,0) {Utilisateur};
-      \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{TransportPage})};
-      \node[seqpart] at (\CPC,0) {\texttt{TransportController}\\(backend)};
-      \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(\texttt{transport\_bookings})};
-      \node[seqpart] at (\CPE,0) {\texttt{PaymentService}\\(Stripe/CMI)};
+%       \node[seqpart] at (\CPA,0) {Utilisateur};
+%       \node[seqpart] at (\CPB,0) {Frontend\\(\texttt{TransportPage})};
+%       \node[seqpart] at (\CPC,0) {\texttt{TransportController}\\(backend)};
+%       \node[seqpart] at (\CPD,0) {\texttt{Base de Données}\\(\texttt{transport\_bookings})};
+%       \node[seqpart] at (\CPE,0) {\texttt{PaymentService}\\(Stripe/CMI)};
     
-      \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
-        \draw[seqlife] (\x,-0.36) -- (\x,-23);
+%       \foreach \x in {\CPA,\CPB,\CPC,\CPD,\CPE}
+%         \draw[seqlife] (\x,-0.36) -- (\x,-23);
     
-      \actbar{\CPA}{-0.36}{-2.1}
-      \actbar{\CPB}{-2.1}{-22.0}
-      \actbar{\CPC}{-3.3}{-21.0}
-      \actbar{\CPD}{-4.6}{-7.8}
-      \actbar{\CPD}{-11.8}{-15.3}
-      \actbar{\CPE}{-13.8}{-17.8}
-      \actbar{\CPA}{-20.5}{-21.0}
+%       \actbar{\CPA}{-0.36}{-2.1}
+%       \actbar{\CPB}{-2.1}{-22.0}
+%       \actbar{\CPC}{-3.3}{-21.0}
+%       \actbar{\CPD}{-4.6}{-7.8}
+%       \actbar{\CPD}{-11.8}{-15.3}
+%       \actbar{\CPE}{-13.8}{-17.8}
+%       \actbar{\CPA}{-20.5}{-21.0}
     
-      \seqA{\CPA}{\CPB}{-2.1}{saisit départ, destination, type véhicule, date/heure}
-      \seqA{\CPB}{\CPC}{-3.3}{\texttt{GET /transport/estimate} (pickup, dest, vehicleType)}
-      \seqA{\CPC}{\CPD}{-4.6}{\texttt{SELECT fare\_config WHERE vehicle\_type = ?}}
-      \seqR{\CPD}{\CPC}{-5.7}{tarifs: baseFare, pricePerKm, surcharges...}
-      \seqR{\CPC}{\CPB}{-6.7}{estimation: distance, durée, totalFare (MAD)}
-      \seqR{\CPB}{\CPA}{-7.5}{affiche récapitulatif tarifaire}
+%       \seqA{\CPA}{\CPB}{-2.1}{saisit départ, destination, type véhicule, date/heure}
+%       \seqA{\CPB}{\CPC}{-3.3}{\texttt{GET /transport/estimate} (pickup, dest, vehicleType)}
+%       \seqA{\CPC}{\CPD}{-4.6}{\texttt{SELECT fare\_config WHERE vehicle\_type = ?}}
+%       \seqR{\CPD}{\CPC}{-5.7}{tarifs: baseFare, pricePerKm, surcharges...}
+%       \seqR{\CPC}{\CPB}{-6.7}{estimation: distance, durée, totalFare (MAD)}
+%       \seqR{\CPB}{\CPA}{-7.5}{affiche récapitulatif tarifaire}
     
-      \seqF{-0.65}{-8.4}{25.65}{-11.5}{alt}{[utilisateur confirme la réservation]}
-      \seqA{\CPA}{\CPB}{-9.4}{confirme la réservation}
-      \seqA{\CPB}{\CPC}{-10.5}{\texttt{POST /transport/book} (JWT + données trajet)}
+%       \seqF{-0.65}{-8.4}{25.65}{-11.5}{alt}{[utilisateur confirme la réservation]}
+%       \seqA{\CPA}{\CPB}{-9.4}{confirme la réservation}
+%       \seqA{\CPB}{\CPC}{-10.5}{\texttt{POST /transport/book} (JWT + données trajet)}
     
-      \seqA{\CPC}{\CPD}{-11.8}{\texttt{INSERT transport\_bookings} (status: pending)}
-      \seqR{\CPD}{\CPC}{-12.8}{bookingId généré}
-      \seqA{\CPC}{\CPE}{-13.8}{\texttt{createPaymentIntent(totalFare, MAD)}}
-      \seqR{\CPE}{\CPC}{-14.9}{paymentClientSecret}
-      \seqR{\CPC}{\CPB}{-15.7}{bookingId + paymentClientSecret}
-      \seqA{\CPB}{\CPC}{-16.8}{\texttt{POST /payment/confirm} (paymentId)}
+%       \seqA{\CPC}{\CPD}{-11.8}{\texttt{INSERT transport\_bookings} (status: pending)}
+%       \seqR{\CPD}{\CPC}{-12.8}{bookingId généré}
+%       \seqA{\CPC}{\CPE}{-13.8}{\texttt{createPaymentIntent(totalFare, MAD)}}
+%       \seqR{\CPE}{\CPC}{-14.9}{paymentClientSecret}
+%       \seqR{\CPC}{\CPB}{-15.7}{bookingId + paymentClientSecret}
+%       \seqA{\CPB}{\CPC}{-16.8}{\texttt{POST /payment/confirm} (paymentId)}
     
-      \seqF{\CPB-0.1}{-17.6}{\CPE+0.65}{-20.2}{alt}{[paiement accepté] / [paiement refusé]}
-      \seqA{\CPC}{\CPD}{-18.5}{\texttt{UPDATE transport\_bookings SET status='assigned'}}
-      \seqR{\CPD}{\CPC}{-19.6}{OK}
-      \seqR{\CPC}{\CPB}{-20.6}{confirmation + détails chauffeur}
-      \seqR{\CPB}{\CPA}{-21.5}{affiche confirmation + numéro réservation}
+%       \seqF{\CPB-0.1}{-17.6}{\CPE+0.65}{-20.2}{alt}{[paiement accepté] / [paiement refusé]}
+%       \seqA{\CPC}{\CPD}{-18.5}{\texttt{UPDATE transport\_bookings SET status='assigned'}}
+%       \seqR{\CPD}{\CPC}{-19.6}{OK}
+%       \seqR{\CPC}{\CPB}{-20.6}{confirmation + détails chauffeur}
+%       \seqR{\CPB}{\CPA}{-21.5}{affiche confirmation + numéro réservation}
     
-    \end{tikzpicture}
-    \end{adjustbox}
-    \caption{Diagramme de séquence -- Réservation de transport}
-    \label{fig:seq_transport}
-    \end{figure}
+%     \end{tikzpicture}
+%     \end{adjustbox}
+%     \caption{Diagramme de séquence -- Réservation de transport}
+%     \label{fig:seq_transport}
+%     \end{figure}
+% \begin{spacing}{1.5}
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{usecase ppt.jpeg}
+%     \caption{Diagramme de cas d'utilisation globale  }
+%     \label{fig: Diagramme de cas d'utilisation globale}
+% \end{figure}
 
-\end{spacing}
+% \end{spacing}
+
+\subsection{Réservation de transport aéroport}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
  
 \section{Conclusion}
 \vspace{0.5cm}
@@ -1343,7 +1391,7 @@ Cette vue présente la suite de la page d'accueil en version anglaise, confirman
 Le module d’authentification constitue la première couche de sécurité de la plateforme. 
 Il permet aux utilisateurs de créer un compte à travers la fonctionnalité d’\textbf{inscription} et d’accéder à leurs espaces personnels via la \textbf{connexion}. 
 Afin de garantir la sécurité des échanges et la protection des données, l’authentification repose sur l’utilisation du module \textbf{Firebase} soit via un formulaire soit via \textbf{SSO Google}, ce qui assure une gestion sécurisée des sessions utilisateur. 
-Ce module intègre également un mécanisme de \textbf{gestion des rôles}, permettant de définir différents niveaux d’accès et d’autorisation selon le profil de l’utilisateur (administrateur, utilisateur standard, etc.). 
+Ce module intègre également un mécanisme de permettant de définir différents niveaux d’accès et d’autorisation selon le profil de l’utilisateur (administrateur, utilisateur standard, etc.)
 Cette approche garantit un contrôle efficace des ressources et des fonctionnalités accessibles au sein de la plateforme.
 
 %Capture écran formulaire inscription
