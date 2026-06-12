@@ -15,7 +15,7 @@
 *.gz
 
 # Fichiers de sortie générés
-*.pdf
+
 *.dvi
 *.ps
 
