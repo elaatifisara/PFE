@@ -1,0 +1,40 @@
+# Fichiers temporaires LaTeX
+*.aux
+*.lof
+*.lot
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.gz
+
+# Fichiers de sortie générés
+*.pdf
+*.dvi
+*.ps
+
+# Fichiers de compilation spécifiques
+*.thm
+*.maf
+*.mtc*
+*.svg
+
+# Éditeurs et OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Si vous utilisez latexmk
+latexmkrc
+
+# Autres fichiers temporaires
+*~
+*.bak
+*.tmp
+*.swp
