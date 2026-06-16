@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
+\addto\captionsfrench{\renewcommand{\listfigurename}{Liste de figure}}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{fancyhdr}
@@ -27,7 +28,7 @@
 \graphicspath{{images/}}
 
 
-\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\geometry{top=2.0cm, bottom=2.5cm, left=2.5cm, right=2.5cm, headsep=12pt}
 \captionsetup[figure]{labelfont=bf, labelsep=space}
 \captionsetup[table]{labelfont=bf, labelsep=space}
 \setlength{\tabcolsep}{6pt}
@@ -36,7 +37,7 @@
 \setlength{\cftaftertoctitleskip}{1cm}
 \renewcommand{\cfttoctitlefont}{\LARGE\bfseries\centering}
 \renewcommand{\contentsname}{\centering Table des mati\`eres}
-\setlength{\headheight}{60pt} % Important pour éviter les avertissements avec fancyhdr
+\setlength{\headheight}{45pt} % Réduit pour rapprocher le texte du haut
 
 % Environnement standard pour homogénéiser les tableaux du rapport.
 \NewDocumentEnvironment{StdTable}{O{H} m m m +b}
@@ -133,12 +134,13 @@
 
 \begin{minipage}{\textwidth}
 \begin{flushleft}
-\textbf{Soutenu le 13 Juin 2026 devant le jury composé de :}\\[0.2cm]
+\textbf{Soutenu le 20 Juin 2026 devant le jury composé de :}\\[0.2cm]
 \vspace{0.5cm}
 \begin{tabular}{l l}
-Pr.       \\
-Pr.  \\
-Pr.  \\
+Pr. AZOUAZI Mohammed (Président)\\
+Pr. DAIF Abderrahmane (Examinateur)    \\
+Pr. OUNACER Soumaya(Encadrante)\\
+Mme. ABBOUR Fatima Zahra  (Co-encadrante) \\
 \end{tabular}
 \end{flushleft}
 \end{minipage}
@@ -159,8 +161,9 @@ Pr.  \\
 \pagenumbering{arabic}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\raisebox{-10pt}{\includegraphics[height=1.5cm]{logo fsbm.png}}}
-\fancyhead[R]{\raisebox{-10pt}{\includegraphics[height=1.5cm]{logo dep.png}}}
+\fancyhead[L]{\raisebox{-6pt}{\includegraphics[height=1.5cm]{logo fsbm.png}}}
+\fancyhead[R]{\raisebox{-6pt}{\includegraphics[height=1.5cm]{logo dep.png}}}
+\raggedbottom
 
 \fancyfoot[C]{\thepage}
 
@@ -214,6 +217,7 @@ Enfin, merci à cette petite voix en nous qui nous rappelle chaque jour que rêv
 Ce rapport présente le travail réalisé dans le cadre du Projet de Fin d'Études de la Licence Fondamentale en Développement Informatique à la Faculté des Sciences Ben M'Sick de l'Université Hassan II de Casablanca.
 Ce projet porte sur la conception et le développement de TravEasy, une plateforme web touristique unifiée ayant pour objectif de centraliser et de simplifier l'accès aux principaux services liés au tourisme au Maroc.La plateforme permet aux utilisateurs de découvrir des destinations et sites touristiques, d'accéder à des informations détaillées et actualisées sur les lieux d'intérêt, de rechercher des hébergements adaptés à leurs préférences et à leur budget grâce à un système de filtrage, ainsi que d'effectuer des réservations d'hébergement directement au sein de la plateforme de manière simple et sécurisée. Elle offre également la possibilité de rechercher et de réserver différents moyens de transport, notamment les transferts vers et depuis les aéroports, tout en fournissant une estimation préalable des coûts de transport afin d'assurer une plus grande transparence des tarifs et d'aider les voyageurs à mieux planifier leur budget. En complément, la plateforme intègre un espace communautaire permettant aux utilisateurs de consulter, partager et échanger des avis, recommandations et expériences de voyage, favorisant ainsi une interaction enrichissante entre les membres de la communauté. Dotée d'une interface bilingue français–anglais, d'une architecture moderne et de fonctionnalités adaptées aux besoins des voyageurs nationaux et internationaux, TravEasy vise à offrir une expérience utilisateur fluide, intuitive, sécurisée et accessible, tout en contribuant à la promotion du patrimoine touristique marocain et à la modernisation du secteur du tourisme grâce à l'exploitation des technologies numériques
 \vspace{2cm}
+
 \textbf{Mots-clés :} Espace communautaire, estimation des coûts, filtrage d'hébergements, Maroc, plateforme web touristique, réservation d'hébergement, réservation de transport, tourisme numérique
 
 % ------------------ ABSTRACT ------------------
@@ -231,7 +235,7 @@ Ce projet porte sur la conception et le développement de TravEasy, une platefor
 
 This report presents the work carried out as part of the Final Year Project for the Fundamental Bachelor's Degree in Computer Development at the Faculty of Sciences Ben M'Sick, Hassan II University of Casablanca. This project focuses on the design and development of TravEasy, a unified tourist web platform aimed at centralizing and simplifying access to the main tourism-related services in Morocco.
 The platform allows users to discover destinations and tourist sites, access detailed and up-to-date information on points of interest, search for accommodations suited to their preferences and budget through a filtering system, and make hotel reservations directly within the platform in a simple and secure manner. It also offers the possibility to search for and book various means of transport, including airport transfers, while providing a preliminary estimate of transport costs to ensure greater price transparency and help travelers better plan their budget. In addition, the platform integrates a community space allowing users to consult, share and exchange reviews, recommendations and travel experiences, fostering enriching interaction among community members. Featuring a bilingual French–English interface, a modern architecture and functionalities tailored to the needs of both national and international travelers, TravEasy aims to provide a smooth, intuitive, secure and accessible user experience, while contributing to the promotion of Morocco's tourist heritage and the modernization of the tourism sector through the use of digital technologies
-
+\vspace{2cm}
 
 \textbf{Keywords:} Accommodation booking, community space, cost estimation, digital tourism, accommodation filtering, Moroccan tourism, tourist web platform, transport booking
 
@@ -275,7 +279,7 @@ The platform allows users to discover destinations and tourist sites, access det
 
 \textbf{JSON} & JavaScript Object Notation \\
 
-\textbf{PDF} & Portable Document Format \\
+%\textbf{PDF} & Portable Document Format \\
 
 \textbf{HTTP} & HyperText Transfer Protocol \\
 
@@ -302,6 +306,7 @@ The platform allows users to discover destinations and tourist sites, access det
 \textbf{CI/CD} & Continuous Integration / Continuous Deployment \\
 
 \textbf{SMTP} & Simple Mail Transfer Protocol \\
+
 
 \end{tabular}
 
