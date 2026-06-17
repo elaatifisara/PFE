@@ -1425,7 +1425,7 @@ Cette capture représente la suite de la page d'accueil en version anglaise, en 
 Le module d'authentification constitue la première couche de sécurité de la plateforme. 
 Il permet aux utilisateurs de créer un compte à travers la fonctionnalité d'\textbf{inscription} et d'accéder à leurs espaces personnels via la \textbf{connexion}. 
 Afin de garantir la sécurité des échanges et la protection des données, l'authentification repose sur l'utilisation du module \textbf{Firebase} soit via un formulaire soit via \textbf{SSO Google}, ce qui assure une gestion sécurisée des sessions utilisateur. 
-Ce module intègre également un mécanisme de permettant de définir différents niveaux d'accès et d'autorisation selon le profil de l'utilisateur (administrateur, utilisateur standard, etc.)
+Ce module intègre également un mécanisme de gestion des rôles permettant de définir différents niveaux d'accès et d'autorisation selon le profil de l'utilisateur (administrateur, utilisateur standard, etc.)
 Cette approche garantit un contrôle efficace des ressources et des fonctionnalités accessibles au sein de la plateforme.
 
 %Capture écran formulaire inscription
@@ -1464,7 +1464,7 @@ Le module de recherche et de recommandation a été conçu pour faciliter l'acc�
 \label{fig:Page du catalogue}
 \end{figure}
 
-Cette page affiche les différentes destinations et activités touristiques disponibles avec des options de recherche et de filtrage.
+Cette page regroupe l'ensemble des destinations et activités touristiques disponibles. Elle met à disposition de l'utilisateur des outils de recherche multicritère, de filtrage et de tri (par note ou par prix) afin de faciliter la comparaison et la sélection des offres.
 
 \begin{figure}[H]
 \centering
@@ -1501,7 +1501,7 @@ L'utilisateur peut rechercher des hébergements selon différents critères tels
 \label{fig:Exemple d'hébergement}
 \end{figure}
 
-Cette figure présente la fiche détaillée d'un hébergement, incluant ses caractéristiques principales, les informations utiles à la réservation.
+Cette figure présente la fiche détaillée d'un hébergement, incluant ses caractéristiques principales, ses équipements ainsi que les informations utiles à la réservation. L'utilisateur peut y consulter l'ensemble des détails nécessaires avant de procéder directement à la réservation sur la plateforme.
 
 \end{spacing}
 %Interface principale du module d'hébergement.
@@ -1548,7 +1548,7 @@ Pour l'utilisateur, le montant est affiché de manière transparente avant la va
 \end{figure}
 
 
-Cette interface permet d'estimer et de réserver un transport vers ou depuis un aéroport.
+Cette interface permet à l'utilisateur d'estimer et de réserver un transport vers ou depuis un aéroport. Après sélection du point de départ et de la destination, le système calcule automatiquement le tarif selon la formule de tarification dynamique présentée précédemment.
 
 %Capture écran estimation du prix
 \begin{figure}[H]
@@ -1607,7 +1607,7 @@ Le module de paiement a été développé afin de permettre aux utilisateurs d'e
 \label{fig:Page de paiement}
 \end{figure}
 
-Cette page permet à l'utilisateur de finaliser sa réservation en effectuant un paiement sécurisé.
+Cette page permet à l'utilisateur de finaliser sa réservation à travers un paiement sécurisé. Elle s'appuie sur des passerelles fiables (Stripe, PayPal) et procède à la validation de la transaction avant la confirmation définitive de la réservation.
 
 %Exemple de facture générée
 \begin{figure}[H]
@@ -1680,7 +1680,7 @@ Cet onglet donne accès à l'historique des transactions financières de l'utili
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{capture_favoris copy.png}
-    \caption{Onglet des favories dans l'espace profil}
+    \caption{Onglet des favoris dans l'espace profil}
     \label{fig:Onglet favoris profil}
     \end{figure}
 
@@ -1712,7 +1712,7 @@ L'espace administrateur constitue le module de gestion et de supervision de la p
 \label{fig:Tableau de bord administrateur}
 \end{figure}
 
-Cette interface permet à l'administrateur de superviser les utilisateurs, les réservations et les contenus de la plateforme
+Ce tableau de bord offre à l'administrateur une vue d'ensemble de l'activité de la plateforme. Il permet de superviser les utilisateurs, les réservations et les contenus, et présente des statistiques clés (nombre d'utilisateurs, de réservations et d'avis) facilitant la prise de décision.
 
 \end{spacing}
 
@@ -1734,7 +1734,8 @@ Le formulaire de contact permet quant à lui aux utilisateurs de soumettre des d
 \label{fig:faq}
 \end{figure}
 
-Cette section regroupe les questions fréquemment posées afin d'aider les utilisateurs à résoudre rapidement leurs problèmes.
+Cette section regroupe les réponses aux questions les plus fréquentes (création de compte, réservations, paiement, conditions d'utilisation), permettant aux utilisateurs de résoudre leurs difficultés de manière rapide et autonome.
+
 
 \begin{figure}[H]
 \centering
@@ -1744,7 +1745,7 @@ Cette section regroupe les questions fréquemment posées afin d'aider les utili
 \end{figure}
 
 
-Cette interface permet aux utilisateurs d'envoyer leurs demandes d'assistance ou de contacter l'équipe de support de la plateforme.
+Ce formulaire permet aux utilisateurs de soumettre une demande d'assistance, de signaler un problème ou d'envoyer une suggestion. Les messages sont transmis à l'équipe d'administration via un service de courrier électronique sécurisé .
 
 \end{spacing}
 \end{spacing}
