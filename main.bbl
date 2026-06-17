@@ -48,4 +48,26 @@ R.~T. Fielding, {\em Architectural Styles and the Design of Network-based Softwa
 {GitHub, Inc.}, ``Github documentation,'' 2024.
 \newblock Consulté le 10 novembre 2024.
 
+\bibitem{firebase2024}
+G.~LLC, ``Firebase authentication documentation.'' \url{https://firebase.google.com/docs/auth}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{paypal2024}
+I.~PayPal~Holdings, ``Paypal developer documentation.'' \url{https://developer.paypal.com/docs}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{openstreetmap2024}
+O.~Foundation, ``Openstreetmap documentation.'' \url{https://wiki.openstreetmap.org}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{buhalis2003etourism}
+D.~Buhalis, {\em eTourism: Information Technology for Strategic Tourism Management}.
+\newblock London: Pearson (Financial Times/Prentice Hall), 2003.
+
+\bibitem{buhalis2008progress}
+D.~Buhalis and R.~Law, ``Progress in information technology and tourism management: 20 years on and 10 years after the {Internet} --- the state of {eTourism} research,'' {\em Tourism Management}, vol.~29, no.~4, pp.~609--623, 2008.
+
+\bibitem{gretzel2015smart}
+U.~Gretzel, M.~Sigala, Z.~Xiang, and C.~Koo, ``Smart tourism: foundations and developments,'' {\em Electronic Markets}, vol.~25, no.~3, pp.~179--188, 2015.
+
 \end{thebibliography}
