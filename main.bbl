@@ -1,0 +1,51 @@
+\begin{thebibliography}{10}
+
+\bibitem{sommerville2016}
+I.~Sommerville, {\em Software Engineering}.
+\newblock Pearson, 10~ed., 2016.
+
+\bibitem{reactdocs}
+{Meta Platforms}, ``React documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{nodejs}
+{OpenJS Foundation}, ``Node.js documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{expressjs}
+{OpenJS Foundation}, ``Express.js documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{mysql}
+{Oracle Corporation}, ``Mysql 8.0 reference manual,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{stripeapi}
+{Stripe, Inc.}, ``Stripe api reference,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{booch2005}
+G.~Booch, J.~Rumbaugh, and I.~Jacobson, {\em The Unified Modeling Language User Guide}.
+\newblock Addison-Wesley, 2~ed., 2005.
+
+\bibitem{fielding2000}
+R.~T. Fielding, {\em Architectural Styles and the Design of Network-based Software Architectures}.
+\newblock PhD thesis, University of California, Irvine, 2000.
+
+\bibitem{drawio}
+{JGraph Ltd.}, ``draw.io documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{vscode}
+{Microsoft Corporation}, ``Visual studio code documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{git}
+{Git}, ``Git documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{github}
+{GitHub, Inc.}, ``Github documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\end{thebibliography}
