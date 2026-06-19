@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
-\addto\captionsfrench{\renewcommand{\listfigurename}{Liste de figure}}
+\addto\captionsfrench{\renewcommand{\listfigurename}{Liste des figures}}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{fancyhdr}
@@ -158,7 +158,7 @@ Mme. ABBOUR Fatima Zahra  (Co-encadrante) \\
 
 % ------------------ EN-TÊTE ------------------
 \newpage
-\pagenumbering{arabic}
+\pagenumbering{gobble}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\raisebox{-6pt}{\includegraphics[height=1.5cm]{logo fsbm.png}}}
@@ -169,6 +169,8 @@ Mme. ABBOUR Fatima Zahra  (Co-encadrante) \\
 
 % ------------------ DÉDICACE ------------------
 \newpage
+\chapter*{Dédicace}
+\addcontentsline{toc}{chapter}{Dédicace}
 \vspace*{\fill}
 \begin{flushright}
     \Huge \textit{À nos très chers parents\ldots}
@@ -177,6 +179,8 @@ Mme. ABBOUR Fatima Zahra  (Co-encadrante) \\
 
 % ------------------ REMERCIEMENTS ------------------
 \newpage
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
 \vspace*{0.5cm}
 \begin{center}
     {\LARGE\textbf{\textit{REMERCIEMENTS}}}
@@ -209,6 +213,8 @@ Enfin, merci à cette petite voix en nous qui nous rappelle chaque jour que rêv
 
 % ------------------ RESUME ------------------
 \newpage
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
 \vspace*{0.5cm}
 \begin{center}
     {\LARGE\textbf{\textit{RÉSUMÉ }}}
@@ -222,6 +228,8 @@ Ce projet porte sur la conception et le développement de TravEasy, une platefor
 
 % ------------------ ABSTRACT ------------------
 \newpage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 \vspace*{0.5cm}
 \begin{center}
     {\LARGE\textbf{\textit{ABSTRACT}}}
@@ -245,17 +253,21 @@ The platform allows users to discover destinations and tourist sites, access det
 
 % ------------------ LISTE DES FIGURES ------------------
 \newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Liste des figures}
 \listoffigures
 
 
 % ------------------ LISTE DES TABLEAUX ------------------
 \newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Liste des tableaux}
 \listoftables
 
 % ------------------ LISTE DES ABRÉVIATIONS ------------------
 \newpage
-\section*{Liste des abréviations}
-\addcontentsline{toc}{section}{Liste des abréviations}
+\chapter*{Liste des abréviations}
+\addcontentsline{toc}{chapter}{Liste des abréviations}
 
 \vspace{0.5cm}
 
@@ -315,8 +327,10 @@ The platform allows users to discover destinations and tourist sites, access det
 
 % ------------------ INTRODUCTION ------------------
 \newpage
-\section*{Introduction Générale}
-\addcontentsline{toc}{section}{Introduction}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
@@ -340,7 +354,7 @@ Le présent rapport est structuré en cinq chapitres principaux. Le premier chap
 % ------------------ PRÉSENTATION DE L'ORGANISME ------------------
 \chapter{ Présentation de l'organisme}
 
-
+\newpage
 %yasmine
 \section{Introduction}
 \vspace{0.5cm}
