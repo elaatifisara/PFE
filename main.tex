@@ -128,7 +128,7 @@
     \begin{minipage}{0.45\textwidth}
         \raggedleft
         \textbf{Encadré par  :}\\
-        Pr. Soumaya OUNACER (Encadrante)  \\ Mme F. ABBOUR (Co-encadrante) 
+        Pr. OUNACER Soumaya (Encadrante)  \\ Mme ABBOUR Fatima Zahra (Co-encadrante) 
     \end{minipage}
 \vspace{1.5cm}
 
@@ -137,7 +137,7 @@
 \textbf{Soutenu le 20 Juin 2026 devant le jury composé de :}\\[0.2cm]
 \vspace{0.5cm}
 \begin{tabular}{l l}
-Pr. AZOUAZI Mohammed (Président)\\
+Pr. Azzouazi Mohamed (Président)\\
 Pr. DAIF Abderrahmane (Examinateur)    \\
 Pr. OUNACER Soumaya(Encadrante)\\
 Mme. ABBOUR Fatima Zahra  (Co-encadrante) \\
@@ -332,8 +332,9 @@ C'est dans cette optique qu'a été développé \textbf{TravEasy}, une plateform
 \vspace{0.5cm} 
 
 Ce projet s'inscrit ainsi dans une démarche de conception d'une solution numérique moderne, intuitive et performante, visant à améliorer l'expérience utilisateur tout en contribuant à la valorisation de l'offre touristique marocaine.
-\vspace{0.5cm} 
-Le présent rapport est structuré en cinq chapitres principaux. Le premier chapitre présente l'organisme d'accueil ainsi que le cadre académique dans lequel s'inscrit ce projet. Le deuxième chapitre est consacré à l'étude préalable et à l'analyse des besoins ; il expose la problématique, les objectifs du projet, l'étude de l'existant ainsi que les besoins fonctionnels et non fonctionnels de la plateforme. Le troisième chapitre porte sur la conception du système et présente l'architecture de la solution ainsi que les différents diagrammes UML élaborés pour modéliser les fonctionnalités du système. Le quatrième chapitre décrit la phase de réalisation et d'implémentation en détaillant les technologies utilisées, l'environnement de développement et les différents modules développés au sein de la plateforme. Le cinquième chapitre est dédié aux tests et à la validation de la solution, en présentant les différentes stratégies de test adoptées ainsi que les résultats obtenus. Enfin, le rapport se clôture par une conclusion générale qui résume les principaux résultats du projet et présente les perspectives d'amélioration et d'évolution de la plateforme TravEasy.
+\vspace{0.5cm}
+
+Le présent rapport est structuré en cinq chapitres principaux. Le premier chapitre présente l'organisme ainsi que le cadre académique dans lequel s'inscrit ce projet. Le deuxième chapitre est consacré à l'étude préalable et à l'analyse des besoins ; il expose la problématique, les objectifs du projet, l'étude de l'existant ainsi que les besoins fonctionnels et non fonctionnels de la plateforme. Le troisième chapitre porte sur la conception du système et présente l'architecture de la solution ainsi que les différents diagrammes UML élaborés pour modéliser les fonctionnalités du système. Le quatrième chapitre décrit la phase de réalisation et d'implémentation en détaillant les technologies utilisées, l'environnement de développement et les différents modules développés au sein de la plateforme. Le cinquième chapitre est dédié aux tests et à la validation de la solution, en présentant les différentes stratégies de test adoptées ainsi que les résultats obtenus. Enfin, le rapport se clôture par une conclusion générale qui résume les principaux résultats du projet et présente les perspectives d'amélioration et d'évolution de la plateforme TravEasy.
 \end{spacing}
 
 % ------------------ PRÉSENTATION DE L'ORGANISME ------------------
@@ -449,9 +450,11 @@ Le projet a pour objectifs de :
 \begin{spacing}{1.5}
 \subsection{Analyse des solutions existantes}
 \justifying
-Avant de développer une plateforme touristique unifiée, il est essentiel d'analyser les solutions existantes afin d'identifier leurs points forts, leurs limites et les opportunités d'amélioration. Le marché du tourisme en ligne est aujourd'hui dominé par plusieurs plateformes spécialisées qui couvrent chacune un segment précis du parcours voyageur (hébergement, transport, activités ou avis), mais sans offrir une véritable intégration globale.
+Avant de développer une plateforme touristique unifiée, il est essentiel d'analyser les solutions existantes afin d'identifier leurs points forts, leurs limites et les opportunités d'amélioration. Le marché du tourisme en ligne est aujourd'hui dominé par plusieurs plateformes spécialisées qui couvrent chacune un segment précis du parcours voyageur (hébergement, transport, activités ou avis), mais sans offrir une véritable intégration globale \cite{buhalis2008progress, gretzel2015smart}.
 
-Dans le cadre de cette étude, une analyse comparative a été réalisée sur plusieurs acteurs majeurs du secteur, notamment \textbf{Google Travel, Booking.com, Airbnb, TripAdvisor, Expedia, GetYourGuide et Uber}. L'objectif est d'évaluer leurs fonctionnalités, leur niveau d'intégration, leur couverture du marché marocain ainsi que leur capacité à répondre aux besoins des utilisateurs.
+
+Dans le cadre de cette étude, une analyse comparative a été réalisée sur plusieurs acteurs majeurs du secteur, notamment Google Travel \cite{googletravel}, Booking.com \cite{booking}, Airbnb \cite{airbnb}, TripAdvisor \cite{tripadvisor2024}, Expedia \cite{expedia2024}, GetYourGuide \cite{getyourguide2024} et Uber \cite{uber2024}. L'objectif est d'évaluer leurs fonctionnalités, leur niveau d'intégration, leur couverture du marché marocain ainsi que leur capacité à répondre aux besoins des utilisateurs.
+
 
 
 \begin{table}[H]
@@ -493,6 +496,10 @@ Uber & Non & Oui & Non & Partiel & Partiel & Non & Sans objet \\
 \end{tabular}
 }
 \end{table}
+\vspace{0.3em}
+{\footnotesize Source : élaboré par les auteurs à partir des sites officiels
+des plateformes \cite{googletravel, booking, airbnb, tripadvisor2024, expedia2024, getyourguide2024, uber2024}.}
+
 
 
 Cette analyse montre qu'aucune plateforme ne propose une centralisation complète du parcours touristique. Chacune reste spécialisée dans un domaine précis, ce qui limite la continuité et la fluidité de l'expérience utilisateur.
@@ -531,13 +538,19 @@ L'étude comparative met en évidence plusieurs limites communes aux plateformes
 
 Tout d'abord, aucune solution ne propose une gestion complète et centralisée du parcours touristique, obligeant les utilisateurs à utiliser plusieurs plateformes spécialisées pour organiser leur voyage. Cette fragmentation rend l'expérience moins fluide et plus complexe.
 
-Ensuite, les plateformes actuelles prennent peu en compte les spécificités du marché marocain, notamment en matière de moyens de paiement, de couverture géographique et d'adaptation aux services locaux.
+Ensuite, les plateformes actuelles prennent peu en compte les spécificités du marché marocain, notamment en matière de moyens de paiement, de couverture géographique et d'adaptation aux services locaux \cite{buhalis2008progress}.
 
 Par ailleurs, le transport aéroportuaire constitue une faiblesse notable, avec une intégration souvent partielle, une visibilité limitée des prix et une couverture inégale des zones desservies.
 
 Enfin, la dispersion des informations touristiques oblige les voyageurs à consulter plusieurs sources pour obtenir une vision complète de leur séjour.
 
+D'un point de vue technique, ces limites viennent surtout du fait que chaque plateforme fonctionne de façon isolée. Chacune possède sa propre base de données et ne partage pas ses informations avec les autres. Il est donc très difficile de réunir tous ces services au même endroit : l'utilisateur doit créer un compte et se connecter sur chaque plateforme séparément, et aucune d'elles ne regroupe l'ensemble de son voyage.
+Cette séparation pose aussi un problème pour les paiements. Comme chaque service est réservé de son côté, l'utilisateur doit effectuer plusieurs paiements distincts, sans lien entre eux. Il peut alors arriver qu'un paiement soit réalisé sans que la réservation correspondante soit confirmée, car aucun système ne relie les deux.
+Enfin, ces plateformes sont pensées pour le marché mondial et non pour le contexte marocain. Elles utilisent souvent des services de cartographie payants, soumis à des limites d'utilisation, et ne proposent pas les moyens de paiement ni les langues adaptés aux utilisateurs locaux. De plus, leurs prix manquent de transparence : ils incluent des commissions variables, difficiles à vérifier pour le voyageur [1, 2].
+
 Ces limites confirment donc la nécessité de développer une plateforme touristique unifiée, capable de centraliser les services essentiels tout en répondant aux besoins spécifiques du contexte marocain.
+
+
 \end{spacing}
 
 \subsection{Valeur ajoutée de la solution proposée}
@@ -548,7 +561,14 @@ La plateforme proposée se distingue par une approche intégrée visant à centr
 
 En outre, la solution intègre des moyens de paiement adaptés au marché marocain, renforçant ainsi son accessibilité. Enfin, elle privilégie une expérience utilisateur fluide, la sécurité des données et une conception évolutive répondant aux besoins du tourisme numérique moderne.
 
-Contrairement à plusieurs plateformes spécialisées, TravEasy permet de centraliser la recherche et la réservation d'hébergements touristiques au Maroc au sein d'un même environnement numérique. Grâce à un système de recherche multicritère et à une interface intuitive, l'utilisateur peut comparer plusieurs établissements et effectuer sa réservation directement sur la plateforme, sans être redirigé vers un site externe
+Contrairement à plusieurs plateformes spécialisées, TravEasy permet de centraliser la recherche et la réservation d'hébergements touristiques au Maroc au sein d'un même environnement numérique. Grâce à un système de recherche multicritère et à une interface intuitive,  l'utilisateur peut comparer plusieurs établissements et effectuer sa réservation directement sur la plateforme. Un lien vers le site officiel de l'établissement est par ailleurs proposé à titre informatif.
+
+Les choix techniques de TravEasy répondent directement à ces limites. La plateforme s'appuie sur une seule base de données relationnelle, gérée avec MySQL [15], qui réunit au même endroit les utilisateurs, les hébergements, les transports, les paiements et les avis. Comme toutes ces informations sont liées entre elles, une réservation et son paiement sont enregistrés ensemble et restent cohérents — ce que la combinaison de plusieurs services extérieurs ne permet pas.
+La connexion des utilisateurs est centralisée grâce à Firebase [21] : l'utilisateur ne se connecte qu'une seule fois pour accéder à tous les services, et la sécurité est gérée au même endroit. L'application est par ailleurs construite d'un seul tenant (voir section 4.3), ce qui rend les échanges entre ses différentes parties plus rapides et le développement plus simple, tout en restant organisée pour pouvoir évoluer plus tard [10].
+Le site et le serveur communiquent à travers une API REST [20], qui sépare clairement la partie visible par l'utilisateur de la partie qui traite les données ; cette organisation facilite l'évolution du système. La partie visible, développée avec React [17] et Next.js, offre un affichage rapide et un meilleur référencement, utile pour une plateforme touristique destinée à être trouvée facilement en ligne.
+Pour la cartographie, le choix d'OpenStreetMap [22], gratuit et libre, évite les coûts et les limites des cartes payantes tout en gardant la maîtrise des données de localisation. Enfin, la transparence des prix repose sur un calcul effectué directement par le serveur à partir de critères clairs (distance, type de véhicule, horaires, saison) : le prix obtenu est donc vérifiable, contrairement aux tarifs peu clairs des autres plateformes.
+
+
 \subsection{Présentation des acteurs du système}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -576,13 +596,10 @@ En résumé, l'interaction entre ces trois acteurs assure le bon fonctionnement 
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-\subsection{Introduction}
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
+
 Cette section définit la phase de spécification des besoins comme une étape fondamentale du projet, permettant d'identifier avec précision les attentes du système. Elle met en évidence deux catégories principales de besoins : les besoins fonctionnels, qui décrivent les services attendus, et les besoins non fonctionnels, qui concernent la qualité du système (performance, sécurité, ergonomie, etc.). Cette structuration constitue une base essentielle pour la conception et le développement de la plateforme touristique.
 
-\end{spacing}
+
 \subsection{Besoins fonctionnels}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -626,17 +643,14 @@ Afin d'assurer la qualité de la plateforme, plusieurs besoins non fonctionnels 
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-\subsection{Introduction}
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
+
 La planification constitue une étape essentielle dans la gestion d'un projet informatique, car elle permet d'organiser les tâches, de définir les délais et d'assurer une bonne coordination entre les différentes phases de développement.
 
 Dans le cadre du projet TravEasy, un planning prévisionnel a été établi afin de structurer les principales étapes du développement de la plateforme web touristique unifiée, notamment l'analyse des besoins, la conception, le prototypage des interfaces, le développement backend et frontend, l'intégration des API, les tests et le déploiement.
 
 Le suivi du projet s'est également appuyé sur une comparaison entre le planning prévisionnel et le déroulement réel des travaux, permettant d'identifier les écarts observés et de proposer des actions correctives pour améliorer la gestion du temps et l'organisation du projet.
 
-\end{spacing}
+
 \end{spacing}
 \subsection{Déroulement des étapes du projet}
 \vspace{0.5cm}
@@ -699,13 +713,10 @@ Le planning prévisionnel du projet a été élaboré sous forme d'un diagramme 
 \begin{spacing}{1.5}
 \justifying
 
-\subsection{Introduction}
-\vspace{0.5cm}
-\begin{spacing}{1.5}
-\justifying
+
 Bien qu'un planning prévisionnel ait été défini au démarrage du projet, certaines adaptations ont été nécessaires au cours du développement réel. La réalisation effective du projet s'est étalée sur une période d'environ deux mois et demi, soit environ 10 semaines, ce qui a conduit à des ajustements dans l'enchaînement et la durée des différentes activités.
 
-\end{spacing}
+
 
 \subsection{Planning réel du projet}
 \vspace{0.5cm}
@@ -785,7 +796,11 @@ Après avoir analysé le contexte du projet, identifié les besoins des utilisat
 
 La phase de conception constitue une étape essentielle dans le développement du système, puisqu'elle permet de structurer l'architecture de l'application, de définir les interactions entre les différents composants et de modéliser les fonctionnalités avant leur implémentation.
 
-Ainsi, ce chapitre présente l'architecture générale de la plateforme, les choix techniques et les raisons ayant motivé l'utilisation des technologies retenues, ainsi que les différents diagrammes UML utilisés pour modéliser le fonctionnement global du système et les interactions entre les acteurs et la plateforme0. 
+Ainsi, ce chapitre présente l'architecture générale de la plateforme, les choix techniques et les raisons ayant motivé l'utilisation des technologies retenues, ainsi que les différents diagrammes UML utilisés pour modéliser le fonctionnement global du système et les interactions entre les acteurs et la plateforme.
+
+La démarche de conception adoptée s'appuie sur les bonnes pratiques du génie logiciel
+\cite{sommerville2016}, et la modélisation du système repose sur la notation standard UML
+\cite{booch2005}.
 
 \end{spacing}
 \section{Architecture logicielle}
@@ -827,9 +842,7 @@ L'architecture globale de la plateforme suit une approche client–serveur organ
 
 
 
-La figure précédente illustre l'organisation générale du système ainsi que les interactions existantes entre les différents composants de la plateforme. L'utilisateur interagit avec l'interface frontend via un navigateur web, les requêtes étant ensuite traitées par le serveur backend avant d'être stockées ou récupérées depuis la base de données. Des services externes peuvent également intervenir afin d'enrichir les fonctionnalités proposées
-
-
+La figure précédente illustre l'organisation générale du système ainsi que les interactions existantes entre les différents composants de la plateforme. L'utilisateur interagit avec l'interface frontend via un navigateur web, les requêtes étant ensuite traitées par le serveur backend avant d'être stockées ou récupérées depuis la base de données. Des services externes peuvent également intervenir afin d'enrichir les fonctionnalités proposées. Son apport dans la conception est de fixer, avant tout développement, la répartition des rôles entre les couches : l'affichage côté React, le traitement côté Node.js/Express, le stockage dans la base de données et les services externes. Cette séparation guide ensuite l'organisation du code et facilite la maintenance et l'évolution de la plateforme.
 
 
 %tableau
@@ -855,6 +868,9 @@ Dans le cadre du projet TravEasy, le diagramme de classes permet de structurer l
     \caption{Diagramme de classe  }
     \label{fig: Diagramme de classe }
 \end{figure}
+
+Ce diagramme constitue le socle de la base de données : chaque classe correspond à une entité réelle de la plateforme (utilisateur, hébergement, réservation, paiement, avis) et les liens entre elles traduisent les relations qui seront ensuite transformées en tables et en clés étrangères. Son apport est de garantir dès la conception la cohérence des données et de servir de référence directe pour la création du schéma relationnel présenté au chapitre 4.
+
 \justifying
 
 
@@ -879,6 +895,9 @@ Ce diagramme présente une vue générale des principales interactions entre les
     \includegraphics[width=1\textwidth]{usecase ppt.jpeg}
     \caption{Diagramme de cas d'utilisation globale  }
     \label{fig: Diagramme de cas d'utilisation globale}
+
+    
+    
 \end{figure}
 % \begin{figure}[H]
 %     \centering
@@ -905,7 +924,7 @@ Ce diagramme présente une vue générale des principales interactions entre les
 %     \label{fig:Diagramme de cas d'utilisation globale}
 % \end{figure}
 
-Ce diagramme illustre les principales fonctionnalités disponibles au sein de la plateforme, notamment l'authentification, la gestion des réservations, la consultation des contenus touristiques et les opérations de gestion associées.
+Ce diagramme illustre les principales fonctionnalités disponibles au sein de la plateforme, notamment l'authentification, la gestion des réservations, la consultation des contenus touristiques et les opérations de gestion associées. Son apport est de relier chaque acteur (visiteur, utilisateur, administrateur) aux fonctionnalités qui le concernent, et donc de délimiter clairement le périmètre du système. Il sert ainsi de point de départ à la définition des besoins fonctionnels et aux scénarios détaillés modélisés ensuite par les diagrammes de séquence.
 
 
 
@@ -939,7 +958,8 @@ Dans ce projet, un diagramme d'activité a été élaboré afin de modéliser le
     \caption{Diagramme d'activité -Authentification   }
     \label{Diagramme d'activité -Authentification }
 \end{figure}
-Le diagramme précédent illustre les différentes étapes nécessaires au processus d'authentification, depuis la saisie des informations d'identification jusqu'à la validation des accès utilisateur, garantissant ainsi la sécurité du système.
+Le diagramme précédent illustre les différentes étapes nécessaires au processus d'authentification, depuis la saisie des informations d'identification jusqu'à la validation des accès utilisateur, garantissant ainsi la sécurité du système. Son apport est de décrire la logique du processus, notamment la vérification des identifiants et la gestion des cas d'échec, avant son implémentation. Cela permet d'anticiper les différents chemins possibles et de sécuriser l'accès à la plateforme.
+
 
 
 \end{spacing}
@@ -1006,6 +1026,10 @@ services réservés
      \caption{Diagramme de séquence -- Authentification}
      \label{fig:seq_auth}
  \end{figure}
+
+ Ce diagramme précise, dans l'ordre chronologique, les échanges entre l'utilisateur, l'interface, le serveur et le service d'authentification lors de la connexion. Son apport est de montrer concrètement comment ces composants collaborent dans le temps et de vérifier que chaque étape (saisie, vérification, réponse) est bien prise en charge avant le développement.
+
+
  \end{spacing}
 \end{spacing}
 
@@ -1072,6 +1096,10 @@ services réservés
     \caption{Diagramme de séquence -- Recherche de lieux touristiques }
     \label{fig:seq_catalog}
 \end{figure}
+
+Ce diagramme détaille le déroulement d'une recherche filtrée : la requête de l'utilisateur, son traitement par le serveur et la restitution des résultats depuis la base de données. Son apport est de valider, au niveau de la conception, le bon enchaînement des échanges nécessaires à la recherche multicritère.
+
+
 \end{spacing}
 \end{spacing}
 \subsection{Réservation de transport aéroport}
@@ -1145,6 +1173,10 @@ Ce diagramme modélise les différentes interactions nécessaires à la réserva
         \caption{Diagramme de séquence -- Réservation de transport aéroport}
         \label{fig:seq_auth}
     \end{figure}
+
+    Ce diagramme modélise les interactions successives menant à la réservation d'un transport aéroportuaire, y compris le calcul du prix et l'étape de paiement. Son apport est de clarifier, avant l'implémentation, la coordination entre la réservation et le paiement, qui doivent rester cohérents.
+
+
     \end{spacing}
 
 \end{spacing}
@@ -1154,10 +1186,12 @@ Ce diagramme modélise les différentes interactions nécessaires à la réserva
 \begin{spacing}{1.5}
 \justifying
  
-Ce diagramme de séquence illustre les interactions entre l’utilisateur, l’interface, le
-serveur et les services externes lors du processus de réservation. Il montre les différentes
-étapes du traitement de la demande, depuis la saisie des informations jusqu’à la confir-
-mation de l’opération.
+%Ce diagramme de séquence illustre les interactions entre l’utilisateur, l’interface, le
+%serveur et les services externes lors du processus de réservation. Il montre les différentes
+%étapes du traitement de la demande, depuis la saisie des informations jusqu’à la confir-
+%mation de l’opération. Son apport est de représenter l'ensemble du flux de réservation d'un hébergement, de la saisie jusqu'à la confirmation, et de mettre en évidence les moments où interviennent le serveur et les services externes — ce qui guide directement la réalisation de ce module.
+
+
 
 \begin{spacing}{1.5}
     \begin{figure}[H]
@@ -1166,6 +1200,12 @@ mation de l’opération.
         \caption{Diagramme de séquence -- Gestion des réservations d’hébergements}
         \label{fig:seq_auth}
     \end{figure}
+
+    Ce diagramme de séquence illustre les interactions entre l’utilisateur, l’interface, le
+    serveur et les services externes lors du processus de réservation. Il montre les différentes
+    étapes du traitement de la demande, depuis la saisie des informations jusqu’à la confir-
+    mation de l’opération. Son apport est de représenter l'ensemble du flux de réservation d'un hébergement, de la saisie jusqu'à la confirmation, et de mettre en évidence les moments où interviennent le serveur et les services externes — ce qui guide directement la réalisation de ce module.
+
     \end{spacing}
 
 \end{spacing}
@@ -1212,11 +1252,11 @@ Afin de mener à bien le développement de la plateforme TravEasy, plusieurs out
 \begin{StdTable}[H]{Outils utilisés dans le projet}{tab:outils}{|X|X|}
 \hline
 \textbf{Outil} & \textbf{Utilisation} \\ \hline
-Visual Studio Code & Développement \\ \hline
-Git / GitHub & Gestion des versions \\ \hline
-Postman & Test des API \\ \hline
-MySQL & Base de données \\ \hline
-Draw.io / StarUML & Diagrammes UML \\ \hline
+Visual Studio Code \cite{vscode} & Développement \\ \hline
+Git / GitHub \cite{git, github}  & Gestion des versions \\ \hline
+Postman  & Test des API \\ \hline
+MySQL \cite{mysql} & Base de données \\ \hline
+Draw.io / StarUML \cite{drawio} & Diagrammes UML \\ \hline
 \end{StdTable}
 
 \end{spacing}
@@ -1258,21 +1298,21 @@ Le choix des technologies utilisées repose sur plusieurs critères, notamment l
 
 \subsubsection{Frontend : React.js et Next.js}
 
-React.js a été choisi pour le développement du frontend grâce à son architecture basée sur des composants réutilisables, permettant de concevoir des interfaces dynamiques, interactives et faciles à maintenir. Cette technologie offre une grande flexibilité, de bonnes performances grâce au Virtual DOM et une importante communauté de développeurs. Comparé à Angular, dont l'architecture est plus complexe et plus lourde à mettre en œuvre, React répond mieux aux besoins du projet en offrant une plus grande simplicité de développement. Bien que Vue.js constitue également une alternative performante, React bénéficie d'un écosystème plus mature et d'une adoption plus large dans le développement d'applications web modernes.
+React.js \cite{reactdocs} a été choisi pour le développement du frontend grâce à son architecture basée sur des composants réutilisables, permettant de concevoir des interfaces dynamiques, interactives et faciles à maintenir. Cette technologie offre une grande flexibilité, de bonnes performances grâce au Virtual DOM et une importante communauté de développeurs. Comparé à Angular, dont l'architecture est plus complexe et plus lourde à mettre en œuvre, React répond mieux aux besoins du projet en offrant une plus grande simplicité de développement. Bien que Vue.js constitue également une alternative performante, React bénéficie d'un écosystème plus mature et d'une adoption plus large dans le développement d'applications web modernes.
 
 \subsubsection{Backend : Node.js et Express.js} 
 
-Le backend repose sur Node.js associé au framework Express.js. Ce choix s'explique par le modèle asynchrone de Node.js, qui permet de gérer efficacement un grand nombre de requêtes simultanées tout en offrant d'excellentes performances. L'utilisation de JavaScript aussi bien côté client que côté serveur assure également une cohérence technologique au sein du projet. Quant à Express.js, il a été retenu pour sa légèreté, sa simplicité et sa capacité à faciliter le développement d'API REST. Des solutions telles que Spring Boot ou Django ont été envisagées, mais elles nécessitent une configuration plus importante et présentent une courbe d'apprentissage plus élevée pour les besoins de cette plateforme.
+Le backend repose sur Node.js \cite{nodejs} associé au framework Express.js \cite{expressjs}. Ce choix s'explique par le modèle asynchrone de Node.js, qui permet de gérer efficacement un grand nombre de requêtes simultanées tout en offrant d'excellentes performances. L'utilisation de JavaScript aussi bien côté client que côté serveur assure également une cohérence technologique au sein du projet. Quant à Express.js, il a été retenu pour sa légèreté, sa simplicité et sa capacité à faciliter le développement d'API REST \cite{fielding2000}. Des solutions telles que Spring Boot ou Django ont été envisagées, mais elles nécessitent une configuration plus importante et présentent une courbe d'apprentissage plus élevée pour les besoins de cette plateforme.
 
 \subsubsection{Base de données : MySQL 8}
 
-Pour la gestion des données, MySQL 8 a été retenu comme système de gestion de base de données relationnelle. Ce choix repose sur sa robustesse, sa fiabilité et sa compatibilité avec l'environnement Node.js. De plus, la nature des données manipulées dans le projet implique de nombreuses relations entre les utilisateurs, les réservations, les paiements et les activités touristiques, ce qui rend le modèle relationnel particulièrement adapté. Contrairement à certaines bases de données NoSQL, MySQL garantit une meilleure cohérence des données et une gestion efficace des relations complexes, tout en offrant d'excellentes performances et une administration simplifiée.
+Pour la gestion des données, MySQL 8 \cite{mysql} a été retenu comme système de gestion de base de données relationnelle. Ce choix repose sur sa robustesse, sa fiabilité et sa compatibilité avec l'environnement Node.js. De plus, la nature des données manipulées dans le projet implique de nombreuses relations entre les utilisateurs, les réservations, les paiements et les activités touristiques, ce qui rend le modèle relationnel particulièrement adapté. Contrairement à certaines bases de données NoSQL, MySQL garantit une meilleure cohérence des données et une gestion efficace des relations complexes, tout en offrant d'excellentes performances et une administration simplifiée.
 
 \subsubsection{APIs externes : Firebase, Open Street Map, Stripe et PayPal}
 
 La plateforme intègre plusieurs APIs externes afin d'enrichir ses fonctionnalités. 
-Firebase avec SSO google a été choisi pour la gestion de l'authentification en raison de sa simplicité d'intégration, de sa sécurité renforcée.  
-Open Street Map a été choisie pour sa précision, sa couverture géographique mondiale et ses fonctionnalités avancées de géolocalisation et de cartographie. Pour les paiements en ligne, Stripe et PayPal ont été retenus en raison de leur fiabilité, de leur niveau élevé de sécurité et de leur large adoption dans le commerce électronique. Le recours à ces solutions permet de bénéficier de services éprouvés et régulièrement mis à jour, évitant ainsi le développement de fonctionnalités complexes tout en garantissant une meilleure expérience utilisateur.
+Firebase \cite{firebase2024} avec SSO google a été choisi pour la gestion de l'authentification en raison de sa simplicité d'intégration, de sa sécurité renforcée.  
+Open Street Map \cite{openstreetmap2024} a été choisie pour sa précision, sa couverture géographique mondiale et ses fonctionnalités avancées de géolocalisation et de cartographie. Pour les paiements en ligne, Stripe \cite{stripeapi} et PayPal \cite{paypal2024} ont été retenus en raison de leur fiabilité, de leur niveau élevé de sécurité et de leur large adoption dans le commerce électronique. Le recours à ces solutions permet de bénéficier de services éprouvés et régulièrement mis à jour, évitant ainsi le développement de fonctionnalités complexes tout en garantissant une meilleure expérience utilisateur.
 \end{spacing}
 
 \section{Implémentation de la base de données}
@@ -1484,6 +1524,9 @@ Le module d'hébergement a été développé afin de permettre aux utilisateurs 
 Parmi les principales fonctionnalités proposées figurent la consultation des hébergements disponibles, la recherche par nom ou par ville, ainsi que plusieurs options de filtrage permettant d'affiner les résultats selon différents critères tels que le type d'hébergement, la localisation, le nombre d'étoiles ou encore la gamme de prix. Afin d'améliorer l'expérience utilisateur et de faciliter la navigation, les résultats sont organisés à l'aide d'un système de pagination.
 
 Le module permet également d'accéder aux détails complets d'un établissement, incluant sa description, ses équipements, ses tarifs et les informations utiles à la réservation. Contrairement à une simple redirection vers un site externe, TravEasy offre la possibilité d'effectuer la réservation directement sur la plateforme, garantissant ainsi un parcours utilisateur plus fluide, rapide et sécurisé. Cette approche contribue à simplifier la recherche et la réservation d'hébergements au sein d'un environnement unique.
+
+Depuis la liste des hébergements, chaque établissement propose deux actions : un bouton « Détails », qui ouvre la page de détail de l'hébergement au sein de la plateforme et permet d'effectuer la réservation ; et un bouton « Voir le site officiel », qui redirige, à titre complémentaire, vers le site officiel de l'établissement.
+
 
 \begin{figure}[H]
 \centering
@@ -2007,11 +2050,12 @@ TH02 & Filtre par type d'hébergement & Affichage des hébergements correspondan
 TH03 & Filtre par nombre d'étoiles & Résultats corrects & Conforme \\ \hline
 TH04 & Filtre par gamme de prix & Affichage correct des résultats & Conforme \\ \hline
 TH05 & Pagination des résultats & Navigation correcte entre les pages & Conforme \\ \hline
-TH06 & Bouton « Détails » & Redirection vers le site officiel de réservation & Conforme \\ \hline
+TH06 & Bouton « Détails » & Ouverture de la page de détail de l'hébergement sur la plateforme, permettant la réservation & Conforme \\ \hline
+TH07 & Bouton « Voir le site officiel » & Redirection vers le site officiel de l'établissement & Conforme \\ \hline
 \end{StdTable}
 \textbf{Analyse des résultats}
 
-Les tests réalisés ont permis de confirmer le bon fonctionnement de l'ensemble des fonctionnalités du module d'hébergement. Les recherches et les différents filtres appliqués retournent des résultats cohérents avec les critères sélectionnés par l'utilisateur. Le système de pagination facilite la navigation entre les résultats, tandis que la consultation des détails et les redirections vers les sites officiels des établissements s'effectuent correctement.
+Les tests réalisés ont permis de confirmer le bon fonctionnement de l'ensemble des fonctionnalités du module d'hébergement. Les recherches et les différents filtres appliqués retournent des résultats cohérents avec les critères sélectionnés par l'utilisateur. Le système de pagination facilite la navigation entre les résultats. La consultation des détails ouvre la page de réservation interne à la plateforme, tandis qu'un lien complémentaire permet, le cas échéant, d'accéder au site officiel de l'établissement.
 
 \end{spacing}
 \subsection{Test du système de paiement}
@@ -2147,6 +2191,32 @@ Les résultats obtenus montrent que l'ensemble des fonctionnalités de la platef
 
 \end{spacing}
 
+\section{Synthèse quantitative des tests}
+\vspace{0.5cm}
+\begin{spacing}{1.5}
+\justifying
+
+Afin de consolider la validation de la plateforme, l'ensemble des tests réalisés est synthétisé sous forme d'indicateurs chiffrés. Le tableau suivant regroupe, par catégorie, le nombre de cas testés, le nombre de cas conformes et le taux de réussite correspondant.
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+    \hline
+    \textbf{Catégorie de test} & \textbf{Cas testés} & \textbf{Conformes} & \textbf{Taux de réussite} \\ \hline
+    Tests fonctionnels   & 25 & 25 & 100\% \\ \hline
+    Tests d'intégration  & 5  & 5  & 100\% \\ \hline
+    Tests de sécurité    & 6  & 6  & 100\% \\ \hline
+    \textbf{Total}       & \textbf{36} & \textbf{36} & \textbf{100\%} \\ \hline
+    \end{tabular}
+    \caption{Synthèse quantitative des tests réalisés}
+    \end{table}
+
+    Le tableau ci-dessus montre que la totalité des 36 cas de test exécutés a été validée, soit un taux de réussite global de 100 %. Aucune anomalie bloquante n'a été relevée, que ce soit au niveau des fonctionnalités individuelles, des interactions entre modules ou des mécanismes de sécurité. Ces indicateurs, complétés par des temps de réponse inférieurs à deux secondes, confirment la fiabilité, la stabilité et les bonnes performances de la plateforme TravEasy.
+
+
+\end{spacing}
+
 \section{Validation des objectifs du projet}
 \vspace{0.5cm}
 \begin{spacing}{1.5}
@@ -2247,15 +2317,13 @@ Ce chapitre a permis de valider la plateforme web touristique unifiée TravEasy 
 \vspace{0.5cm}
 \begin{spacing}{1.5}
 \justifying
-Au terme de ce projet de fin d'études, nous avons pu concevoir et développer TravEasy, une plateforme web touristique unifiée ayant pour objectif de faciliter l'accès aux principaux services touristiques au Maroc à travers une interface unique, moderne et intuitive.
+Au terme de ce projet de fin d'études, nous avons pu concevoir et développer TravEasy, une plateforme web touristique unifiée ayant pour objectif de faciliter l'accès aux principaux services touristiques au Maroc à travers une interface unique, moderne et intuitive. Ce projet nous a permis d'appliquer les connaissances acquises tout au long de notre formation en Développement Informatique, notamment dans les domaines du développement web, de la modélisation UML, de la conception de bases de données, de la sécurité informatique et de la gestion de projets logiciels.
 
-Ce projet nous a permis d'appliquer les connaissances acquises tout au long de notre formation en Développement Informatique, notamment dans les domaines du développement web, de la modélisation UML, de la conception de bases de données, de la sécurité informatique et de la gestion de projets logiciels. L'étude préalable réalisée nous a permis d'identifier les limites des solutions existantes ainsi que les besoins des utilisateurs, servant ainsi de base à la conception d'une solution adaptée au contexte touristique marocain.
+\textbf{Objectifs atteints.} L'ensemble des objectifs définis lors de la phase d'analyse a été atteint. Les sept objectifs initiaux --- gestion des utilisateurs, recherche multicritère, réservation de transport, paiement sécurisé, gestion des avis, interface multilingue et tableau de bord administrateur --- ont été validés. Les 36 cas de test réalisés ont abouti à un taux de réussite de 100\,\%, avec des temps de réponse inférieurs à deux secondes, confirmant la stabilité, la sécurité et les bonnes performances de la solution.
 
-La plateforme développée intègre plusieurs fonctionnalités essentielles, notamment la consultation des destinations touristiques, la recherche, le filtrage et la réservation directe d'hébergements, la réservation de transports aéroportuaires, la location de véhicules, le paiement en ligne sécurisé, la gestion des avis et des notations ainsi qu'une interface bilingue français–anglais destinée à répondre aux attentes d'une clientèle nationale et internationale. L'utilisation de technologies modernes telles que React.js, Node.js, Express.js et MySQL a permis de développer une application performante, évolutive et sécurisée.
+\textbf{Principales réalisations.} La plateforme intègre la consultation des destinations touristiques, la recherche, le filtrage et la réservation directe d'hébergements, la réservation de transports aéroportuaires, la location de véhicules, le paiement en ligne sécurisé, la gestion des avis et des notations, ainsi qu'une interface bilingue français–anglais destinée à répondre aux attentes d'une clientèle nationale et internationale. Sur le plan technique, l'utilisation de technologies modernes telles que React.js, Node.js, Express.js et MySQL, associée à une architecture unifiée, a permis de développer une application performante, évolutive et sécurisée, répondant aux limites des solutions existantes identifiées lors de l'étude préalable.
 
-Les différentes phases de tests réalisées ont permis de valider le bon fonctionnement des modules développés et de vérifier la conformité de la plateforme aux objectifs définis lors de la phase d'analyse. Les résultats obtenus démontrent que TravEasy constitue une solution pertinente permettant d'améliorer l'expérience utilisateur tout en contribuant à la valorisation de l'offre touristique marocaine à travers les technologies numériques.
-
-Au-delà des objectifs atteints, plusieurs perspectives d'amélioration peuvent être envisagées pour enrichir davantage la plateforme. Parmi celles-ci figurent le développement d'une application mobile, l'ajout de nouvelles langues, l'intégration d'un système de paiement échelonné ainsi que la mise en place de mécanismes de recommandation intelligente permettant de personnaliser davantage l'expérience utilisateur.
+\textbf{Perspectives futures.} Plusieurs perspectives d'amélioration peuvent être envisagées pour enrichir davantage la plateforme. Parmi celles-ci figurent le développement d'une application mobile, l'ajout de nouvelles langues, l'intégration d'un système de paiement échelonné, ainsi que la mise en place de mécanismes de recommandation intelligente permettant de personnaliser davantage l'expérience utilisateur.
 
 Enfin, cette expérience a représenté une opportunité enrichissante tant sur le plan technique que personnel. Elle nous a permis de développer nos compétences en analyse, conception et développement d'applications web tout en renforçant notre capacité à travailler en équipe et à mener à bien un projet informatique complet.
 

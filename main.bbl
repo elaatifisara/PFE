@@ -1,74 +1,22 @@
 \begin{thebibliography}{10}
 
-\bibitem{sommerville2016}
-I.~Sommerville, {\em Software Engineering}.
-\newblock Pearson, 10~ed., 2016.
-
-\bibitem{reactdocs}
-{Meta Platforms}, ``React documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{nodejs}
-{OpenJS Foundation}, ``Node.js documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{expressjs}
-{OpenJS Foundation}, ``Express.js documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{mysql}
-{Oracle Corporation}, ``Mysql 8.0 reference manual,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{stripeapi}
-{Stripe, Inc.}, ``Stripe api reference,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{booch2005}
-G.~Booch, J.~Rumbaugh, and I.~Jacobson, {\em The Unified Modeling Language User Guide}.
-\newblock Addison-Wesley, 2~ed., 2005.
-
-\bibitem{fielding2000}
-R.~T. Fielding, {\em Architectural Styles and the Design of Network-based Software Architectures}.
-\newblock PhD thesis, University of California, Irvine, 2000.
-
-\bibitem{drawio}
-{JGraph Ltd.}, ``draw.io documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{vscode}
-{Microsoft Corporation}, ``Visual studio code documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{git}
-{Git}, ``Git documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{github}
-{GitHub, Inc.}, ``Github documentation,'' 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{firebase2024}
-G.~LLC, ``Firebase authentication documentation.'' \url{https://firebase.google.com/docs/auth}, 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{paypal2024}
-I.~PayPal~Holdings, ``Paypal developer documentation.'' \url{https://developer.paypal.com/docs}, 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{openstreetmap2024}
-O.~Foundation, ``Openstreetmap documentation.'' \url{https://wiki.openstreetmap.org}, 2024.
-\newblock Consulté le 10 novembre 2024.
-
-\bibitem{buhalis2003etourism}
-D.~Buhalis, {\em eTourism: Information Technology for Strategic Tourism Management}.
-\newblock London: Pearson (Financial Times/Prentice Hall), 2003.
-
 \bibitem{buhalis2008progress}
 D.~Buhalis and R.~Law, ``Progress in information technology and tourism management: 20 years on and 10 years after the {Internet} --- the state of {eTourism} research,'' {\em Tourism Management}, vol.~29, no.~4, pp.~609--623, 2008.
 
 \bibitem{gretzel2015smart}
 U.~Gretzel, M.~Sigala, Z.~Xiang, and C.~Koo, ``Smart tourism: foundations and developments,'' {\em Electronic Markets}, vol.~25, no.~3, pp.~179--188, 2015.
+
+\bibitem{googletravel}
+{Google LLC}, ``Google travel.'' \url{https://www.google.com/travel/}, 2026.
+\newblock Consulté le 18 juin 2026.
+
+\bibitem{booking}
+{Booking.com}, ``Booking.com --- réservation d'hébergements en ligne.'' \url{https://www.booking.com}, 2026.
+\newblock Consulté le 18 juin 2026.
+
+\bibitem{airbnb}
+{Airbnb, Inc.}, ``Airbnb --- locations de vacances.'' \url{https://www.airbnb.com}, 2026.
+\newblock Consulté le 18 juin 2026.
 
 \bibitem{tripadvisor2024}
 {Tripadvisor, Inc.}, ``Tripadvisor.'' \url{https://www.tripadvisor.com}, 2024.
@@ -85,5 +33,69 @@ U.~Gretzel, M.~Sigala, Z.~Xiang, and C.~Koo, ``Smart tourism: foundations and de
 \bibitem{uber2024}
 {Uber Technologies, Inc.}, ``Uber.'' \url{https://www.uber.com}, 2024.
 \newblock Consulté le 10 novembre 2024.
+
+\bibitem{sommerville2016}
+I.~Sommerville, {\em Software Engineering}.
+\newblock Pearson, 10~ed., 2016.
+
+\bibitem{booch2005}
+G.~Booch, J.~Rumbaugh, and I.~Jacobson, {\em The Unified Modeling Language User Guide}.
+\newblock Addison-Wesley, 2~ed., 2005.
+
+\bibitem{vscode}
+{Microsoft Corporation}, ``Visual studio code documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{git}
+{Git}, ``Git documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{github}
+{GitHub, Inc.}, ``Github documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{mysql}
+{Oracle Corporation}, ``Mysql 8.0 reference manual,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{drawio}
+{JGraph Ltd.}, ``draw.io documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{reactdocs}
+{Meta Platforms}, ``React documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{nodejs}
+{OpenJS Foundation}, ``Node.js documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{expressjs}
+{OpenJS Foundation}, ``Express.js documentation,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{fielding2000}
+R.~T. Fielding, {\em Architectural Styles and the Design of Network-based Software Architectures}.
+\newblock PhD thesis, University of California, Irvine, 2000.
+
+\bibitem{firebase2024}
+G.~LLC, ``Firebase authentication documentation.'' \url{https://firebase.google.com/docs/auth}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{openstreetmap2024}
+O.~Foundation, ``Openstreetmap documentation.'' \url{https://wiki.openstreetmap.org}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{stripeapi}
+{Stripe, Inc.}, ``Stripe api reference,'' 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{paypal2024}
+I.~PayPal~Holdings, ``Paypal developer documentation.'' \url{https://developer.paypal.com/docs}, 2024.
+\newblock Consulté le 10 novembre 2024.
+
+\bibitem{buhalis2003etourism}
+D.~Buhalis, {\em eTourism: Information Technology for Strategic Tourism Management}.
+\newblock London: Pearson (Financial Times/Prentice Hall), 2003.
 
 \end{thebibliography}
